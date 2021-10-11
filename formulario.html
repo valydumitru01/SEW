@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <title>Formulario sobre Tim Berners-Lee</title>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <h1>Formulario</h1>
+    <p>Tim John Berners-Lee fue una persona muy importante y ahora queremos saber tu opinión.</p>
+    <img src= "multimedia/Tim_Berners-Lee_Formulario.jpg" alt= "Tim John Berners-Lee" />
+    <h2>Responde a las siguientes preguntas: </h2>
+    <form>
+        Introduce tu nombre:<input type=text><br>
+        Telefono:<input type=tel> <br>
+        Email:<input type=email>  <br>
+        <fieldset>
+        <legend> Cuánto te suena este científico de la informática? </legend>
+            <input type=radio value="mucho"> Sé mucho sobre él<br>
+            <input type=radio value="algo"> He oído alguna cosa <br>
+            <input type=radio value="poco"> Me suena<br>
+            <input type=radio value="nada"> Ni idea <br>
+        </fieldset>
+        <fieldset>
+            <legend> Cuánto crees que impactó positivamente su trabajo? </legend>
+            <input type=radio value="mucho">Mucho<br>
+            <input type=radio value="algo"> Algo<br>
+            <input type=radio value="poco">Poco<br>
+            <input type=radio value="nada">Nada<br>
+        </fieldset>
+        <fieldset>
+            <legend> ¿Cuáles de sus aportaciones más te pareció mas interesante? </legend>
+            <input type=checkbox> Consorcio de World Wide Web<br>
+            <input type=checkbox> World Wide Web <br>
+        </fieldset>
+        <fieldset>
+            <legend> Cosas que te gustaría saber sobre este cientifico en una cita con el</legend>
+            <input type=checkbox> Cuál fue su inspiración<br>
+            <input type=checkbox> Cómo fueron sus dias academicos <br>
+            <input type=checkbox> Cuales fueron sus pasatiempos favoritos <br>
+            <input type=checkbox> A que se dedicaría si no fuese cientifico <br>
+        </fieldset>
+        <fieldset>
+            <legend> Comentarios adicionales o recomendaciones </legend>
+            <textarea>Escribe aqui...</textarea>
+
+        </fieldset>
+        <label>Tiempo en el que se hizo el formulario: <input type=time min="11:00" max="21:00" step="900"></label>
+        <button>Borrar todo</button>
+        <button>Enviar Formulario</button>
+    </form>
+</body>
+
+</html>
