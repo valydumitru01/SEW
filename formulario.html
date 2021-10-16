@@ -17,9 +17,10 @@
     <img src= "multimedia/Tim_Berners-Lee_Formulario.jpg" alt= "Tim John Berners-Lee" />
     <h2>Responde a las siguientes preguntas: </h2>
     <form>
-        Introduce tu nombre:<input type=text><br>
-        Telefono:<input type=tel> <br>
-        Email:<input type=email>  <br>
+        
+        <label>Introduce tu nombre:<input type=text id="introduceNombre"><br></label>
+        <label>Telefono:<input type=tel> <br></label>
+        <label>Email:<input type=email>  <br></label>
         <fieldset>
         <legend> Cuánto te suena este científico de la informática? </legend>
             <input type=radio value="mucho"> Sé mucho sobre él<br>
@@ -36,7 +37,7 @@
         </fieldset>
         <fieldset>
             <legend> ¿Cuáles de sus aportaciones más te pareció mas interesante? </legend>
-            <input type=checkbox> Consorcio de World Wide Web<br>
+            <input type=checkbox aria-label="consorcio www"> Consorcio de World Wide Web<br>
             <input type=checkbox> World Wide Web <br>
         </fieldset>
         <fieldset>
