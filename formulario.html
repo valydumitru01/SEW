@@ -6,55 +6,77 @@
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
     <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    
+    <link rel="stylesheet" type="text/css" href="estilo/main.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/formulario.css" />
     <title>Formulario sobre Tim Berners-Lee</title>
 </head>
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>Formulario</h1>
-    <p>Tim John Berners-Lee fue una persona muy importante y ahora queremos saber tu opinión.</p>
-    <img src= "multimedia/Tim_Berners-Lee_Formulario.jpg" alt= "Tim John Berners-Lee" />
-    <h2>Responde a las siguientes preguntas: </h2>
-    <form>
-        
-        <p><label>Introduce tu nombre:<input type=text id="introduceNombre">algo</label></p>
-        <p><label>Telefono:<input type=tel> algo</label></p>
-        <p><label>Email:<input type=email>  algo</label></p>
-        <fieldset>
-            <legend> Cuánto te suena este científico de la informática? </legend>
-            <p><label><input type=radio value="mucho"> Sé mucho sobre élalgo</label></p>
-            <p><label><input type=radio value="algo"> He oído alguna cosa algo</label></p>
-            <p><label><input type=radio value="poco"> Me suenaalgo</label></p>
-            <p><label><input type=radio value="nada"> Ni idea algo</label></p>
+    <main>
+        <h1>Formulario</h1>
+        <div class="inicio">
+            <img src= "multimedia/Tim_Berners-Lee_Formulario.jpg" alt= "Tim John Berners-Lee" id="imagenTimFormulario"/>
+            
+            <p>Tim John Berners-Lee fue una persona muy importante y ahora queremos saber tu opinión.</p>
+            <h2>Responde a las siguientes preguntas: </h2>
+        </div>
+        <form class="grid">
+            <fieldset>
+                <legend>Introduce tus datos: </legend>
+                <p><label>Introduce tu nombre:<input type=text id="introduceNombre"></label></p>
+                <p><label>Telefono:<input type=tel> </label></p>
+                <p><label>Email:<input type=email>  </label></p>
+            </fieldset> 
+            <fieldset>
+                <legend> Cuánto te suena este científico de la informática? </legend>
+                <p><label><input type=radio name="suena" value="mucho"> Sé mucho sobre él</label></p>
+                <p><label><input type=radio name="suena" value="algo"> He oído alguna cosa </label></p>
+                <p><label><input type=radio name="suena" value="poco"> Me suena</label></p>
+                <p><label><input type=radio name="suena" value="nada"> Ni idea </label></p>
+                </fieldset>
+            <fieldset>
+                <legend> Cuánto crees que impactó positivamente su trabajo? </legend>
+                <p><label><input type=radio name="trabajo" value="mucho">Mucho</label></p>
+                <p><label><input type=radio name="trabajo" value="algo"> algo</label></p>
+                <p><label><input type=radio name="trabajo" value="poco">Poco</label></p>
+                <p><label><input type=radio name="trabajo" value="nada">Nada</label></p>
             </fieldset>
-        <fieldset>
-            <legend> Cuánto crees que impactó positivamente su trabajo? </legend>
-            <p><label><input type=radio value="mucho">Muchoalgo</label></p>
-            <p><label><input type=radio value="algo"> algo</label></p>
-            <p><label><input type=radio value="poco">Poco</label></p>
-            <p><label><input type=radio value="nada">Nada</label></p>
-        </fieldset>
-        <fieldset>
-            <legend> ¿Cuáles de sus aportaciones más te pareció mas interesante? </legend>
-            <p><label><input type=checkbox aria-label="consorcio www"> Consorcio de World Wide Web</label></p>
-            <p><label><input type=checkbox> World Wide Web algo</label></p>
-        </fieldset>
-        <fieldset>
-            <legend> Cosas que te gustaría saber sobre este cientifico en una cita con el</legend>
-            <p><label><input type=checkbox> Cuál fue su inspiración</label></p>
-            <p><label><input type=checkbox> Cómo fueron sus dias academicos </label></p>
-            <p><label><input type=checkbox> Cuales fueron sus pasatiempos favoritos </label></p>
-            <p><label><input type=checkbox> A que se dedicaría si no fuese cientifico </label></p>
-        </fieldset>
-        <fieldset>
-            <legend> Comentarios adicionales o recomendaciones </legend></p>
-            <p><label><textarea>Escribe aqui...</textarea></label></p>
-        </fieldset>
-        <label>Tiempo en el que se hizo el formulario: <input type=time min="11:00" max="21:00" step="900"></label>
-        <button>Borrar todo</button>
-        <button>Enviar Formulario</button>
-    </form>
+            <fieldset>
+                <legend> ¿Cuáles de sus aportaciones más te pareció mas interesante? </legend>
+                <p><label><input type=checkbox> Consorcio de World Wide Web</label></p>
+                <p><label><input type=checkbox> World Wide Web</label></p>
+            </fieldset>
+            <fieldset>
+                <legend> Cosas que te gustaría saber sobre este cientifico en una cita con el</legend>
+                <p><label><input type=checkbox> Cuál fue su inspiración</label></p>
+                <p><label><input type=checkbox> Cómo fueron sus dias academicos </label></p>
+                <p><label><input type=checkbox> Cuales fueron sus pasatiempos favoritos </label></p>
+                <p><label><input type=checkbox> A que se dedicaría si no fuese cientifico </label></p>
+            </fieldset>
+            <fieldset class="textarea">
+                <legend> Comentarios adicionales o recomendaciones </legend></p>
+                <p><label><textarea>Escribe aqui...</textarea></label></p>
+            </fieldset>
+            
+            <div>
+                <label>Tiempo en el que se hizo el formulario: <input type=time min="11:00" max="21:00" step="900"></label>
+                <button>Borrar todo</button>
+                <button>Enviar Formulario</button>
+            </div>
+        </form>
+    </main>
+    <section class="navegation">
+        <nav>
+            <ul>
+                <li><a tabindex accesskey="I"href="index.html"> Pagina Inicial</a></li>
+                <li><a tabindex accesskey="P"href="publicaciones.html"> Publicaciones</a></li>
+                <li><a tabindex=0 accesskey="L" href="logros.html"> Logros</a></li>
+                <li><a tabindex=0 accesskey="F" href="formulario.html"> Formulario Sobre Berners-Lee</a></li>
+            </ul>
+        </nav>
+    </section>
 </body>
 
 </html>
