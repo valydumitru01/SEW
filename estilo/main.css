@@ -3,7 +3,6 @@ body{
     background-color:rgb(241, 195, 142);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #704315;
-    font-size: 1.15em;
     gap:2em;
 }
 .grid{
@@ -11,16 +10,16 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    gap:2em;
+    gap:0.3em;
     text-align: center;
 }
 .grid>section:hover,.grid>div:hover,.grid>fieldset:hover{
     border:0.25em solid #704315;
 }
-.grid>section,.grid>div,.grid>fieldset{
+.grid>section,.grid>div{
     border:0.25em dashed #704315;
     background-color:bisque;
-    padding: 2em;
+    padding: 0.2em;
 }
 .inicio{
     border:0.25em dashed #704315;
@@ -31,12 +30,14 @@ body{
 h1{
     text-align: center;
     background-color:bisque;
-    font-size: 4em;
+    font-size: 250%;
     font-weight: bold;
     font-style: italic;
-    width: auto;
     color:#915b23;
-    padding: 1em;
+    padding: 0.5em;
+}
+h2{
+    font-size: 120%;
 }
 .navegation{
 
@@ -45,23 +46,22 @@ h1{
     background-color:#704315;
     border: 0.25em solid bisque;
     top:2em;
-    padding: 1em;
+    padding: 0.1em;
+    font-size: 75%;
 }
 .navegation>nav>ul{
-    
-
-    display: grid;
+    position: relative;
     grid-template-columns: repeat(4,1fr);
-    gap: 1em;
+    gap: 0.3em;
     font-weight: bold;
-
+    left: -1.5em;
 }
 .navegation>nav>ul>li{
-    padding: 1em;
-    border: 0.25em dashed rgb(252, 200, 137);
+    padding: 0.5em;
+    border: 0.15em dashed rgb(252, 200, 137);
 }
 .navegation>nav>ul>li:hover{
-    border: 0.25em solid rgb(252, 200, 137);
+    border: 0.15em solid rgb(252, 200, 137);
 }
 .navegation>nav>ul>li>a{
     background-color: inherit;
@@ -74,7 +74,6 @@ h1{
 .grid>section>audio{
     width: 100%;
 }
-.grid>div>img{
-    height: 100%;
+.grid>section>figure>img{
     width: 100%;
 }
