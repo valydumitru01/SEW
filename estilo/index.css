@@ -1,0 +1,27 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap:0.3em;
+    text-align: center;
+}
+main section:hover{
+    border:0.25em solid #704315;
+}
+main section{
+    border:0.25em dashed #704315;
+    color:inherit;
+    background-color:bisque;
+}
+main section img{
+    width: 50%;
+}
+main section video{
+    
+    width:50%;
+    
+}
+main section audio{
+    transform: translate(0, 500%);
+    width: 50%;
+}

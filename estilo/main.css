@@ -3,77 +3,68 @@ body{
     background-color:rgb(241, 195, 142);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #704315;
-    gap:2em;
 }
-.grid{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    gap:0.3em;
-    text-align: center;
+header{
+    position: relative;
+    color: #704315;
+    background-color: bisque;
 }
-.grid>section:hover,.grid>div:hover,.grid>fieldset:hover{
-    border:0.25em solid #704315;
-}
-.grid>section,.grid>div{
-    border:0.25em dashed #704315;
-    background-color:bisque;
-    padding: 0.2em;
-}
-.inicio{
-    border:0.25em dashed #704315;
-    background-color:bisque;
-    padding: 2em;
-}
-
-h1{
+header h1{
     text-align: center;
     background-color:bisque;
     font-size: 250%;
     font-weight: bold;
     font-style: italic;
     color:#915b23;
+    padding: 1em;
+}
+header p{
+    padding: 1em;
+    font-weight: bolder;
+}
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:10em;
+}
+main{
+    color: inherit;
+    border:0.25em dashed #704315;
+    background-color:bisque;
     padding: 0.5em;
 }
-h2{
+
+main h2{
+    font-weight: bolder;
     font-size: 120%;
 }
-.navegation{
+footer{
 
     position: relative;
     text-align: center;
+    color: inherit;
     background-color:#704315;
     border: 0.25em solid bisque;
     top:2em;
     padding: 0.1em;
     font-size: 75%;
 }
-.navegation>nav>ul{
+footer nav ul{
     position: relative;
     grid-template-columns: repeat(4,1fr);
     gap: 0.3em;
     font-weight: bold;
     left: -1.5em;
 }
-.navegation>nav>ul>li{
+footer nav ul li{
     padding: 0.5em;
     border: 0.15em dashed rgb(252, 200, 137);
 }
-.navegation>nav>ul>li:hover{
+footer nav ul li:hover{
     border: 0.15em solid rgb(252, 200, 137);
 }
-.navegation>nav>ul>li>a{
+footer nav ul li a{
     background-color: inherit;
     color:bisque;
-}
-.grid>section>video{
-    width:100%;
-    
-}
-.grid>section>audio{
-    width: 100%;
-}
-.grid>section>figure>img{
-    width: 100%;
 }
