@@ -1,3 +1,4 @@
+/*Especificidad: 001*/
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -5,22 +6,27 @@ main{
     gap:0.3em;
     text-align: center;
 }
+/*Especificidad: 012*/
 main section:hover{
     border:0.25em solid #704315;
 }
+/*Especificidad: 002*/
 main section{
     border:0.25em dashed #704315;
     color:inherit;
     background-color:bisque;
 }
+/*Especificidad: 003*/
 main section img{
     width: 75%;
 }
+/*Especificidad: 003*/
 main section video{
     
     width:75%;
     
 }
+/*Especificidad: 003*/
 main section audio{
     width: 75%;
 }
