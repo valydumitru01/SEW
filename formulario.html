@@ -32,38 +32,38 @@
             </fieldset> 
             <fieldset>
                 <legend> Cuánto te suena este científico de la informática? </legend>
-                <p><label><input type="radio" name="suena" value="mucho" > Sé mucho sobre él</label></p>
-                <p><label><input type="radio" name="suena" value="algo"> He oído alguna cosa </label></p>
-                <p><label><input type="radio" name="suena" value="poco"> Me suena</label></p>
-                <p><label><input type="radio" name="suena" value="nada"> Ni idea </label></p>
+                <p><input type="radio" name="mucho" value="mucho" id="suena_mucho"> <label for="suena_mucho">Sé mucho sobre él</label></p>
+                <p><input type="radio" name="algo" value="algo" id="suena_algo"> <label for="suena_algo">He oído alguna cosa </label></p>
+                <p><input type="radio" name="poco" value="poco" id="suena_poco"><label for="suena_poco"> Me suena</label></p>
+                <p><input type="radio" name="nada" value="nada" id="suena_nada"> <label for="suena_nada">Ni idea </label></p>
                 </fieldset>
             <fieldset>
                 <legend> Cuánto crees que impactó positivamente su trabajo? </legend>
-                <p><label><input type="radio" name="trabajo" value="mucho">Mucho</label></p>
-                <p><label><input type="radio" name="trabajo" value="algo"> algo</label></p>
-                <p><label><input type="radio" name="trabajo" value="poco">Poco</label></p>
-                <p><label><input type="radio" name="trabajo" value="nada">Nada</label></p>
+                <p><input type="radio" name="trabajo" value="mucho" id="impacto_mucho"><label for="impacto_mucho">Mucho</label></p>
+                <p><input type="radio" name="trabajo" value="algo" id="impacto_algo"> <label for="impacto_algo">algo</label></p>
+                <p><input type="radio" name="trabajo" value="poco" id="impacto_poco"><label for="impacto_poco">Poco</label></p>
+                <p><input type="radio" name="trabajo" value="nada" id="impacto_nada"><label for="impacto_nada">Nada</label></p>
             </fieldset>
             <fieldset>
                 <legend> ¿Cuáles de sus aportaciones más te pareció mas interesante? </legend>
-                <p><label><input type="checkbox"> Consorcio de World Wide Web</label></p>
-                <p><label><input type="checkbox"> World Wide Web</label></p>
+                <p><input type="checkbox" id="check_w3c"><label for="check_w3c"> Consorcio de World Wide Web</label></p>
+                <p><input type="checkbox" id="check_www"> <label for="check_www">World Wide Web</label></p>
             </fieldset>
             <fieldset>
                 <legend> Cosas que te gustaría saber sobre este cientifico en una quedada con él</legend>
-                <p><label><input type="checkbox"> Cuál fue su inspiración</label></p>
-                <p><label><input type="checkbox"> Cómo fueron sus dias academicos </label></p>
-                <p><label><input type="checkbox"> Cuales fueron sus pasatiempos favoritos </label></p>
-                <p><label><input type="checkbox"> A que se dedicaría si no fuese cientifico </label></p>
+                <p><input type="checkbox" id="check_inspricacion"> <label for="check_inspricacion">Cuál fue su inspiración</label></p>
+                <p><input type="checkbox" id="check_academicos"> <label for="check_academicos">Cómo fueron sus dias academicos </label></p>
+                <p><input type="checkbox" id="check_pasatiempos"><label for="check_pasatiempos"> Cuales fueron sus pasatiempos favoritos </label></p>
+                <p><input type="checkbox" id="check_cientifico"><label for="check_cientifico"> A que se dedicaría si no fuese cientifico </label></p>
             </fieldset>
             <fieldset>
                 <legend> Comentarios adicionales o recomendaciones </legend>
-                <p><label><textarea placeholder="Ej: Me gusta porque..."></textarea></label></p>
+                <p><label for="text_area_comment">Escribe aqui tus Comentarios: </label><textarea placeholder="Ej: Me gusta porque..." id="text_area_comment"></textarea></p>
             </fieldset>
             
             <fieldset>
-                <label>Tiempo en el que se hizo el formulario: <input type="time" min="11:00" max="21:00" step="900"></label>
-                <button>Borrar todo</button>
+                <p><label for="tiempo_form">Tiempo en el que se hizo el formulario:</label> <input id="tiempo_form" type="time" min="11:00" max="21:00" step="900"></p>
+                <p><button id="boton_borrar">Borrar todo</button></p>
                 <input type="submit" value="Enviar">
             </fieldset>
         </form>
