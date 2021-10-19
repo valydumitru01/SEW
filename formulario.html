@@ -26,9 +26,9 @@
         <form>
             <fieldset>
                 <legend>Introduce tus datos: </legend>
-                <p><label>Introduce tu nombre:<input type="text" id="introduceNombre" placeholder="Ej: Juan"></label></p>
-                <p><label>Telefono:<input type="tel" placeholder="Ej: 651953462"> </label></p>
-                <p><label>Email:<input type="email" placeholder="Ej: pepito@gmail.com">  </label></p>
+                <p><label for="nombre">Introduce tu nombre:</label><input type="text" id="nombre" placeholder="Ej: Juan"></p>
+                <p><label for="tel">Telefono: </label>              <input type="tel" id="tel" placeholder="Ej: 651953462"></p>
+                <p><label for="email">Email:</label>                <input type="email" id="email" placeholder="Ej: pepito@gmail.com">  </p>
             </fieldset> 
             <fieldset>
                 <legend> Cuánto te suena este científico de la informática? </legend>
@@ -64,7 +64,7 @@
             <fieldset>
                 <label>Tiempo en el que se hizo el formulario: <input type="time" min="11:00" max="21:00" step="900"></label>
                 <button>Borrar todo</button>
-                <button>Enviar Formulario</button>
+                <input type="submit" value="Enviar">
             </fieldset>
         </form>
     </main>
