@@ -6,7 +6,7 @@
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="estilo/main.css" />
-    <link rel="stylesheet" type="text/css" href="estilo/formulario.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/form.css" />
     <meta name="author" content="Valentin Dumitru"/>
     <meta name="viewport" content="initial-scale=device-width, maximum-scale=1">
     <meta name="description" content="Formulario sobre Tim John Berners-Lee"/>
@@ -18,15 +18,12 @@
     <!-- Datos con el contenidos que aparece en el navegador -->
     <header>
         <h1>Formulario</h1>
+        <img src= "multimedia/Tim_Berners-Lee_Formulario.jpg" alt= "Tim John Berners-Lee en 2005" />
+        <p>Tim John Berners-Lee fue una persona muy importante y ahora queremos saber tu opinión.</p>
     </header>
     <main>
-        <div class="inicio">
-            <img src= "multimedia/Tim_Berners-Lee_Formulario.jpg" alt= "Tim John Berners-Lee" id="imagenTimFormulario"/>
-            
-            <p>Tim John Berners-Lee fue una persona muy importante y ahora queremos saber tu opinión.</p>
-            <h2>Responde a las siguientes preguntas: </h2>
-        </div>
-        <form class="grid">
+        <h2>Responde a las siguientes preguntas: </h2>
+        <form>
             <fieldset>
                 <legend>Introduce tus datos: </legend>
                 <p><label>Introduce tu nombre:<input type="text" id="introduceNombre"></label></p>
@@ -59,19 +56,19 @@
                 <p><label><input type="checkbox"> Cuales fueron sus pasatiempos favoritos </label></p>
                 <p><label><input type="checkbox"> A que se dedicaría si no fuese cientifico </label></p>
             </fieldset>
-            <fieldset class="textarea">
+            <fieldset>
                 <legend> Comentarios adicionales o recomendaciones </legend>
                 <p><label><textarea>Escribe aqui...</textarea></label></p>
             </fieldset>
             
-            <div>
+            <fieldset>
                 <label>Tiempo en el que se hizo el formulario: <input type="time" min="11:00" max="21:00" step="900"></label>
                 <button>Borrar todo</button>
                 <button>Enviar Formulario</button>
-            </div>
+            </fieldset>
         </form>
     </main>
-    <section class="navegation">
+    <footer>
         <nav>
             <ul>
                 <li><a tabindex="0" accesskey="I" href="index.html"> Pagina Inicial</a></li>
@@ -80,7 +77,7 @@
                 <li><a tabindex="0" accesskey="F" href="formulario.html"> Formulario Sobre Berners-Lee</a></li>
             </ul>
         </nav>
-    </section>
+    </footer>
 </body>
 
 </html>
