@@ -14,14 +14,14 @@ main section{
     background-color:bisque;
 }
 main section img{
-    width: 50%;
+    width: 75%;
 }
 main section video{
     
-    width:50%;
+    width:75%;
     
 }
 main section audio{
     transform: translate(0, 500%);
-    width: 50%;
+    width: 75%;
 }
