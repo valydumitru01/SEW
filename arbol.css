@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(139, 109, 70);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+header{
+    color: palegoldenrod;
+    background-color: rgb(63, 37, 3);
+    border: solid 0.5em palegoldenrod;
+    text-align: center;
+}
+main{
+    color:rgb(63, 37, 3);
+    background-color:palegoldenrod;
+    border: solid 0.5em rgb(63, 37, 3);
+    
+}
+ul{
+    text-indent:1em;
+    border-radius: 1em;
+}
+ul li{
+    border-top:solid 0.1em rgb(63, 37, 3);
+    border-left: solid 0.3em rgb(63, 37, 3);
+    border-radius: 1em;
+    padding: 0.4em;
+    text-indent: 1em;
+}
+footer{
+    color: palegoldenrod;
+    background-color: rgb(63, 37, 3);
+    border: solid 0.5em palegoldenrod;
+    text-align: center;
+}
+header{
+    padding-bottom: 1em;
+}
+img{
+
+    height: 15em;
+    
+}
+video{
+    height: 20em;
+}
