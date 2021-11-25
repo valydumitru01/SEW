@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css">
+    <script src="ECMAscript/CalculadoraBasica.js"></script>
+    <title>Calculadora Basica</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Calculadora Basica
+        </h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <input type="text" readonly="readonly"/>
+            </fieldset>
+            <fieldset>
+                <button type="button" onclick="mrc()">mrc</button><button type="button" onclick="mMenos()"> m-</button><button type="button" onclick="mMas()"> m+</button> <button type="button" onclick="division()"> / </button>
+                <button type="button" onclick="digitos(7)"> 7 </button><button type="button" onclick="digitos(8)"> 8 </button><button type="button" onclick="digitos(9)"> 9 </button> <button type="button" onclick="multiplicacion()"> * </button>
+                <button type="button" onclick="digitos(4)"> 4 </button><button type="button" onclick="digitos(5)"> 5 </button><button type="button" onclick="digitos(6)"> 6 </button> <button type="button" onclick="resta()"> - </button>
+                <button type="button" onclick="digitos(1)"> 1 </button><button type="button" onclick="digitos(2)"> 2 </button><button type="button" onclick="digitos(3)"> 3 </button> <button type="button" onclick="suma()"> + </button>
+                <button type="button" onclick="digitos(0)"> 0 </button><button type="button" onclick="punto()"> . </button><button type="button" onclick="borrar()"> C </button> <button type="button" onclick="igual()"> = </button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,350 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.47636314915637,
+                    44.92314361621342,
+                    421
+                ]
+            },
+            "properties": {
+                "name": "ValentinDumitru",
+                "description": "Coordenada de nacimiento de: Valentin"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.450274341823423,
+                    46.41579579273214,
+                    421
+                ]
+            },
+            "properties": {
+                "name": "MihaelaDumitru",
+                "description": "Coordenada de nacimiento de: Mihaela"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.441691272809724,
+                    46.41981943419262,
+                    421
+                ]
+            },
+            "properties": {
+                "name": "NinaCiofu",
+                "description": "Coordenada de nacimiento de: Nina"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.449501865572348,
+                    46.42443442197115,
+                    421
+                ]
+            },
+            "properties": {
+                "name": "RamonManan",
+                "description": "Coordenada de nacimiento de: Ramon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.449501865572348,
+                    46.42443442197115,
+                    421
+                ]
+            },
+            "properties": {
+                "name": "RamonManan",
+                "description": "Coordenada de fallecimiento de: Ramon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.451046818278744,
+                    46.41626917771015,
+                    421
+                ]
+            },
+            "properties": {
+                "name": "JuliaManan",
+                "description": "Coordenada de nacimiento de: Julia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.451046818278744,
+                    46.41626917771015,
+                    421
+                ]
+            },
+            "properties": {
+                "name": "JuliaManan",
+                "description": "Coordenada de fallecimiento de: Julia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.455939167560096,
+                    46.452707482319084,
+                    421
+                ]
+            },
+            "properties": {
+                "name": "NicolaeCiofu",
+                "description": "Coordenada de nacimiento de: Nicolae"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.425125949857364,
+                    46.4230736328753,
+                    421
+                ]
+            },
+            "properties": {
+                "name": "PhilipCiofu",
+                "description": "Coordenada de nacimiento de: Philip"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.425125949857364,
+                    46.4230736328753,
+                    421
+                ]
+            },
+            "properties": {
+                "name": "PhilipCiofu",
+                "description": "Coordenada de fallecimiento de: Philip"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.48091589808445,
+                    46.41248198256782,
+                    421
+                ]
+            },
+            "properties": {
+                "name": "KisneraCiofu",
+                "description": "Coordenada de nacimiento de: Kisnera"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.48091589808445,
+                    46.41248198256782,
+                    421
+                ]
+            },
+            "properties": {
+                "name": "KisneraCiofu",
+                "description": "Coordenada de fallecimiento de: Kisnera"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.473472206632763,
+                    44.91812188465076,
+                    219
+                ]
+            },
+            "properties": {
+                "name": "NicolaeDumitru",
+                "description": "Coordenada de nacimiento de: Nicolae"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.50616263157847,
+                    44.74099888070345,
+                    219
+                ]
+            },
+            "properties": {
+                "name": "IonDumitru",
+                "description": "Coordenada de nacimiento de: Ion"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.410504437338133,
+                    44.74219556251973,
+                    219
+                ]
+            },
+            "properties": {
+                "name": "SierDumitru",
+                "description": "Coordenada de nacimiento de: Sier"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.410504437338133,
+                    44.74219556251973,
+                    219
+                ]
+            },
+            "properties": {
+                "name": "SierDumitru",
+                "description": "Coordenada de fallecimiento de: Sier"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.343487541599153,
+                    44.80252936682957,
+                    219
+                ]
+            },
+            "properties": {
+                "name": "DamianDumitru",
+                "description": "Coordenada de nacimiento de: Damian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.343487541599153,
+                    44.80252936682957,
+                    219
+                ]
+            },
+            "properties": {
+                "name": "DamianDumitru",
+                "description": "Coordenada de fallecimiento de: Damian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.450752014256,
+                    44.798810162733936,
+                    219
+                ]
+            },
+            "properties": {
+                "name": "MariaDumitru",
+                "description": "Coordenada de nacimiento de: Maria"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.49586674083088,
+                    44.79960715539698,
+                    219
+                ]
+            },
+            "properties": {
+                "name": "SimonDumitru",
+                "description": "Coordenada de nacimiento de: Simon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.49586674083088,
+                    44.79960715539698,
+                    219
+                ]
+            },
+            "properties": {
+                "name": "SimonDumitru",
+                "description": "Coordenada de fallecimiento de: Simon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.455060537421573,
+                    44.76163833850013,
+                    219
+                ]
+            },
+            "properties": {
+                "name": "MisaDumitru",
+                "description": "Coordenada de nacimiento de: Misa"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.455060537421573,
+                    44.76163833850013,
+                    219
+                ]
+            },
+            "properties": {
+                "name": "MisaDumitru",
+                "description": "Coordenada de fallecimiento de: Misa"
+            }
+        }
+    ]
+}

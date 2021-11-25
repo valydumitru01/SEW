@@ -1,0 +1,24 @@
+body{
+    background-color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+}
+section[name=mapa] {
+    height:50vw; 
+    max-height: 50em;
+    border-radius: 1em;
+    border: 0.3em solid cornflowerblue;
+    
+}
+p{
+    padding: 1em;
+    background-color: cornflowerblue;
+    border-radius: 1em;
+    border: 0.3em solid darkmagenta;
+}
+h1{
+    text-align: center;
+    background-color: darkorchid;
+    padding: 1em;
+    font-size: 3em;
+    border-radius: 0.5em;
+}

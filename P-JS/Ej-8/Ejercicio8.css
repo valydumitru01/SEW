@@ -1,0 +1,59 @@
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    right: 1.8em;
+    gap: 0.3em;
+}
+li{
+    position: relative;
+    width: 20%;
+    display:inline-block; 
+    padding:1em;
+    min-height: 10em;
+    min-width: 10em;
+    background-color: peachpuff;
+    border-radius: 0.6em;
+    text-align: center;
+}
+p{
+    padding:0;
+    margin:0.3em;
+    font-size: inherit;
+}
+img{
+    width: 10%;
+}
+body{
+    text-align: center;
+    background-color: rgb(255, 201, 153);
+    color: maroon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 75%;
+    left: 10%;
+    position: relative;
+}
+footer,section,li{
+    border: rgb(235, 89, 52) 0.3em solid;
+    border-radius: 2em;
+}
+footer{
+    
+    background-color: peachpuff;
+    padding:1em;
+
+}
+section{
+    margin-bottom: 1em;
+    background-color: peachpuff;
+    padding:1em;
+}
+h1{
+    font-size: 3em;
+}
+a{
+    color: orangered;
+}

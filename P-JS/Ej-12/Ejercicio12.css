@@ -1,0 +1,23 @@
+body{
+    background-color: blue;
+    width: 50%;
+    left: 25%;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    background-color: aqua;
+    border-radius: 1em;
+    padding: 1em;
+    border: rgb(30, 172, 124) 0.3em solid;
+}
+article{
+    background-color: aquamarine;
+    padding: 1em;
+    border-radius: 1em;
+}
+body>p{
+    background-color: rgb(205, 255, 255);
+    padding: 1em;
+    border-radius: 1em;
+}

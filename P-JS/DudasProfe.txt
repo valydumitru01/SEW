@@ -1,0 +1,7 @@
+Ej-8:
+    1. Por que no se crean adecuadamente las etiquetas y pone desbordamiento --ARREGLADO
+Ej-10:
+    1. No consigo que funcione el link para la api con el timeseries --ARREGLADO, uso otra api
+Ej-11:
+    Tarea1: Que significa que debe usarse el protocolo https?--ARREGLADO lo uso
+    Tarea4: Por que no me localiza bien?

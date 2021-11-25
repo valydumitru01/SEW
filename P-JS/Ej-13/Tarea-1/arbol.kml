@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <Placemark>
+            <name>ValentinDumitru</name>
+            <description>Coordenada de nacimiento de: Valentin</description>
+            <Point>
+                <coordinates>25.47636314915637,44.92314361621342,421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MihaelaDumitru</name>
+            <description>Coordenada de nacimiento de: Mihaela</description>
+            <Point>
+                <coordinates>26.450274341823423,46.41579579273214,421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NinaCiofu</name>
+            <description>Coordenada de nacimiento de: Nina</description>
+            <Point>
+                <coordinates>26.441691272809724,46.41981943419262,421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>RamonManan</name>
+            <description>Coordenada de nacimiento de: Ramon</description>
+            <Point>
+                <coordinates>26.449501865572348,46.42443442197115,421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>RamonManan</name>
+            <description>Coordenada de fallecimiento de: Ramon</description>
+            <Point>
+                <coordinates>26.449501865572348,46.42443442197115,421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>JuliaManan</name>
+            <description>Coordenada de nacimiento de: Julia</description>
+            <Point>
+                <coordinates>26.451046818278744,46.41626917771015,421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>JuliaManan</name>
+            <description>Coordenada de fallecimiento de: Julia</description>
+            <Point>
+                <coordinates>26.451046818278744,46.41626917771015,421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NicolaeCiofu</name>
+            <description>Coordenada de nacimiento de: Nicolae</description>
+            <Point>
+                <coordinates>26.455939167560096,46.452707482319084,421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PhilipCiofu</name>
+            <description>Coordenada de nacimiento de: Philip</description>
+            <Point>
+                <coordinates>26.425125949857364,46.4230736328753,421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PhilipCiofu</name>
+            <description>Coordenada de fallecimiento de: Philip</description>
+            <Point>
+                <coordinates>26.425125949857364,46.4230736328753,421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>KisneraCiofu</name>
+            <description>Coordenada de nacimiento de: Kisnera</description>
+            <Point>
+                <coordinates>26.48091589808445,46.41248198256782,421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>KisneraCiofu</name>
+            <description>Coordenada de fallecimiento de: Kisnera</description>
+            <Point>
+                <coordinates>26.48091589808445,46.41248198256782,421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>NicolaeDumitru</name>
+            <description>Coordenada de nacimiento de: Nicolae</description>
+            <Point>
+                <coordinates>25.473472206632763,44.91812188465076,219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>IonDumitru</name>
+            <description>Coordenada de nacimiento de: Ion</description>
+            <Point>
+                <coordinates>25.50616263157847,44.74099888070345,219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SierDumitru</name>
+            <description>Coordenada de nacimiento de: Sier</description>
+            <Point>
+                <coordinates>25.410504437338133,44.74219556251973,219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SierDumitru</name>
+            <description>Coordenada de fallecimiento de: Sier</description>
+            <Point>
+                <coordinates>25.410504437338133,44.74219556251973,219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DamianDumitru</name>
+            <description>Coordenada de nacimiento de: Damian</description>
+            <Point>
+                <coordinates>25.343487541599153,44.80252936682957,219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DamianDumitru</name>
+            <description>Coordenada de fallecimiento de: Damian</description>
+            <Point>
+                <coordinates>25.343487541599153,44.80252936682957,219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MariaDumitru</name>
+            <description>Coordenada de nacimiento de: Maria</description>
+            <Point>
+                <coordinates>25.450752014256,44.798810162733936,219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SimonDumitru</name>
+            <description>Coordenada de nacimiento de: Simon</description>
+            <Point>
+                <coordinates>25.49586674083088,44.79960715539698,219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SimonDumitru</name>
+            <description>Coordenada de fallecimiento de: Simon</description>
+            <Point>
+                <coordinates>25.49586674083088,44.79960715539698,219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MisaDumitru</name>
+            <description>Coordenada de nacimiento de: Misa</description>
+            <Point>
+                <coordinates>25.455060537421573,44.76163833850013,219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MisaDumitru</name>
+            <description>Coordenada de fallecimiento de: Misa</description>
+            <Point>
+                <coordinates>25.455060537421573,44.76163833850013,219</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

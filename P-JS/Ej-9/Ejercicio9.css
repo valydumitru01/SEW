@@ -1,0 +1,50 @@
+body{
+    padding:1em ;
+    background-color: rgb(131, 189, 228);
+    color: rgb(62, 25, 133);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 75%;
+    left: 10%;
+    position: relative;
+}
+header{
+    background-color:rgb(118, 141, 216) ;
+    padding:1em;
+    border-radius: 1em;
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    padding-bottom: 0.2em;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2em;
+    padding-top: 1em;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: row;
+
+}
+section{
+    border: solid 0.2em white;
+    border-radius: 1em;
+    background-color: rgb(118, 141, 216);
+    color: white;
+    width: 20%;
+    min-width: 15em;
+    padding: 2em;
+}
+img{
+    background-color: rgb(166, 177, 226);
+    border: solid 0.3em rgb(96, 98, 230);
+    position: relative;
+    top:1em;
+    left: 1em;
+    width: 4em;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+//Comprobar la grafica del ejercicio 10, salen las fechas desordenadas y probablemente las barras tambien
+//Hacer en ejercicio 8 de json que sea de 5 ciudades o pueblos de mi arbol genealogico. Solo esta hecho de oviedo...
+Poner especificidad en todos los css
+Comprobar lang=es en todos los html
+Hacer test de usabilidad a los html, y validar los html y css
+Asegurarme que se puede usar span y jquery en cualquier ejercicio
+Comprobar que funciona con todos los navegadores
+Hacer que file input no reciba otra cosa que no sea geojson y kml

@@ -1,0 +1,69 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color:gainsboro ;
+    padding: 10em;
+
+}
+main{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: slategray;
+    border:solid dimgray 5px;
+    border-radius: 0.5em;
+    color:azure;
+    padding: 1em;
+    min-width: 10em;
+    max-width: 20em;
+}
+fieldset input[type="text"]{
+    background-color: rgb(195, 216, 164);
+    border: yellow inset 3px;
+
+    width: 80%;
+    font-size: 400%;
+    
+}
+fieldset{
+    border: none;
+}
+fieldset:nth-of-type(2){
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    position: relative;
+    top:2em;
+}
+form{
+    background-color: slategray;
+    border-radius: 1em;
+    border: solid dimgray 5px;
+    padding:2em;
+    padding-bottom: 4em;
+    min-width: 20em;
+    max-width: 40em;
+    
+}
+form fieldset:nth-of-type(2) button{
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 0.5em;
+    font-size: 2.5em;
+}
+form fieldset:nth-of-type(2) button:nth-child(n+4){
+    background-color: gainsboro;
+}
+form fieldset:nth-of-type(2) button:nth-child(4n){
+    background-color: maroon;
+    color: blanchedalmond;
+}
+form fieldset:nth-of-type(2) button:nth-child(20){
+    background-color: floralwhite;
+    color: black;
+}

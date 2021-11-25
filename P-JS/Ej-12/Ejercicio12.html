@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Varios archivos</title>
+    <link rel="stylesheet" href="Ejercicio12.css">
+    <script src="ECMAscript/Ejercicio12.js"></script>
+</head>
+
+<body onload="calcularTamañoArchivos();">
+    <article>
+        <h1>API File: Selecionar varios archivos de la máquina cliente</h1>
+        <p><label for="subirArchivos">Elegir archivos: </label><input id="subirArchivos" type="file" name="Archivos"
+                onchange="calcularTamañoArchivos();" multiple></p>
+        <p>Archivos seleccionados:
+        <p name="numero">0</p>
+        </p>
+        <p>Tamaño total:
+        <p name="tamaño">0</p>
+        </p>
+        <p name="nombres"></p>
+    </article>
+</body>
+
+</html>

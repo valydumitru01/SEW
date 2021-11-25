@@ -1,0 +1,26 @@
+h1{
+    font-size: 5em;
+    color:tan;
+    background-color: brown;
+}
+h2{
+    color: orangered;
+    background-color: mintcream;
+}
+h3{
+    color:maroon;
+    background-color: chocolate;
+}
+p{
+    color:maroon;
+    background-color: tan;
+}
+body{
+    background-color: maroon;
+    color:saddlebrown
+}
+body *{
+    border-radius: 0.3em;
+    padding: 1em;
+    border: red dashed 2px;
+}

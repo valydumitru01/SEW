@@ -1,0 +1,54 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    background-color:darkslategray ;
+    width: 75%;
+    left: 10%;
+    position: relative;
+}
+body>header{
+    background-color: rgb(140, 173, 173);
+    color:rgb(17, 56, 56);
+}
+header{
+    background-color: rgb(17, 56, 56);
+    padding: 1em;
+
+}
+header{
+    text-align: center;
+    
+    
+}
+
+table th{
+    border-bottom: rgb(36, 139, 139) solid 2px;
+    border-right: rgb(36, 139, 139) solid 2px;
+}
+table td{
+    border-right: rgb(36, 139, 139) solid 2px;
+}
+
+section{
+    padding: 1em;
+    border: solid;
+    border-radius: 1em;
+}
+footer{
+    padding: 1em;
+    font-weight: bold;
+    
+}
+textarea{
+    width: 100%;
+}
+h3{
+    padding: 0.3em;
+}
+h3:hover{
+    
+    background-color: rgb(17, 56, 56);
+}
+ form input[type=text]{
+ border: rgb(140, 173, 173) 0.3em solid;
+}
