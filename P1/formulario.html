@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="estilo/main.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/form.css" />
+    <meta name="author" content="Valentin Dumitru"/>
+    <meta name="viewport" content="initial-scale=device-width, maximum-scale=1">
+    <meta name="description" content="Formulario sobre Tim John Berners-Lee"/>
+    <meta name="keywords" content="formulario, impactó, quedada, recomendaciones"/>
+    <title>Formulario sobre Tim Berners-Lee</title>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>Formulario</h1>
+        <img src= "multimedia/Tim_Berners-Lee_Formulario.jpg" alt= "Tim John Berners-Lee en 2005" />
+        <p>Tim John Berners-Lee fue una persona muy importante y ahora queremos saber tu opinión.</p>
+    </header>
+    <main>
+        <h2>Responde a las siguientes preguntas: </h2>
+        <form>
+            <fieldset>
+                <legend>Introduce tus datos: </legend>
+                <p><label for="nombre">Introduce tu nombre:</label><input type="text" id="nombre" placeholder="Ej: Juan"></p>
+                <p><label for="tel">Telefono: </label>              <input type="tel" id="tel" placeholder="Ej: 651953462"></p>
+                <p><label for="email">Email:</label>                <input type="email" id="email" placeholder="Ej: pepito@gmail.com">  </p>
+            </fieldset> 
+            <fieldset>
+                <legend> Cuánto te suena este científico de la informática? </legend>
+                <p><input type="radio" name="mucho" value="mucho" id="suena_mucho"> <label for="suena_mucho">Sé mucho sobre él</label></p>
+                <p><input type="radio" name="algo" value="algo" id="suena_algo"> <label for="suena_algo">He oído alguna cosa </label></p>
+                <p><input type="radio" name="poco" value="poco" id="suena_poco"><label for="suena_poco"> Me suena</label></p>
+                <p><input type="radio" name="nada" value="nada" id="suena_nada"> <label for="suena_nada">Ni idea </label></p>
+                </fieldset>
+            <fieldset>
+                <legend> Cuánto crees que impactó positivamente su trabajo? </legend>
+                <p><input type="radio" name="trabajo" value="mucho" id="impacto_mucho"><label for="impacto_mucho">Mucho</label></p>
+                <p><input type="radio" name="trabajo" value="algo" id="impacto_algo"> <label for="impacto_algo">algo</label></p>
+                <p><input type="radio" name="trabajo" value="poco" id="impacto_poco"><label for="impacto_poco">Poco</label></p>
+                <p><input type="radio" name="trabajo" value="nada" id="impacto_nada"><label for="impacto_nada">Nada</label></p>
+            </fieldset>
+            <fieldset>
+                <legend> ¿Cuáles de sus aportaciones más te pareció mas interesante? </legend>
+                <p><input type="checkbox" id="check_w3c"><label for="check_w3c"> Consorcio de World Wide Web</label></p>
+                <p><input type="checkbox" id="check_www"> <label for="check_www">World Wide Web</label></p>
+            </fieldset>
+            <fieldset>
+                <legend> Cosas que te gustaría saber sobre este cientifico en una quedada con él</legend>
+                <p><input type="checkbox" id="check_inspricacion"> <label for="check_inspricacion">Cuál fue su inspiración</label></p>
+                <p><input type="checkbox" id="check_academicos"> <label for="check_academicos">Cómo fueron sus dias academicos </label></p>
+                <p><input type="checkbox" id="check_pasatiempos"><label for="check_pasatiempos"> Cuales fueron sus pasatiempos favoritos </label></p>
+                <p><input type="checkbox" id="check_cientifico"><label for="check_cientifico"> A que se dedicaría si no fuese cientifico </label></p>
+            </fieldset>
+            <fieldset>
+                <legend> Comentarios adicionales o recomendaciones </legend>
+                <p><label for="text_area_comment">Escribe aqui tus Comentarios: </label><textarea placeholder="Ej: Me gusta porque..." id="text_area_comment"></textarea></p>
+            </fieldset>
+            
+            <fieldset>
+                <p><label for="tiempo_form">Tiempo en el que se hizo el formulario:</label> <input id="tiempo_form" type="time" min="11:00" max="21:00" step="900"></p>
+                <p><button id="boton_borrar">Borrar todo</button></p>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a tabindex="0" accesskey="I" href="index.html"> Pagina Inicial</a></li>
+                <li><a tabindex="0" accesskey="P" href="publicaciones.html"> Publicaciones</a></li>
+                <li><a tabindex="0" accesskey="L" href="logros.html"> Logros</a></li>
+                <li><a tabindex="0" accesskey="F" href="formulario.html"> Formulario Sobre Berners-Lee</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

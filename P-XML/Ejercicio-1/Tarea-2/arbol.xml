@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE personas SYSTEM "personas.dtd">
+
+<personas>
+    <!-- YO-->
+    <persona nombre="Valentin" apellidos="Dumitru">
+        <datos>
+            <lugar_nacimiento>Bucaresti</lugar_nacimiento>
+            <coor_nacimiento logntud="44.92314361621342" latitud="25.47636314915637" altitud="421" />
+            <fecha_nacimiento dia="11" mes="05" año="2001" />
+            <foto>Yo.jpg</foto>
+            <video>Yo_Video.mp4</video>
+            <comentarios>Soy yo</comentarios>
+        </datos>
+        <!-- MADRE-->
+        <persona nombre="Mihaela" apellidos="Dumitru">
+            <datos>
+                <lugar_nacimiento>Comănești</lugar_nacimiento>
+                <coor_nacimiento logntud="46.41579579273214" latitud="26.450274341823423" altitud="421" />
+                <fecha_nacimiento dia="05" mes="03" año="1975" />
+
+                <foto>M.jpg</foto>
+                <comentarios>Es mi madre</comentarios>
+            </datos>
+            <!-- ABUELA_MADRE-->
+            <persona nombre="Nina" apellidos="Ciofu">
+                <datos>
+                    <lugar_nacimiento>Comănești</lugar_nacimiento>
+                    <coor_nacimiento logntud="46.41981943419262" latitud="26.441691272809724" altitud="421" />
+                    <fecha_nacimiento dia="17" mes="07" año="1950"/>
+                    <foto>Aa_M.jpg</foto>
+                    <comentarios>Es mi abuela de parte de mi madre</comentarios>
+                </datos>
+                <!-- BISABUELO_ABUELA_MADRE-->
+                <persona nombre="Ramon" apellidos="Manan">
+                    <datos>
+                        <lugar_nacimiento>Comănești</lugar_nacimiento>
+                        <coor_nacimiento logntud="46.42443442197115" latitud="26.449501865572348" altitud="421" />
+                        <fecha_nacimiento dia="14" mes="01" año="1916" />
+
+                        <lugar_fallecimiento>Comănești</lugar_fallecimiento>
+                        <coor_fallecimiento logntud="46.42443442197115" latitud="26.449501865572348" altitud="421" />
+                        <fecha_fallecimiento dia="19" mes="12" año="1981" />
+
+                        <foto>Bo_Aa_M.jpg</foto>
+                        <comentarios>Es mi bisabuelo de parte de mi abuela de parte de mi madre</comentarios>
+                    </datos>
+                </persona>
+                <!-- BISABUELA_ABUELA_MADRE-->
+                <persona nombre="Julia" apellidos="Manan">
+                    <datos>
+                        <lugar_nacimiento>Comănești</lugar_nacimiento>
+                        <coor_nacimiento logntud="46.41626917771015" latitud="26.451046818278744" altitud="421" />
+                        <fecha_nacimiento dia="11" mes="05" año="1926" />
+
+                        <lugar_fallecimiento>Comănești</lugar_fallecimiento>
+                        <coor_fallecimiento logntud="46.41626917771015" latitud="26.451046818278744" altitud="421" />
+                        <fecha_fallecimiento dia="01" mes="02" año="1996" />
+
+                        <foto>Ba_Aa_M.jpg</foto>
+                        <comentarios>Es mi bisabuela de parte de mi abuela de parte de mi madre</comentarios>
+                    </datos>
+                </persona>
+            </persona>
+            <!--ABUELO_MADRE -->
+            <persona nombre="Nicolae" apellidos="Ciofu">
+                <datos>
+                    <lugar_nacimiento>Comănești</lugar_nacimiento>
+                    <coor_nacimiento logntud="46.452707482319084" latitud="26.455939167560096" altitud="421" />
+                    <fecha_nacimiento dia="10" mes="09" año="1970" />
+
+                    <foto>Ao_M.jpg</foto>
+                    <comentarios>Es mi abuelo de parte de mi madre</comentarios>
+                </datos>
+                <!-- BISABUELO_ABUELO_MADRE-->
+                <persona nombre="Philip" apellidos="Ciofu">
+                    <datos>
+                        <lugar_nacimiento>Comănești</lugar_nacimiento>
+                        <coor_nacimiento logntud="46.4230736328753" latitud="26.425125949857364" altitud="421" />
+                        <fecha_nacimiento dia="04" mes="05" año="1935" />
+
+                        <lugar_fallecimiento>Comănești</lugar_fallecimiento>
+                        <coor_fallecimiento logntud="46.4230736328753" latitud="26.425125949857364" altitud="421" />
+                        <fecha_fallecimiento dia="11" mes="07" año="2010" />
+
+                        <foto>Bo_Ao_M.jpg</foto>
+                        <comentarios>Es mi bisabuelo de parte de mi abuelo de parte de mi madre</comentarios>
+                    </datos>
+                </persona>
+                <!-- BISABUELA_ABUELO_MADRE-->
+                <persona nombre="Kisnera" apellidos="Ciofu">
+                    <datos>
+                        <lugar_nacimiento>Comănești</lugar_nacimiento>
+                        <coor_nacimiento logntud="46.41248198256782" latitud="26.48091589808445" altitud="421" />
+                        <fecha_nacimiento dia="11" mes="05" año="1940" />
+
+                        <lugar_fallecimiento>Comănești</lugar_fallecimiento>
+                        <coor_fallecimiento logntud="46.41248198256782" latitud="26.48091589808445" altitud="421" />
+                        <fecha_fallecimiento dia="23" mes="06" año="2012" />
+
+                        <foto>Ba_Ao_M.jpg</foto>
+                        <comentarios>Es mi bisabuela de parte de mi abuelo de parte de mi madre</comentarios>
+                    </datos>
+                </persona>
+            </persona>
+        </persona>
+
+        <!-- PADRE-->
+        <persona nombre="Nicolae" apellidos="Dumitru">
+            <datos>
+                <lugar_nacimiento>Bucaresti</lugar_nacimiento>
+                <coor_nacimiento logntud="44.91812188465076" latitud="25.473472206632763" altitud="219" />
+                <fecha_nacimiento dia="11" mes="05" año="1970" />
+
+                <foto>P.jpg</foto>
+                <comentarios>Es mi padre</comentarios>
+            </datos>
+            <!-- ABUELO_PADRE-->
+            <persona nombre="Ion" apellidos="Dumitru">
+                <datos>
+                    <lugar_nacimiento>Bucaresti</lugar_nacimiento>
+                    <coor_nacimiento logntud="44.74099888070345" latitud="25.50616263157847" altitud="219" />
+                    <fecha_nacimiento dia="03" mes="12" año="1934" />
+
+                    <foto>Ao_P.jpg</foto>
+                    <comentarios>Es mi abuelo de parte de mi padre</comentarios>
+                </datos>
+
+                <!-- BISABUELA_ABUELO_PADRE-->
+                <persona nombre="Sier" apellidos="Dumitru">
+                    <datos>
+                        <lugar_nacimiento>Bucaresti</lugar_nacimiento>
+                        <coor_nacimiento logntud="44.74219556251973" latitud="25.410504437338133" altitud="219" />
+                        <fecha_nacimiento dia="11" mes="05" año="1925" />
+
+                        <lugar_fallecimiento>Bucaresti</lugar_fallecimiento>
+                        <coor_fallecimiento logntud="44.74219556251973" latitud="25.410504437338133" altitud="219" />
+                        <fecha_fallecimiento dia="12" mes="12" año="1999" />
+
+                        <foto>Ba_Ao_P.jpg</foto>
+                        <comentarios>Es mi bisabuela de parte de mi abuelo de parte de mi padre</comentarios>
+                    </datos>
+                </persona>
+                <!-- BISABUELO_ABUELO_PADRE-->
+                <persona nombre="Damian" apellidos="Dumitru">
+                    <datos>
+                        <lugar_nacimiento>Bucaresti</lugar_nacimiento>
+                        <coor_nacimiento logntud="44.80252936682957" latitud="25.343487541599153" altitud="219" />
+                        <fecha_nacimiento dia="11" mes="05" año="1932" />
+
+                        <lugar_fallecimiento>Bucaresti</lugar_fallecimiento>
+                        <coor_fallecimiento logntud="44.80252936682957" latitud="25.343487541599153" altitud="219" />
+                        <fecha_fallecimiento dia="11" mes="08" año="2003" />
+
+                        <foto>Bo_Ao_P.jpg</foto>
+                        <comentarios>Es mi bisabuelo de parte de mi abuelo de parte de mi padre</comentarios>
+                    </datos>
+                </persona>
+            </persona>
+            <!-- ABUELA_PADRE-->
+            <persona nombre="Maria" apellidos="Dumitru">
+                <datos>
+                    <lugar_nacimiento>Bucaresti</lugar_nacimiento>
+                    <coor_nacimiento logntud="44.798810162733936" latitud="25.450752014256" altitud="219" />
+                    <fecha_nacimiento dia="01" mes="06" año="1954" />
+
+                    <foto>Aa_P.jpg</foto>
+                    <comentarios>Es mi abuela de parte de mi padre</comentarios>
+                </datos>
+                <!-- BISABUELO_ABUELA_PADRE-->
+                <persona nombre="Simon" apellidos="Dumitru">
+                    <datos>
+                        <lugar_nacimiento>Bucaresti</lugar_nacimiento>
+                        <coor_nacimiento logntud="44.79960715539698" latitud="25.49586674083088" altitud="219" />
+                        <fecha_nacimiento dia="11" mes="06" año="1924" />
+
+                        <lugar_fallecimiento>Bucaresti</lugar_fallecimiento>
+                        <coor_fallecimiento logntud="44.79960715539698" latitud="25.49586674083088" altitud="219" />
+                        <fecha_fallecimiento dia="21" mes="09" año="1992" />
+
+                        <foto>Bo_Aa_P.jpg</foto>
+                        <comentarios>Es mi bisabuelo de parte de mi abuela de parte de mi padre</comentarios>
+                    </datos>
+                </persona>
+                <!-- BISABUELA_ABUELA_PADRE-->
+                <persona nombre="Misa" apellidos="Dumitru">
+                    <datos>
+                        <lugar_nacimiento>Bucaresti</lugar_nacimiento>
+                        <coor_nacimiento logntud="44.76163833850013" latitud="25.455060537421573" altitud="219" />
+                        <fecha_nacimiento dia="17" mes="08" año="1921" />
+
+                        <lugar_fallecimiento>Bucaresti</lugar_fallecimiento>
+                        <coor_fallecimiento logntud="44.76163833850013" latitud="25.455060537421573" altitud="219" />
+                        <fecha_fallecimiento dia="03" mes="12" año="2000" />
+
+                        <foto>Ba_Aa_P.jpg</foto>
+                        <comentarios>Es mi bisabuela de parte de mi abuela de parte de mi padre</comentarios>
+                    </datos>
+                </persona>
+            </persona>
+        </persona>
+    </persona>
+</personas>

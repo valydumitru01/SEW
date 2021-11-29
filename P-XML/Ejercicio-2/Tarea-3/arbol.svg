@@ -1,0 +1,559 @@
+
+<html>
+    <body>
+    <svg height="10000" width="10000" xmlns="http://www.w3.org/2000/svg">
+<rect x="4000" y="0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4010" y="10">
+Valentin Dumitru
+</text>
+<rect x="4000" y="150.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4010" y="160.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="4010">Bucaresti</tspan>
+
+</text>
+<rect x="4000" y="225.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4010" y="235.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="4010"><tspan dy="1em" x="4010">logntud: 25.47636314915637</tspan>
+<tspan dy="1em" x="4010">latitud: 44.92314361621342</tspan>
+<tspan dy="1em" x="4010">altitud: 421</tspan>
+</tspan>
+
+</text>
+<rect x="4000" y="300.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4010" y="310.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="4010"><tspan dy="1em" x="4010">dia: 11</tspan>
+<tspan dy="1em" x="4010">mes: 05</tspan>
+<tspan dy="1em" x="4010">año: 2001</tspan>
+</tspan>
+
+</text>
+<rect x="4000" y="375.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="4050.0" y="375.0" href="../../multimedia/Yo.jpg" height="50"/><rect x="4000" y="450.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4010" y="460.0">
+{http://tempuri.org/personas}video: <tspan dy="1em" x="4010">Yo_Video.mp4</tspan>
+
+</text>
+<rect x="4000" y="525.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4010" y="535.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="4010">Soy yo</tspan>
+
+</text>
+
+        <polyline points="4100.0,50.0 4900.0,50.0 4900.0,775.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="4800" y="725.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4810" y="735.0">
+Mihaela Dumitru
+</text>
+<rect x="4800" y="875.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4810" y="885.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="4810">Comănești</tspan>
+
+</text>
+<rect x="4800" y="950.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4810" y="960.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="4810"><tspan dy="1em" x="4810">logntud: 26.450274341823423</tspan>
+<tspan dy="1em" x="4810">latitud: 46.41579579273214</tspan>
+<tspan dy="1em" x="4810">altitud: 421</tspan>
+</tspan>
+
+</text>
+<rect x="4800" y="1025.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4810" y="1035.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="4810"><tspan dy="1em" x="4810">dia: 05</tspan>
+<tspan dy="1em" x="4810">mes: 03</tspan>
+<tspan dy="1em" x="4810">año: 1975</tspan>
+</tspan>
+
+</text>
+<rect x="4800" y="1100.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="4850.0" y="1100.0" href="../../multimedia/M.jpg" height="50"/><rect x="4800" y="1175.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4810" y="1185.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="4810">Es mi madre</tspan>
+
+</text>
+
+        <polyline points="4900.0,775.0 5700.0,775.0 5700.0,1425.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="5600" y="1375.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5610" y="1385.0">
+Nina Ciofu
+</text>
+<rect x="5600" y="1525.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5610" y="1535.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="5610">Comănești</tspan>
+
+</text>
+<rect x="5600" y="1600.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5610" y="1610.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="5610"><tspan dy="1em" x="5610">logntud: 26.441691272809724</tspan>
+<tspan dy="1em" x="5610">latitud: 46.41981943419262</tspan>
+<tspan dy="1em" x="5610">altitud: 421</tspan>
+</tspan>
+
+</text>
+<rect x="5600" y="1675.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5610" y="1685.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="5610"><tspan dy="1em" x="5610">dia: 17</tspan>
+<tspan dy="1em" x="5610">mes: 07</tspan>
+<tspan dy="1em" x="5610">año: 1950</tspan>
+</tspan>
+
+</text>
+<rect x="5600" y="1750.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="5650.0" y="1750.0" href="../../multimedia/Aa_M.jpg" height="50"/><rect x="5600" y="1825.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5610" y="1835.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="5610">Es mi abuela de parte de mi madre</tspan>
+
+</text>
+
+        <polyline points="5700.0,1425.0 6500.0,1425.0 6500.0,2075.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="6400" y="2025.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="6410" y="2035.0">
+Ramon Manan
+</text>
+<rect x="6400" y="2175.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="6410" y="2185.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="6410">Comănești</tspan>
+
+</text>
+<rect x="6400" y="2250.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="6410" y="2260.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="6410"><tspan dy="1em" x="6410">logntud: 26.449501865572348</tspan>
+<tspan dy="1em" x="6410">latitud: 46.42443442197115</tspan>
+<tspan dy="1em" x="6410">altitud: 421</tspan>
+</tspan>
+
+</text>
+<rect x="6400" y="2325.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="6410" y="2335.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="6410"><tspan dy="1em" x="6410">dia: 14</tspan>
+<tspan dy="1em" x="6410">mes: 01</tspan>
+<tspan dy="1em" x="6410">año: 1916</tspan>
+</tspan>
+
+</text>
+<rect x="6400" y="2400.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="6410" y="2410.0">
+{http://tempuri.org/personas}lugar_fallecimiento: <tspan dy="1em" x="6410">Comănești</tspan>
+
+</text>
+<rect x="6400" y="2475.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="6410" y="2485.0">
+{http://tempuri.org/personas}coor_fallecimiento: <tspan dy="1em" x="6410"><tspan dy="1em" x="6410">logntud: 26.449501865572348</tspan>
+<tspan dy="1em" x="6410">latitud: 46.42443442197115</tspan>
+<tspan dy="1em" x="6410">altitud: 421</tspan>
+</tspan>
+
+</text>
+<rect x="6400" y="2550.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="6410" y="2560.0">
+{http://tempuri.org/personas}fecha_fallecimiento: <tspan dy="1em" x="6410"><tspan dy="1em" x="6410">dia: 19</tspan>
+<tspan dy="1em" x="6410">mes: 12</tspan>
+<tspan dy="1em" x="6410">año: 1981</tspan>
+</tspan>
+
+</text>
+<rect x="6400" y="2625.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="6450.0" y="2625.0" href="../../multimedia/Bo_Aa_M.jpg" height="50"/><rect x="6400" y="2700.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="6410" y="2710.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="6410">Es mi bisabuelo de parte de mi abuela de parte de mi madre</tspan>
+
+</text>
+
+        <polyline points="5700.0,1425.0 5400.0,1425.0 5400.0,2075.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="5300.0" y="2025.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5310.0" y="2035.0">
+Julia Manan
+</text>
+<rect x="5300.0" y="2175.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5310.0" y="2185.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="5310.0">Comănești</tspan>
+
+</text>
+<rect x="5300.0" y="2250.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5310.0" y="2260.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="5310.0"><tspan dy="1em" x="5310.0">logntud: 26.451046818278744</tspan>
+<tspan dy="1em" x="5310.0">latitud: 46.41626917771015</tspan>
+<tspan dy="1em" x="5310.0">altitud: 421</tspan>
+</tspan>
+
+</text>
+<rect x="5300.0" y="2325.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5310.0" y="2335.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="5310.0"><tspan dy="1em" x="5310.0">dia: 11</tspan>
+<tspan dy="1em" x="5310.0">mes: 05</tspan>
+<tspan dy="1em" x="5310.0">año: 1926</tspan>
+</tspan>
+
+</text>
+<rect x="5300.0" y="2400.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5310.0" y="2410.0">
+{http://tempuri.org/personas}lugar_fallecimiento: <tspan dy="1em" x="5310.0">Comănești</tspan>
+
+</text>
+<rect x="5300.0" y="2475.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5310.0" y="2485.0">
+{http://tempuri.org/personas}coor_fallecimiento: <tspan dy="1em" x="5310.0"><tspan dy="1em" x="5310.0">logntud: 26.451046818278744</tspan>
+<tspan dy="1em" x="5310.0">latitud: 46.41626917771015</tspan>
+<tspan dy="1em" x="5310.0">altitud: 421</tspan>
+</tspan>
+
+</text>
+<rect x="5300.0" y="2550.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5310.0" y="2560.0">
+{http://tempuri.org/personas}fecha_fallecimiento: <tspan dy="1em" x="5310.0"><tspan dy="1em" x="5310.0">dia: 01</tspan>
+<tspan dy="1em" x="5310.0">mes: 02</tspan>
+<tspan dy="1em" x="5310.0">año: 1996</tspan>
+</tspan>
+
+</text>
+<rect x="5300.0" y="2625.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="5350.0" y="2625.0" href="../../multimedia/Ba_Aa_M.jpg" height="50"/><rect x="5300.0" y="2700.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="5310.0" y="2710.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="5310.0">Es mi bisabuela de parte de mi abuela de parte de mi madre</tspan>
+
+</text>
+
+        <polyline points="4900.0,775.0 4000.0,775.0 4000.0,1425.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="3900.0" y="1375.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3910.0" y="1385.0">
+Nicolae Ciofu
+</text>
+<rect x="3900.0" y="1525.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3910.0" y="1535.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="3910.0">Comănești</tspan>
+
+</text>
+<rect x="3900.0" y="1600.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3910.0" y="1610.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="3910.0"><tspan dy="1em" x="3910.0">logntud: 26.455939167560096</tspan>
+<tspan dy="1em" x="3910.0">latitud: 46.452707482319084</tspan>
+<tspan dy="1em" x="3910.0">altitud: 421</tspan>
+</tspan>
+
+</text>
+<rect x="3900.0" y="1675.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3910.0" y="1685.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="3910.0"><tspan dy="1em" x="3910.0">dia: 10</tspan>
+<tspan dy="1em" x="3910.0">mes: 09</tspan>
+<tspan dy="1em" x="3910.0">año: 1970</tspan>
+</tspan>
+
+</text>
+<rect x="3900.0" y="1750.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="3950.0" y="1750.0" href="../../multimedia/Ao_M.jpg" height="50"/><rect x="3900.0" y="1825.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3910.0" y="1835.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="3910.0">Es mi abuelo de parte de mi madre</tspan>
+
+</text>
+
+        <polyline points="4000.0,1425.0 4800.0,1425.0 4800.0,2075.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="4700.0" y="2025.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4710.0" y="2035.0">
+Philip Ciofu
+</text>
+<rect x="4700.0" y="2175.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4710.0" y="2185.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="4710.0">Comănești</tspan>
+
+</text>
+<rect x="4700.0" y="2250.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4710.0" y="2260.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="4710.0"><tspan dy="1em" x="4710.0">logntud: 26.425125949857364</tspan>
+<tspan dy="1em" x="4710.0">latitud: 46.4230736328753</tspan>
+<tspan dy="1em" x="4710.0">altitud: 421</tspan>
+</tspan>
+
+</text>
+<rect x="4700.0" y="2325.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4710.0" y="2335.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="4710.0"><tspan dy="1em" x="4710.0">dia: 04</tspan>
+<tspan dy="1em" x="4710.0">mes: 05</tspan>
+<tspan dy="1em" x="4710.0">año: 1935</tspan>
+</tspan>
+
+</text>
+<rect x="4700.0" y="2400.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4710.0" y="2410.0">
+{http://tempuri.org/personas}lugar_fallecimiento: <tspan dy="1em" x="4710.0">Comănești</tspan>
+
+</text>
+<rect x="4700.0" y="2475.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4710.0" y="2485.0">
+{http://tempuri.org/personas}coor_fallecimiento: <tspan dy="1em" x="4710.0"><tspan dy="1em" x="4710.0">logntud: 26.425125949857364</tspan>
+<tspan dy="1em" x="4710.0">latitud: 46.4230736328753</tspan>
+<tspan dy="1em" x="4710.0">altitud: 421</tspan>
+</tspan>
+
+</text>
+<rect x="4700.0" y="2550.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4710.0" y="2560.0">
+{http://tempuri.org/personas}fecha_fallecimiento: <tspan dy="1em" x="4710.0"><tspan dy="1em" x="4710.0">dia: 11</tspan>
+<tspan dy="1em" x="4710.0">mes: 07</tspan>
+<tspan dy="1em" x="4710.0">año: 2010</tspan>
+</tspan>
+
+</text>
+<rect x="4700.0" y="2625.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="4750.0" y="2625.0" href="../../multimedia/Bo_Ao_M.jpg" height="50"/><rect x="4700.0" y="2700.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="4710.0" y="2710.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="4710.0">Es mi bisabuelo de parte de mi abuelo de parte de mi madre</tspan>
+
+</text>
+
+        <polyline points="4000.0,1425.0 3700.0,1425.0 3700.0,2075.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="3600.0" y="2025.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3610.0" y="2035.0">
+Kisnera Ciofu
+</text>
+<rect x="3600.0" y="2175.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3610.0" y="2185.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="3610.0">Comănești</tspan>
+
+</text>
+<rect x="3600.0" y="2250.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3610.0" y="2260.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="3610.0"><tspan dy="1em" x="3610.0">logntud: 26.48091589808445</tspan>
+<tspan dy="1em" x="3610.0">latitud: 46.41248198256782</tspan>
+<tspan dy="1em" x="3610.0">altitud: 421</tspan>
+</tspan>
+
+</text>
+<rect x="3600.0" y="2325.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3610.0" y="2335.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="3610.0"><tspan dy="1em" x="3610.0">dia: 11</tspan>
+<tspan dy="1em" x="3610.0">mes: 05</tspan>
+<tspan dy="1em" x="3610.0">año: 1940</tspan>
+</tspan>
+
+</text>
+<rect x="3600.0" y="2400.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3610.0" y="2410.0">
+{http://tempuri.org/personas}lugar_fallecimiento: <tspan dy="1em" x="3610.0">Comănești</tspan>
+
+</text>
+<rect x="3600.0" y="2475.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3610.0" y="2485.0">
+{http://tempuri.org/personas}coor_fallecimiento: <tspan dy="1em" x="3610.0"><tspan dy="1em" x="3610.0">logntud: 26.48091589808445</tspan>
+<tspan dy="1em" x="3610.0">latitud: 46.41248198256782</tspan>
+<tspan dy="1em" x="3610.0">altitud: 421</tspan>
+</tspan>
+
+</text>
+<rect x="3600.0" y="2550.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3610.0" y="2560.0">
+{http://tempuri.org/personas}fecha_fallecimiento: <tspan dy="1em" x="3610.0"><tspan dy="1em" x="3610.0">dia: 23</tspan>
+<tspan dy="1em" x="3610.0">mes: 06</tspan>
+<tspan dy="1em" x="3610.0">año: 2012</tspan>
+</tspan>
+
+</text>
+<rect x="3600.0" y="2625.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="3650.0" y="2625.0" href="../../multimedia/Ba_Ao_M.jpg" height="50"/><rect x="3600.0" y="2700.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="3610.0" y="2710.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="3610.0">Es mi bisabuela de parte de mi abuelo de parte de mi madre</tspan>
+
+</text>
+
+        <polyline points="4100.0,50.0 1400.0,50.0 1400.0,775.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="1300.0" y="725.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1310.0" y="735.0">
+Nicolae Dumitru
+</text>
+<rect x="1300.0" y="875.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1310.0" y="885.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="1310.0">Bucaresti</tspan>
+
+</text>
+<rect x="1300.0" y="950.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1310.0" y="960.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="1310.0"><tspan dy="1em" x="1310.0">logntud: 25.473472206632763</tspan>
+<tspan dy="1em" x="1310.0">latitud: 44.91812188465076</tspan>
+<tspan dy="1em" x="1310.0">altitud: 219</tspan>
+</tspan>
+
+</text>
+<rect x="1300.0" y="1025.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1310.0" y="1035.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="1310.0"><tspan dy="1em" x="1310.0">dia: 11</tspan>
+<tspan dy="1em" x="1310.0">mes: 05</tspan>
+<tspan dy="1em" x="1310.0">año: 1970</tspan>
+</tspan>
+
+</text>
+<rect x="1300.0" y="1100.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="1350.0" y="1100.0" href="../../multimedia/P.jpg" height="50"/><rect x="1300.0" y="1175.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1310.0" y="1185.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="1310.0">Es mi padre</tspan>
+
+</text>
+
+        <polyline points="1400.0,775.0 2200.0,775.0 2200.0,1425.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="2100.0" y="1375.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2110.0" y="1385.0">
+Ion Dumitru
+</text>
+<rect x="2100.0" y="1525.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2110.0" y="1535.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="2110.0">Bucaresti</tspan>
+
+</text>
+<rect x="2100.0" y="1600.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2110.0" y="1610.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="2110.0"><tspan dy="1em" x="2110.0">logntud: 25.50616263157847</tspan>
+<tspan dy="1em" x="2110.0">latitud: 44.74099888070345</tspan>
+<tspan dy="1em" x="2110.0">altitud: 219</tspan>
+</tspan>
+
+</text>
+<rect x="2100.0" y="1675.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2110.0" y="1685.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="2110.0"><tspan dy="1em" x="2110.0">dia: 03</tspan>
+<tspan dy="1em" x="2110.0">mes: 12</tspan>
+<tspan dy="1em" x="2110.0">año: 1934</tspan>
+</tspan>
+
+</text>
+<rect x="2100.0" y="1750.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="2150.0" y="1750.0" href="../../multimedia/Ao_P.jpg" height="50"/><rect x="2100.0" y="1825.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2110.0" y="1835.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="2110.0">Es mi abuelo de parte de mi padre</tspan>
+
+</text>
+
+        <polyline points="2200.0,1425.0 3000.0,1425.0 3000.0,2075.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="2900.0" y="2025.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2910.0" y="2035.0">
+Sier Dumitru
+</text>
+<rect x="2900.0" y="2175.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2910.0" y="2185.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="2910.0">Bucaresti</tspan>
+
+</text>
+<rect x="2900.0" y="2250.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2910.0" y="2260.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="2910.0"><tspan dy="1em" x="2910.0">logntud: 25.410504437338133</tspan>
+<tspan dy="1em" x="2910.0">latitud: 44.74219556251973</tspan>
+<tspan dy="1em" x="2910.0">altitud: 219</tspan>
+</tspan>
+
+</text>
+<rect x="2900.0" y="2325.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2910.0" y="2335.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="2910.0"><tspan dy="1em" x="2910.0">dia: 11</tspan>
+<tspan dy="1em" x="2910.0">mes: 05</tspan>
+<tspan dy="1em" x="2910.0">año: 1925</tspan>
+</tspan>
+
+</text>
+<rect x="2900.0" y="2400.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2910.0" y="2410.0">
+{http://tempuri.org/personas}lugar_fallecimiento: <tspan dy="1em" x="2910.0">Bucaresti</tspan>
+
+</text>
+<rect x="2900.0" y="2475.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2910.0" y="2485.0">
+{http://tempuri.org/personas}coor_fallecimiento: <tspan dy="1em" x="2910.0"><tspan dy="1em" x="2910.0">logntud: 25.410504437338133</tspan>
+<tspan dy="1em" x="2910.0">latitud: 44.74219556251973</tspan>
+<tspan dy="1em" x="2910.0">altitud: 219</tspan>
+</tspan>
+
+</text>
+<rect x="2900.0" y="2550.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2910.0" y="2560.0">
+{http://tempuri.org/personas}fecha_fallecimiento: <tspan dy="1em" x="2910.0"><tspan dy="1em" x="2910.0">dia: 12</tspan>
+<tspan dy="1em" x="2910.0">mes: 12</tspan>
+<tspan dy="1em" x="2910.0">año: 1999</tspan>
+</tspan>
+
+</text>
+<rect x="2900.0" y="2625.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="2950.0" y="2625.0" href="../../multimedia/Ba_Ao_P.jpg" height="50"/><rect x="2900.0" y="2700.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="2910.0" y="2710.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="2910.0">Es mi bisabuela de parte de mi abuelo de parte de mi padre</tspan>
+
+</text>
+
+        <polyline points="2200.0,1425.0 1900.0,1425.0 1900.0,2075.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="1800.0" y="2025.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1810.0" y="2035.0">
+Damian Dumitru
+</text>
+<rect x="1800.0" y="2175.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1810.0" y="2185.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="1810.0">Bucaresti</tspan>
+
+</text>
+<rect x="1800.0" y="2250.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1810.0" y="2260.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="1810.0"><tspan dy="1em" x="1810.0">logntud: 25.343487541599153</tspan>
+<tspan dy="1em" x="1810.0">latitud: 44.80252936682957</tspan>
+<tspan dy="1em" x="1810.0">altitud: 219</tspan>
+</tspan>
+
+</text>
+<rect x="1800.0" y="2325.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1810.0" y="2335.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="1810.0"><tspan dy="1em" x="1810.0">dia: 11</tspan>
+<tspan dy="1em" x="1810.0">mes: 05</tspan>
+<tspan dy="1em" x="1810.0">año: 1932</tspan>
+</tspan>
+
+</text>
+<rect x="1800.0" y="2400.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1810.0" y="2410.0">
+{http://tempuri.org/personas}lugar_fallecimiento: <tspan dy="1em" x="1810.0">Bucaresti</tspan>
+
+</text>
+<rect x="1800.0" y="2475.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1810.0" y="2485.0">
+{http://tempuri.org/personas}coor_fallecimiento: <tspan dy="1em" x="1810.0"><tspan dy="1em" x="1810.0">logntud: 25.343487541599153</tspan>
+<tspan dy="1em" x="1810.0">latitud: 44.80252936682957</tspan>
+<tspan dy="1em" x="1810.0">altitud: 219</tspan>
+</tspan>
+
+</text>
+<rect x="1800.0" y="2550.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1810.0" y="2560.0">
+{http://tempuri.org/personas}fecha_fallecimiento: <tspan dy="1em" x="1810.0"><tspan dy="1em" x="1810.0">dia: 11</tspan>
+<tspan dy="1em" x="1810.0">mes: 08</tspan>
+<tspan dy="1em" x="1810.0">año: 2003</tspan>
+</tspan>
+
+</text>
+<rect x="1800.0" y="2625.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="1850.0" y="2625.0" href="../../multimedia/Bo_Ao_P.jpg" height="50"/><rect x="1800.0" y="2700.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1810.0" y="2710.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="1810.0">Es mi bisabuelo de parte de mi abuelo de parte de mi padre</tspan>
+
+</text>
+
+        <polyline points="1400.0,775.0 500.0,775.0 500.0,1425.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="400.0" y="1375.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="410.0" y="1385.0">
+Maria Dumitru
+</text>
+<rect x="400.0" y="1525.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="410.0" y="1535.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="410.0">Bucaresti</tspan>
+
+</text>
+<rect x="400.0" y="1600.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="410.0" y="1610.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="410.0"><tspan dy="1em" x="410.0">logntud: 25.450752014256</tspan>
+<tspan dy="1em" x="410.0">latitud: 44.798810162733936</tspan>
+<tspan dy="1em" x="410.0">altitud: 219</tspan>
+</tspan>
+
+</text>
+<rect x="400.0" y="1675.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="410.0" y="1685.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="410.0"><tspan dy="1em" x="410.0">dia: 01</tspan>
+<tspan dy="1em" x="410.0">mes: 06</tspan>
+<tspan dy="1em" x="410.0">año: 1954</tspan>
+</tspan>
+
+</text>
+<rect x="400.0" y="1750.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="450.0" y="1750.0" href="../../multimedia/Aa_P.jpg" height="50"/><rect x="400.0" y="1825.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="410.0" y="1835.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="410.0">Es mi abuela de parte de mi padre</tspan>
+
+</text>
+
+        <polyline points="500.0,1425.0 1300.0,1425.0 1300.0,2075.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="1200.0" y="2025.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1210.0" y="2035.0">
+Simon Dumitru
+</text>
+<rect x="1200.0" y="2175.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1210.0" y="2185.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="1210.0">Bucaresti</tspan>
+
+</text>
+<rect x="1200.0" y="2250.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1210.0" y="2260.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="1210.0"><tspan dy="1em" x="1210.0">logntud: 25.49586674083088</tspan>
+<tspan dy="1em" x="1210.0">latitud: 44.79960715539698</tspan>
+<tspan dy="1em" x="1210.0">altitud: 219</tspan>
+</tspan>
+
+</text>
+<rect x="1200.0" y="2325.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1210.0" y="2335.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="1210.0"><tspan dy="1em" x="1210.0">dia: 11</tspan>
+<tspan dy="1em" x="1210.0">mes: 06</tspan>
+<tspan dy="1em" x="1210.0">año: 1924</tspan>
+</tspan>
+
+</text>
+<rect x="1200.0" y="2400.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1210.0" y="2410.0">
+{http://tempuri.org/personas}lugar_fallecimiento: <tspan dy="1em" x="1210.0">Bucaresti</tspan>
+
+</text>
+<rect x="1200.0" y="2475.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1210.0" y="2485.0">
+{http://tempuri.org/personas}coor_fallecimiento: <tspan dy="1em" x="1210.0"><tspan dy="1em" x="1210.0">logntud: 25.49586674083088</tspan>
+<tspan dy="1em" x="1210.0">latitud: 44.79960715539698</tspan>
+<tspan dy="1em" x="1210.0">altitud: 219</tspan>
+</tspan>
+
+</text>
+<rect x="1200.0" y="2550.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1210.0" y="2560.0">
+{http://tempuri.org/personas}fecha_fallecimiento: <tspan dy="1em" x="1210.0"><tspan dy="1em" x="1210.0">dia: 21</tspan>
+<tspan dy="1em" x="1210.0">mes: 09</tspan>
+<tspan dy="1em" x="1210.0">año: 1992</tspan>
+</tspan>
+
+</text>
+<rect x="1200.0" y="2625.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="1250.0" y="2625.0" href="../../multimedia/Bo_Aa_P.jpg" height="50"/><rect x="1200.0" y="2700.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="1210.0" y="2710.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="1210.0">Es mi bisabuelo de parte de mi abuela de parte de mi padre</tspan>
+
+</text>
+
+        <polyline points="500.0,1425.0 200.0,1425.0 200.0,2075.0" style="fill:none;stroke:red;stroke-width:3" />
+    <rect x="100.0" y="2025.0" height="100" width="200" stroke="green" stroke-width="3" fill="red"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="110.0" y="2035.0">
+Misa Dumitru
+</text>
+<rect x="100.0" y="2175.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="110.0" y="2185.0">
+{http://tempuri.org/personas}lugar_nacimiento: <tspan dy="1em" x="110.0">Bucaresti</tspan>
+
+</text>
+<rect x="100.0" y="2250.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="110.0" y="2260.0">
+{http://tempuri.org/personas}coor_nacimiento: <tspan dy="1em" x="110.0"><tspan dy="1em" x="110.0">logntud: 25.455060537421573</tspan>
+<tspan dy="1em" x="110.0">latitud: 44.76163833850013</tspan>
+<tspan dy="1em" x="110.0">altitud: 219</tspan>
+</tspan>
+
+</text>
+<rect x="100.0" y="2325.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="110.0" y="2335.0">
+{http://tempuri.org/personas}fecha_nacimiento: <tspan dy="1em" x="110.0"><tspan dy="1em" x="110.0">dia: 17</tspan>
+<tspan dy="1em" x="110.0">mes: 08</tspan>
+<tspan dy="1em" x="110.0">año: 1921</tspan>
+</tspan>
+
+</text>
+<rect x="100.0" y="2400.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="110.0" y="2410.0">
+{http://tempuri.org/personas}lugar_fallecimiento: <tspan dy="1em" x="110.0">Bucaresti</tspan>
+
+</text>
+<rect x="100.0" y="2475.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="110.0" y="2485.0">
+{http://tempuri.org/personas}coor_fallecimiento: <tspan dy="1em" x="110.0"><tspan dy="1em" x="110.0">logntud: 25.455060537421573</tspan>
+<tspan dy="1em" x="110.0">latitud: 44.76163833850013</tspan>
+<tspan dy="1em" x="110.0">altitud: 219</tspan>
+</tspan>
+
+</text>
+<rect x="100.0" y="2550.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="110.0" y="2560.0">
+{http://tempuri.org/personas}fecha_fallecimiento: <tspan dy="1em" x="110.0"><tspan dy="1em" x="110.0">dia: 03</tspan>
+<tspan dy="1em" x="110.0">mes: 12</tspan>
+<tspan dy="1em" x="110.0">año: 2000</tspan>
+</tspan>
+
+</text>
+<rect x="100.0" y="2625.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><image x="150.0" y="2625.0" href="../../multimedia/Ba_Aa_P.jpg" height="50"/><rect x="100.0" y="2700.0" height="50" width="200" stroke="red" stroke-width="3" fill="green"/><text fill="#ffffff" font-size="10" font-family="Verdana" x="110.0" y="2710.0">
+{http://tempuri.org/personas}comentarios: <tspan dy="1em" x="110.0">Es mi bisabuela de parte de mi abuela de parte de mi padre</tspan>
+
+</text>
+
+    </svg>
+    </body>
+</html>

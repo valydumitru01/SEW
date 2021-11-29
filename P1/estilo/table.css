@@ -1,0 +1,22 @@
+/*Especificidad: 001*/
+table{
+    color:bisque;
+}
+/*Especificidad: 002*/
+table tr{
+    background-color: #704315;
+    
+}
+/*Especificidad: 003*/
+table tr td{
+    border:0.15em dotted rgb(241, 195, 142);
+    width: 100%;
+}  
+/*Especificidad: 003*/
+table tr th{
+    border:0.2em dashed rgb(241, 195, 142);
+}
+/*Especificidad: 013*/
+table tr td:hover{
+    border:0.15em solid rgb(241, 195, 142);
+}

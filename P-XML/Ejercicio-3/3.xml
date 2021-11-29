@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trajectorys xmlns="http://www.witsml.org/schemas/1series" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.4.1.1">
+  <trajectory uidWell="a03e86c7-72c1-414e-aecc-8ea3c5" uidWellbore="5ed5bb6b-f6e5-465b-9779-d87220f9" uid="T-3698498-1" xmlns="http://www.witsml.org/schemas/1series">
+    <nameWell>EnergisticsWell2016-A</nameWell>
+    <nameWellbore>EnergisticsWellbore2016-A</nameWellbore>
+    <name>17.5in_drilling_run02 - Actual Traj</name>
+    <objectGrowing>false</objectGrowing>
+    <dTimTrajStart>2016-02-09T09:45:47.000Z</dTimTrajStart>
+    <dTimTrajEnd>2016-02-14T14:35:48.000Z</dTimTrajEnd>
+    <mdMn uom="m">0</mdMn>
+    <mdMx uom="m">463.386718750001</mdMx>
+    <serviceCompany>Schlumberger</serviceCompany>
+    <gridCorUsed uom="dega">-0.639999985694885</gridCorUsed>
+    <aziVertSect uom="dega">341.288</aziVertSect>
+    <memory>false</memory>
+    <aziRef>grid north</aziRef>
+    <trajectoryStation uid="S-0">
+      <dTimStn>2016-02-09T09:45:47.000Z</dTimStn>
+      <typeTrajStation>tie in point</typeTrajStation>
+      <md uom="m">0</md>
+      <tvd uom="m">0</tvd>
+      <incl uom="dega">0</incl>
+      <azi uom="dega">0</azi>
+      <dispNs uom="m">29.293</dispNs>
+      <dispEw uom="m">2.087</dispEw>
+      <vertSect uom="m">0</vertSect>
+      <dls uom="dega/m">0</dls>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">0</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-435000000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">43.5</md>
+      <tvd uom="m">43.5001416</tvd>
+      <incl uom="dega">0</incl>
+      <azi uom="dega">0</azi>
+      <dispNs uom="m">29.2929999864</dispNs>
+      <dispEw uom="m">2.0870000424</dispEw>
+      <vertSect uom="m">0</vertSect>
+      <dls uom="dega/m">0</dls>
+      <rateTurn uom="dega/m">0</rateTurn>
+      <rateBuild uom="dega/m">0</rateBuild>
+      <mdDelta uom="m">43.5</mdDelta>
+      <tvdDelta uom="m">43.5</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-1520000000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">152</md>
+      <tvd uom="m">152.0001024</tvd>
+      <incl uom="dega">0</incl>
+      <azi uom="dega">339.6</azi>
+      <dispNs uom="m">29.2929999864</dispNs>
+      <dispEw uom="m">2.0870000424</dispEw>
+      <vertSect uom="m">0</vertSect>
+      <dls uom="dega/m">0</dls>
+      <rateTurn uom="dega/m">-0.188018433179727</rateTurn>
+      <rateBuild uom="dega/m">0</rateBuild>
+      <mdDelta uom="m">108.5</mdDelta>
+      <tvdDelta uom="m">108.5</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-2910000000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">291</md>
+      <tvd uom="m">290.9550696</tvd>
+      <incl uom="dega">2.53</incl>
+      <azi uom="dega">339.6</azi>
+      <dispNs uom="m">32.1689571504</dispNs>
+      <dispEw uom="m">1.0174412976</dispEw>
+      <vertSect uom="m">3.06706954294039</vertSect>
+      <dls uom="dega/m">0.0182020997375328</dls>
+      <rateTurn uom="dega/m">0</rateTurn>
+      <rateBuild uom="dega/m">0.0182014388489209</rateBuild>
+      <mdDelta uom="m">139</mdDelta>
+      <tvdDelta uom="m">138.954833442857</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-3000000000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">300</md>
+      <tvd uom="m">299.947584</tvd>
+      <incl uom="dega">2.12</incl>
+      <azi uom="dega">328.08</azi>
+      <dispNs uom="m">32.4964376232</dispNs>
+      <dispEw uom="m">0.860182176</dispEw>
+      <vertSect uom="m">3.4276909128022</vertSect>
+      <dls uom="dega/m">0.0688615485564305</dls>
+      <rateTurn uom="dega/m">-1.28</rateTurn>
+      <rateBuild uom="dega/m">-0.0455555555555555</rateBuild>
+      <mdDelta uom="m">9</mdDelta>
+      <tvdDelta uom="m">8.99262122020166</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-3100000000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">310.000000000001</md>
+      <tvd uom="m">309.9407568</tvd>
+      <incl uom="dega">2.07</incl>
+      <azi uom="dega">330.06</azi>
+      <dispNs uom="m">32.809932348</dispNs>
+      <dispEw uom="m">0.6722488968</dispEw>
+      <vertSect uom="m">3.78490643256008</vertSect>
+      <dls uom="dega/m">0.00879593175853018</dls>
+      <rateTurn uom="dega/m">0.198000000000003</rateTurn>
+      <rateBuild uom="dega/m">-0.00499999999999997</rateBuild>
+      <mdDelta uom="m">9.99999999999999</mdDelta>
+      <tvdDelta uom="m">9.99331688903888</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-3200000000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">320</md>
+      <tvd uom="m">319.9336248</tvd>
+      <incl uom="dega">2.27</incl>
+      <azi uom="dega">325.98</azi>
+      <dispNs uom="m">33.1305798144</dispNs>
+      <dispEw uom="m">0.4713094968</dispEw>
+      <vertSect uom="m">4.15306920031558</vertSect>
+      <dls uom="dega/m">0.025259186351706</dls>
+      <rateTurn uom="dega/m">-0.408</rateTurn>
+      <rateBuild uom="dega/m">0.02</rateBuild>
+      <mdDelta uom="m">9.99999999999999</mdDelta>
+      <tvdDelta uom="m">9.99282975781159</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-3300000000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">330</md>
+      <tvd uom="m">329.9255784</tvd>
+      <incl uom="dega">2.37</incl>
+      <azi uom="dega">331.23</azi>
+      <dispNs uom="m">33.4759663728</dispNs>
+      <dispEw uom="m">0.2609938392</dispEw>
+      <vertSect uom="m">4.54767125283866</vertSect>
+      <dls uom="dega/m">0.0234776902887139</dls>
+      <rateTurn uom="dega/m">0.525000000000003</rateTurn>
+      <rateBuild uom="dega/m">0.00999999999999997</rateBuild>
+      <mdDelta uom="m">9.99999999999999</mdDelta>
+      <tvdDelta uom="m">9.99181343042806</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-3400000000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">339.999999999999</md>
+      <tvd uom="m">339.9163128</tvd>
+      <incl uom="dega">2.56</incl>
+      <azi uom="dega">330.29</azi>
+      <dispNs uom="m">33.851176392</dispNs>
+      <dispEw uom="m">0.050796444</dispEw>
+      <vertSect uom="m">4.97048271005963</vertSect>
+      <dls uom="dega/m">0.0194258530183727</dls>
+      <rateTurn uom="dega/m">-0.0939999999999993</rateTurn>
+      <rateBuild uom="dega/m">0.019</rateBuild>
+      <mdDelta uom="m">9.99999999999999</mdDelta>
+      <tvdDelta uom="m">9.99074264365536</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-3500000000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">349.999999999999</md>
+      <tvd uom="m">349.9055232</tvd>
+      <incl uom="dega">2.77</incl>
+      <azi uom="dega">330.71</azi>
+      <dispNs uom="m">34.2558895272</dispNs>
+      <dispEw uom="m">-0.1781019552</dispEw>
+      <vertSect uom="m">5.42723697055942</vertSect>
+      <dls uom="dega/m">0.0210892388451444</dls>
+      <rateTurn uom="dega/m">0.0419999999999925</rateTurn>
+      <rateBuild uom="dega/m">0.021</rateBuild>
+      <mdDelta uom="m">9.99999999999999</mdDelta>
+      <tvdDelta uom="m">9.98917914808556</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-3600000000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">359.999999999999</md>
+      <tvd uom="m">359.8926</tvd>
+      <incl uom="dega">3.04</incl>
+      <azi uom="dega">330.65</azi>
+      <dispNs uom="m">34.6977617448</dispNs>
+      <dispEw uom="m">-0.4262862696</dispEw>
+      <vertSect uom="m">5.92537371623087</vertSect>
+      <dls uom="dega/m">0.027001312335958</dls>
+      <rateTurn uom="dega/m">-0.00599999999999964</rateTurn>
+      <rateBuild uom="dega/m">0.027</rateBuild>
+      <mdDelta uom="m">9.99999999999999</mdDelta>
+      <tvdDelta uom="m">9.98714014462231</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-3642900000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">364.29</md>
+      <tvd uom="m">364.1756496</tvd>
+      <incl uom="dega">3.44</incl>
+      <azi uom="dega">333.94</azi>
+      <dispNs uom="m">34.9125393696</dispNs>
+      <dispEw uom="m">-0.538586172</dispEw>
+      <vertSect uom="m">6.16482583626651</vertSect>
+      <dls uom="dega/m">0.102785433070866</dls>
+      <rateTurn uom="dega/m">0.766899766899764</rateTurn>
+      <rateBuild uom="dega/m">0.0932400932400929</rateBuild>
+      <mdDelta uom="m">4.29000000000003</mdDelta>
+      <tvdDelta uom="m">4.2831376958458</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-3780600000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">378.06</md>
+      <tvd uom="m">377.9190816</tvd>
+      <incl uom="dega">3.73</incl>
+      <azi uom="dega">348.46</azi>
+      <dispNs uom="m">35.7225283008</dispNs>
+      <dispEw uom="m">-0.8096856552</dispEw>
+      <vertSect uom="m">7.01897304082301</vertSect>
+      <dls uom="dega/m">0.068999343832021</dls>
+      <rateTurn uom="dega/m">1.05446623093682</rateTurn>
+      <rateBuild uom="dega/m">0.0210602759622368</rateBuild>
+      <mdDelta uom="m">13.77</mdDelta>
+      <tvdDelta uom="m">13.7433248570012</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-3819400000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">381.939999999999</md>
+      <tvd uom="m">381.7906512</tvd>
+      <incl uom="dega">3.79</incl>
+      <azi uom="dega">347.09</azi>
+      <dispNs uom="m">35.9711753016</dispNs>
+      <dispEw uom="m">-0.8635834392</dispEw>
+      <vertSect uom="m">7.27176857962795</vertSect>
+      <dls uom="dega/m">0.0278412073490814</dls>
+      <rateTurn uom="dega/m">-0.353092783505161</rateTurn>
+      <rateBuild uom="dega/m">0.0154639175257733</rateBuild>
+      <mdDelta uom="m">3.87999999999999</mdDelta>
+      <tvdDelta uom="m">3.87164888926873</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-3935600000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">393.559999999999</md>
+      <tvd uom="m">393.3925584</tvd>
+      <incl uom="dega">2.6</incl>
+      <azi uom="dega">352.58</azi>
+      <dispNs uom="m">36.6068835552</dispNs>
+      <dispEw uom="m">-0.9834268368</dispEw>
+      <vertSect uom="m">7.91232224673257</vertSect>
+      <dls uom="dega/m">0.105623359580052</dls>
+      <rateTurn uom="dega/m">0.472461273666099</rateTurn>
+      <rateBuild uom="dega/m">-0.102409638554217</rateBuild>
+      <mdDelta uom="m">11.62</mdDelta>
+      <tvdDelta uom="m">11.6017563110549</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-4035900000">
+      <dTimStn>2016-02-13T01:33:23.000Z</dTimStn>
+      <typeTrajStation>unknown</typeTrajStation>
+      <md uom="m">403.590000000001</md>
+      <tvd uom="m">403.4146872</tvd>
+      <incl uom="dega">1.89</incl>
+      <azi uom="dega">348.38</azi>
+      <dispNs uom="m">36.9944876568</dispNs>
+      <dispEw uom="m">-1.0461214536</dispEw>
+      <vertSect uom="m">8.29955197611073</vertSect>
+      <dls uom="dega/m">0.0726148293963255</dls>
+      <rateTurn uom="dega/m">-0.418743768693921</rateTurn>
+      <rateBuild uom="dega/m">-0.0707876370887339</rateBuild>
+      <mdDelta uom="m">10.03</mdDelta>
+      <tvdDelta uom="m">10.0222441454149</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-4297363892">
+      <dTimStn>2016-02-14T07:26:18.000Z</dTimStn>
+      <typeTrajStation>gyro MWD</typeTrajStation>
+      <md uom="m">429.736389160158</md>
+      <tvd uom="m">429.5488488</tvd>
+      <incl uom="dega">1.74154555797577</incl>
+      <azi uom="dega">310.430206298828</azi>
+      <dispNs uom="m">37.6745016384</dispNs>
+      <dispEw uom="m">-1.4354095752</dispEw>
+      <vertSect uom="m">9.06851051989545</vertSect>
+      <dls uom="dega/m">0.0454724409448819</dls>
+      <rateTurn uom="dega/m">-1.4514353576211</rateTurn>
+      <rateBuild uom="dega/m">-0.00567781811533871</rateBuild>
+      <mdDelta uom="m">26.1463891601563</mdDelta>
+      <tvdDelta uom="m">26.1341762964992</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnMagDeclUsed uom="dega">-0.971000015735626</stnMagDeclUsed>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+        <dirSensorOffset uom="m">4.36575317382813</dirSensorOffset>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-4535132446">
+      <dTimStn>2016-02-14T13:45:17.000Z</dTimStn>
+      <typeTrajStation>gyro MWD</typeTrajStation>
+      <md uom="m">453.513244628906</md>
+      <tvd uom="m">453.3174576</tvd>
+      <incl uom="dega">1.25259435176849</incl>
+      <azi uom="dega">324.509826660156</azi>
+      <dispNs uom="m">38.1204182472</dispNs>
+      <dispEw uom="m">-1.8613133208</dispEw>
+      <vertSect uom="m">9.62749202457237</vertSect>
+      <dls uom="dega/m">0.0255872703412073</dls>
+      <rateTurn uom="dega/m">0.592156535578602</rateTurn>
+      <rateBuild uom="dega/m">-0.0205641661425711</rateBuild>
+      <mdDelta uom="m">23.77685546875</mdDelta>
+      <tvdDelta uom="m">23.7687464732305</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnMagDeclUsed uom="dega">-0.971000015735626</stnMagDeclUsed>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+        <dirSensorOffset uom="m">4.36575317382813</dirSensorOffset>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <trajectoryStation uid="S-4633867188">
+      <dTimStn>2016-02-14T14:35:48.000Z</dTimStn>
+      <typeTrajStation>gyro MWD</typeTrajStation>
+      <md uom="m">463.386718750001</md>
+      <tvd uom="m">463.1881008</tvd>
+      <incl uom="dega">1.49432301521301</incl>
+      <azi uom="dega">321.537872314453</azi>
+      <dispNs uom="m">38.3090924952</dispNs>
+      <dispEw uom="m">-2.0040426264</dispEw>
+      <vertSect uom="m">9.85198276172087</vertSect>
+      <dls uom="dega/m">0.0255150918635171</dls>
+      <rateTurn uom="dega/m">-0.301003913035413</rateTurn>
+      <rateBuild uom="dega/m">0.0244826350360395</rateBuild>
+      <mdDelta uom="m">9.87347412109375</mdDelta>
+      <tvdDelta uom="m">9.87063141591414</tvdDelta>
+      <gravTotalUncert uom="m/s2">0.0181423</gravTotalUncert>
+      <dipAngleUncert uom="dega">0.45</dipAngleUncert>
+      <magTotalUncert uom="nT">300</magTotalUncert>
+      <gravAccelCorUsed>false</gravAccelCorUsed>
+      <magXAxialCorUsed>false</magXAxialCorUsed>
+      <sagCorUsed>false</sagCorUsed>
+      <magDrlstrCorUsed>false</magDrlstrCorUsed>
+      <gravTotalFieldReference uom="m/s2">9.82106600000001</gravTotalFieldReference>
+      <magTotalFieldReference uom="nT">51196.1</magTotalFieldReference>
+      <magDipAngleReference uom="dega">73.173</magDipAngleReference>
+      <statusTrajStation>position</statusTrajStation>
+      <corUsed>
+        <gravAxialAccelCor uom="m/s2">0</gravAxialAccelCor>
+        <gravTran1AccelCor uom="m/s2">0</gravTran1AccelCor>
+        <gravTran2AccelCor uom="m/s2">0</gravTran2AccelCor>
+        <magAxialDrlstrCor uom="nT">0</magAxialDrlstrCor>
+        <magTran1DrlstrCor uom="nT">0</magTran1DrlstrCor>
+        <magTran2DrlstrCor uom="nT">0</magTran2DrlstrCor>
+        <sagIncCor uom="dega">0</sagIncCor>
+        <sagAziCor uom="dega">0</sagAziCor>
+        <stnMagDeclUsed uom="dega">-0.971000015735626</stnMagDeclUsed>
+        <stnGridCorUsed uom="dega">-0.639999985694885</stnGridCorUsed>
+        <dirSensorOffset uom="m">4.36575317382813</dirSensorOffset>
+      </corUsed>
+      <commonData>
+        <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+        <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      </commonData>
+    </trajectoryStation>
+    <commonData>
+      <sourceName>SLB_HZ</sourceName>
+      <dTimCreation>2016-04-04T11:51:45.346Z</dTimCreation>
+      <dTimLastChange>2016-04-04T11:51:45.346Z</dTimLastChange>
+      <itemState>actual</itemState>
+      
+      
+      
+      
+      
+    </commonData>
+  </trajectory>
+</trajectorys>

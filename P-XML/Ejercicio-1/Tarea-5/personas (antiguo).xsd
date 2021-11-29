@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/personas" elementFormDefault="qualified" targetNamespace="http://tempuri.org/personas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="personas">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="persona" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="persona">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="datos" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="persona" />
+			</xs:sequence>
+			<xs:attribute name="nombre" type="xs:string" use="required" />
+			<xs:attribute name="apellidos" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="datos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="lugar_nacimiento" />
+				<xs:element ref="coor_nacimiento" />
+				<xs:element ref="fecha_nacimiento" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="lugar_fallecimiento" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="coor_fallecimiento" />
+				<xs:element minOccurs="0" maxOccurs="1" ref="fecha_fallecimiento" />
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="foto" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="video" />
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="comentarios" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="lugar_nacimiento" type="xs:string" />
+	<xs:element name="coor_nacimiento">
+		<xs:complexType>
+			<xs:attribute name="logntud" type="xs:string" use="required" />
+			<xs:attribute name="latitud" type="xs:string" use="required" />
+			<xs:attribute name="altitud" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="fecha_nacimiento">
+		<xs:complexType>
+			<xs:attribute name="dia" type="xs:string" use="required" />
+			<xs:attribute name="mes" type="xs:string" use="required" />
+			<xs:attribute name="año" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="lugar_fallecimiento" type="xs:string" />
+	<xs:element name="fecha_fallecimiento">
+		<xs:complexType>
+			<xs:attribute name="dia" type="xs:string" use="required" />
+			<xs:attribute name="mes" type="xs:string" use="required" />
+			<xs:attribute name="año" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="coor_fallecimiento">
+		<xs:complexType>
+			<xs:attribute name="logntud" type="xs:string" use="required" />
+			<xs:attribute name="latitud" type="xs:string" use="required" />
+			<xs:attribute name="altitud" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="foto" type="xs:string" />
+	<xs:element name="video" type="xs:string" />
+	<xs:element name="comentarios" type="xs:string" />
+</xs:schema>

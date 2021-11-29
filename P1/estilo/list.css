@@ -1,0 +1,10 @@
+/*Especificidad: 002*/
+ol li{
+    border-top:1px dashed bisque;
+}
+/*Especificidad: 001*/
+ol{
+    border:0.3em dashed rgb(241, 195, 142);
+    color: bisque;
+    background-color: #704315;
+}

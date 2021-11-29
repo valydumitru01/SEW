@@ -1,0 +1,49 @@
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (datos,persona*)>
+
+<!ELEMENT datos (lugar_nacimiento,coor_nacimiento,fecha_nacimiento,lugar_fallecimiento?,coor_fallecimiento?,fecha_fallecimiento?,foto+,video*,comentarios+)>
+<!ATTLIST persona 
+nombre CDATA #REQUIRED
+apellidos CDATA #REQUIRED>
+
+
+
+<!ELEMENT lugar_nacimiento (#PCDATA)>
+
+<!ELEMENT coor_nacimiento EMPTY>
+<!ATTLIST coor_nacimiento 
+logntud CDATA #REQUIRED
+latitud CDATA #REQUIRED
+altitud CDATA #REQUIRED>
+
+<!ELEMENT fecha_nacimiento EMPTY>
+<!ATTLIST fecha_nacimiento 
+dia CDATA #REQUIRED
+mes CDATA #REQUIRED
+año CDATA #REQUIRED>
+
+
+
+
+
+<!ELEMENT lugar_fallecimiento (#PCDATA)>
+
+<!ELEMENT fecha_fallecimiento EMPTY>
+<!ATTLIST fecha_fallecimiento 
+dia CDATA #REQUIRED
+mes CDATA #REQUIRED
+año CDATA #REQUIRED>
+
+<!ELEMENT coor_fallecimiento EMPTY>
+<!ATTLIST coor_fallecimiento 
+logntud CDATA #REQUIRED
+latitud CDATA #REQUIRED
+altitud CDATA #REQUIRED>
+
+
+
+
+
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT video (#PCDATA)>
+<!ELEMENT comentarios (#PCDATA)>
