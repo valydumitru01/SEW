@@ -13,12 +13,13 @@ function calcularTamañoArchivos() {
     for (var i = 0; i < nArchivos; i++) {
         nBytes += archivos[i].size;
     }
-    var nombresTiposTamaños = "";
+    var nombresTiposTamaños = "<h2> Nombre de archivos </h2>";
     for (var i = 0; i < nArchivos; i++) {
         nombresTiposTamaños += "<p>Archivo[" + i + "] = " + archivos[i].name + " Tamaño: " + archivos[i].size + " bytes " + " Tipo: " + archivos[i].type + "</p>";
     }
 
     document.getElementsByTagName("p")[3].innerHTML = nArchivos;
     document.getElementsByTagName("p")[5].innerHTML = nBytes + " bytes";
-    document.getElementsByTagName("p")[6].innerHTML = nombresTiposTamaños;
+    document.getElementsByTagName("section")[0].innerHTML = nombresTiposTamaños;
+    console.log(document.getElementsByTagName("p"))
 }
