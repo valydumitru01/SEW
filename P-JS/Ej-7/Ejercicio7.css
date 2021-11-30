@@ -1,54 +1,64 @@
+/*Especificidad: 0 0 1 */
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: azure;
-    background-color:darkslategray ;
+    background-color:rgb(29, 59, 59) ;
     width: 75%;
     left: 10%;
     position: relative;
 }
+/*Especificidad: 0 0 2 */
 body>header{
     background-color: rgb(193, 206, 206);
-    color:rgb(17, 56, 56);
+    color:rgb(12, 42, 42);
 }
+/*Especificidad: 0 0 1 */
 header{
-    background-color: rgb(17, 56, 56);
+    background-color: rgb(9, 41, 41);
     padding: 1em;
 
 }
+/*Especificidad: 0 0 1 */
 header{
     text-align: center;
     
-    
 }
 
+/*Especificidad: 0 0 2 */
 table th{
     border-bottom: rgb(36, 139, 139) solid 2px;
     border-right: rgb(36, 139, 139) solid 2px;
 }
+/*Especificidad: 0 0 2 */
 table td{
     border-right: rgb(36, 139, 139) solid 2px;
 }
-
+/*Especificidad: 0 0 1 */
 section{
     padding: 1em;
     border: solid;
     border-radius: 1em;
 }
+/*Especificidad: 0 0 1 */
 footer{
     padding: 1em;
     font-weight: bold;
     
 }
+/*Especificidad: 0 0 1 */
 textarea{
     width: 100%;
 }
+/*Especificidad: 0 0 1 */
 h3{
     padding: 0.3em;
 }
+/*Especificidad: 0 1 1 */
 h3:hover{
     
     background-color: rgb(17, 56, 56);
 }
+/*Especificidad: 0 1 2 */
  form input[type=text]{
  border: rgb(140, 173, 173) 0.3em solid;
 }

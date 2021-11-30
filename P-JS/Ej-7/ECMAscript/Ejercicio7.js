@@ -3,9 +3,9 @@ function Hide(elem) {
     $(elem).hide()
 }
 
-function DesplegarEjercicios(num) {
+function DesplegarEjercicios() {
 
-    $("h3[name="+num+"] ~ ul").toggle(300)
+    $("li h3 ~ ul").toggle(300)
 }
 function CambiarBorde(num) {
     $("main section:nth-child("+num+")").click(function(){
