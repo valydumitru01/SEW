@@ -25,16 +25,13 @@ class Tiempo {
             success: function (data) {
                 self.seleccionarDatos(data)
                 self.mostrarInfo()
-                self.esconder()
             },
             error: function () {
                 document.write(self.meteo.error);
             }
         });
     }
-    esconder(){
 
-    }
 
     seleccionarDatos(datos) {
         //console.log(JSON.stringify(datos,null,1))
@@ -127,7 +124,7 @@ class Tiempo {
         cabeceraInfo+="<header>"
         cabeceraInfo+="<h2>El tiempo en "+this.meteo.lat+", "+this.meteo.long+"</h2>"
         cabeceraInfo+="</header>"
-        $("section:nth-of-type(2)").html(cabeceraInfo)
+        $("main section:nth-of-type(2)").html(cabeceraInfo)
     }
     mostrarInfoGeneral() {
         var actual=""
@@ -154,7 +151,7 @@ class Tiempo {
         actual+="<p>Hora De Toma De Datos: "+this.actual.horaTomaDatos+"<p>"
         actual+="<p>Fecha De Toma De Datos: "+this.actual.fechaTomaDatos+"<p>"
         actual+="</footer>"
-        $("section:nth-of-type(2)").html($("section:nth-of-type(2)").html()+actual)
+        $("main>section:nth-of-type(2)").html(actual)
 
         var i=0
         this.semana.forEach(dia => {
@@ -166,7 +163,7 @@ class Tiempo {
     }
     mostrarDia(descripcion,icono,sensacionTermica,temperaturaReal,descripcionTiempo,probNieve,probLluvia,nubosidad,humedad,velocidadVinto,gradosDireccionViento,horaAmanecer,horaOscurecer,horaTomaDatos,fechaTomaDatos,paraCuando,index){
         var semanal=""
-        semanal+="<section name=dia onclick=\"miPosicion.toggleDia("+index+")\">"
+        semanal+="<section onclick=\"miPosicion.toggleDia("+index+")\">"
         semanal+="<header>"
             semanal+="<h3> Tiempo Para "+paraCuando+"</h3>"
             semanal+="<h3>Tiempo general: </h3>"
@@ -211,14 +208,14 @@ class Tiempo {
             semanal+="<li> <p> Fecha De Toma DeDatos: "+fechaTomaDatos+"</p> </li>"
         semanal+="</ul>"
         semanal+="</section>"
-        $("section:nth-of-type(3) section").html($("section:nth-of-type(3) section").html()+semanal)
+        $("main section:nth-of-type(3) section").html($("main section:nth-of-type(3) section").html()+semanal)
     }
 
     footer() {
         var footer = ""
         footer += "<footer><p>"
         footer += "<p>Datos extraidos de <a href=\"http://openweathermap.org\">http://openweathermap.org</a></p></footer>"
-        $("section:nth-of-type(2)").html($("section:nth-of-type(2)").html()+footer)
+        $("main>section:nth-of-type(2)").html($("main>section:nth-of-type(2)").html()+footer)
     }
     
 
