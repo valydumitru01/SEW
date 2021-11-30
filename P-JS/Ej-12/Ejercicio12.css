@@ -1,8 +1,8 @@
 /*Especificidad: 0 0 1*/
 body{
     background-color: blue;
-    width: 50%;
-    left: 25%;
+    width: 75%;
+    left: 10%;
     position: relative;
     font-family: 'Courier New', Courier, monospace;
 }
