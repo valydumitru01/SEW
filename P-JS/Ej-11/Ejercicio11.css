@@ -20,3 +20,7 @@ h1{
 p{
     padding:0.5em ;
 }
+/*Especificidad: 0 0 1*/
+img{
+    width: 100%;
+}
