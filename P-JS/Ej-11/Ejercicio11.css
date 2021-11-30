@@ -1,12 +1,3 @@
-/*Especificidad: 0 1 1*/
-section[name=mapa] {
-    width:100%; 
-    height:50vw; 
-    max-height: 50em;
-    border-radius: 1em;
-    border: 0.3em solid sienna;
-    
-}
 /*Especificidad: 0 0 1*/
 body{
     background-color: blanchedalmond;
