@@ -8,7 +8,7 @@ class Tiempo {
         this.meteo.ciudad = ciudad
         this.meteo.unidades = "&units=metric"
         this.meteo.idioma = "&lang=es"
-        this.meteo.url = "http://api.openweathermap.org/data/2.5/weather?q=" + this.meteo.ciudad + this.meteo.unidades + this.meteo.idioma + "&APPID=" + this.meteo.apikey
+        this.meteo.url = "https://api.openweathermap.org/data/2.5/weather?q=" + this.meteo.ciudad + this.meteo.unidades + this.meteo.idioma + "&APPID=" + this.meteo.apikey
         this.meteo.error = "<h2>¡problemas! No puedo obtener información de <a href=\"http://openweathermap.org\">OpenWeatherMap</a></h2>"
         console.log(this.meteo.url) 
         this.infoRelevanteMeteo=new Object()
