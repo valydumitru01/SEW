@@ -10,7 +10,7 @@ body{
 }
 /*Especificidad: 0 0 1*/
 header{
-    background-color:rgb(118, 141, 216) ;
+    background-color:rgb(76, 104, 197) ;
     padding:1em;
     border-radius: 1em;
 }
@@ -37,7 +37,7 @@ article{
 section{
     border: solid 0.2em white;
     border-radius: 1em;
-    background-color: rgb(73, 94, 163);
+    background-color: rgb(68, 86, 146);
     color: white;
     width: 20%;
     min-width: 15em;
