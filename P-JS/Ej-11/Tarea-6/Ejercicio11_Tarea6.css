@@ -9,7 +9,7 @@ main>section:nth-of-type(1) {
 /*Especificidad: 0 0 1*/
 body{
     background-color: blanchedalmond;
-    color: saddlebrown;
+    color: rgb(95, 43, 6);
     width: 75%;
     position: relative;
     left: 10%;
