@@ -64,7 +64,7 @@ class Meteo {
                 var icono = $('weather', datos).attr("icon");
 
                 var stringDatos = ""
-                stringDatos += "<h1>Ciudad: " + ciudad + ", " + pais + "<img src=https://openweathermap.org/img/w/" + icono + ".png alt=\"Icono " + descripcion + "\"> </h1>";
+                stringDatos += "<h2>Ciudad: " + ciudad + ", " + pais + "<img src=https://openweathermap.org/img/w/" + icono + ".png alt=\"Icono " + descripcion + "\"> </h2>";
                 stringDatos += "<ul>"
                 stringDatos += "<li>Longitud: " + longitud + " grados</li>";
                 stringDatos += "<li>Latitud: " + latitud + " grados</li>";
