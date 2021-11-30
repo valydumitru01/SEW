@@ -51,7 +51,7 @@ class Geolocalizacion{
         datos+='<p>Rumbo: '+ this.rumbo +' grados</p>'; 
         datos+='<p>Velocidad: '+ this.velocidad +' metros/segundo</p>';
         datos+=this.getMapaEstaticoGoogle()
-        document.getElementsByName("info")[0].innerHTML = datos;
+        document.getElementById("info").innerHTML = datos;
     }
     getMapaEstaticoGoogle(){
         
