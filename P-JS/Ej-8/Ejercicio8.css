@@ -62,6 +62,7 @@ section{
 }
 /*Especificidad: 0 0 1*/
 h1{
+    color: aqua;
     font-size: 3em;
 }
 /*Especificidad: 0 0 1*/
