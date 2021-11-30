@@ -16,7 +16,7 @@ class Meteo {
         this.unidades = "&units=metric";
         this.idioma = "&lang=es";
         this.url = "https://api.openweathermap.org/data/2.5/weather?q=" + this.ciudad + this.tipo + this.unidades + this.idioma + "&APPID=" + this.apikey;
-        this.correcto = "¡Todo correcto! XML recibido de <a href='http://openweathermap.org/'>OpenWeatherMap</a>"
+        this.correcto = "¡Todo correcto! XML recibido de <a href='https://openweathermap.org/'>OpenWeatherMap</a>"
         var self = this
         $.ajax({
             dataType: "xml",
@@ -98,7 +98,7 @@ class Meteo {
                     self.cargarDatos(index)
             },
             error: function () {
-                $("h3").html("¡Tenemos problemas! No puedo obtener XML de <a href='http://openweathermap.org'>OpenWeatherMap</a>");
+                $("h3").html("¡Tenemos problemas! No puedo obtener XML de <a href='https://openweathermap.org'>OpenWeatherMap</a>");
                 $("img").remove();
                 $("h4").remove();
                 $("h5").remove();
