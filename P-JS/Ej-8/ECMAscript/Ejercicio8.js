@@ -17,7 +17,7 @@ class Tiempo {
         this.meteo.unidades = "&units=metric"
         this.meteo.idioma = "&lang=es"
         this.meteo.url = "http://api.openweathermap.org/data/2.5/weather?q=" + this.meteo.ciudad + this.meteo.unidades + this.meteo.idioma + "&APPID=" + this.meteo.apikey
-        this.meteo.error = "<section><h2>¡problemas!<h2><p> No puedo obtener información de <a href=\"http://openweathermap.org\">OpenWeatherMap</a></p></section>"
+        this.meteo.error = "<h2>¡problemas!<h2><p> No puedo obtener información de <a href=\"http://openweathermap.org\">OpenWeatherMap</a></p>"
         this.infoRelevanteMeteo = new Object()
         var self = this
         this.meteo.datos = $.ajax({
@@ -34,7 +34,8 @@ class Tiempo {
 
             },
             error: function () {
-                document.write(self.meteo.error);
+                var whereStr = "body article section:nth-of-type("+index+")"
+                $(whereStr).html(this.meteo.error)
             }
         });
 
