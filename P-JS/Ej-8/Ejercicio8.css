@@ -66,5 +66,5 @@ h1{
 }
 /*Especificidad: 0 0 1*/
 a{
-    color: orangered;
+    color: rgb(128, 34, 0);
 }
