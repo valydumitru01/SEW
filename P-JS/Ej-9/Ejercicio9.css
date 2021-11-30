@@ -10,7 +10,7 @@ body{
 }
 /*Especificidad: 0 0 1*/
 header{
-    background-color:rgb(76, 104, 197) ;
+    background-color:rgb(187, 197, 228) ;
     padding:1em;
     border-radius: 1em;
 }
