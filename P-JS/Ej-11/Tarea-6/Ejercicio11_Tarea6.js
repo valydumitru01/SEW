@@ -3,7 +3,7 @@
 class Geolocalizacion {
     initMap() {
         var centro = { lat: 43.3672702, lng: -5.8502461 };
-        var mapaGeoposicionado = new google.maps.Map(document.getElementsByName("mapa")[0], {
+        var mapaGeoposicionado = new google.maps.Map(document.getElementById("mapa"), {
             zoom: 8,
             center: centro,
             mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -35,7 +35,6 @@ class Geolocalizacion {
                     lng: position.coords.longitude
                 };
                 self.mostrarTiempo(pos.lng, pos.lat)
-                console.log(pos)
                 marker.setPosition(pos)
                 mapaGeoposicionado.setCenter(pos);
             }, function () { 
@@ -56,11 +55,9 @@ class Geolocalizacion {
             'Error: Su navegador no soporta geolocalizacion');
         infoWindow.open(this.mapaGeoposicionado);
     }
+    toggleDia(index) {
+        $("section:nth-of-type(3) section ul[name="+index+"]").toggle(300)
+    }
 }
-
-function toggleDia(index) {
-    $("section[name=dia] ul[name="+index+"]").toggle(300)
-}
-
 var miPosicion = new Geolocalizacion();
 

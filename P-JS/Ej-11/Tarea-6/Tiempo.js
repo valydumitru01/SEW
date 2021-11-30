@@ -113,21 +113,21 @@ class Tiempo {
     }
     cerrarTodo(){
         for (let index = 0; index < this.semana.length; index++) {
-            $("section[name=dia] ul[name="+index+"]").toggle(300)
+            $("section:nth-of-type(3) section ul[name="+index+"]").toggle(300)
             
         }
         
     }
     resetHtml(){
-        $("section[name=tiempoActual]").html("")
-        $("section[name=tiempoSemana] section[name=dias]").html("")
+        $("section:nth-of-type(2)").html("")
+        $("section:nth-of-type(3) section").html("")
     }
     mostrarInfoCabecera(){
         var cabeceraInfo=""
         cabeceraInfo+="<header>"
         cabeceraInfo+="<h2>El tiempo en "+this.meteo.lat+", "+this.meteo.long+"</h2>"
         cabeceraInfo+="</header>"
-        $("section[name=tiempo]").html(cabeceraInfo)
+        $("section:nth-of-type(2)").html(cabeceraInfo)
     }
     mostrarInfoGeneral() {
         var actual=""
@@ -154,7 +154,7 @@ class Tiempo {
         actual+="<p>Hora De Toma De Datos: "+this.actual.horaTomaDatos+"<p>"
         actual+="<p>Fecha De Toma De Datos: "+this.actual.fechaTomaDatos+"<p>"
         actual+="</footer>"
-        $("section[name=tiempoActual]").html($("section[name=tiempoActual]").html()+actual)
+        $("section:nth-of-type(2)").html($("section:nth-of-type(2)").html()+actual)
 
         var i=0
         this.semana.forEach(dia => {
@@ -166,7 +166,7 @@ class Tiempo {
     }
     mostrarDia(descripcion,icono,sensacionTermica,temperaturaReal,descripcionTiempo,probNieve,probLluvia,nubosidad,humedad,velocidadVinto,gradosDireccionViento,horaAmanecer,horaOscurecer,horaTomaDatos,fechaTomaDatos,paraCuando,index){
         var semanal=""
-        semanal+="<section name=dia onclick=toggleDia("+index+")>"
+        semanal+="<section name=dia onclick=\"miPosicion.toggleDia("+index+")\">"
         semanal+="<header>"
             semanal+="<h3> Tiempo Para "+paraCuando+"</h3>"
             semanal+="<h3>Tiempo general: </h3>"
@@ -211,19 +211,16 @@ class Tiempo {
             semanal+="<li> <p> Fecha De Toma DeDatos: "+fechaTomaDatos+"</p> </li>"
         semanal+="</ul>"
         semanal+="</section>"
-        $("section[name=tiempoSemana] section[name=dias]").html($("section[name=tiempoSemana] section[name=dias]").html()+semanal)
+        $("section:nth-of-type(3) section").html($("section:nth-of-type(3) section").html()+semanal)
     }
 
     footer() {
         var footer = ""
         footer += "<footer><p>"
         footer += "<p>Datos extraidos de <a href=\"http://openweathermap.org\">http://openweathermap.org</a></p></footer>"
-        $("section[name=tiempoActual]").html($("section[name=tiempoActual]").html()+footer)
+        $("section:nth-of-type(2)").html($("section:nth-of-type(2)").html()+footer)
     }
+    
 
-}
-var tiempo;
-function CargarDatos(long, lat) {
-    tiempo = new Tiempo(long, lat, item)
 
 }
