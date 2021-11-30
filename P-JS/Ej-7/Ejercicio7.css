@@ -9,8 +9,8 @@ body{
 }
 /*Especificidad: 0 0 2 */
 body>header{
-    background-color: rgb(193, 206, 206);
-    color:rgb(12, 42, 42);
+    background-color: rgb(215, 219, 219);
+    color:rgb(9, 31, 31);
 }
 /*Especificidad: 0 0 1 */
 header{
