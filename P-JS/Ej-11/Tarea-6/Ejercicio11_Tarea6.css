@@ -1,11 +1,12 @@
+/*Especificidad: 0 1 1*/
 section[name=mapa] {
     width:100%; 
     height:50vw; 
     max-height: 30em;
     border-radius: 1em;
     border: 0.3em solid saddlebrown;
-    
 }
+/*Especificidad: 0 0 1*/
 body{
     background-color: blanchedalmond;
     color: saddlebrown;
@@ -13,27 +14,39 @@ body{
     position: relative;
     left: 10%;
 }
+/*Especificidad: 0 0 1*/
+/*Especificidad: 0 0 1*/
 h1,h2{
     text-align: center;
 }
+/*Especificidad: 0 0 1*/
 section{
     background-color: rgb(240, 194, 135);
 }
+/*Especificidad: 0 1 1*/
 section[name=tiempoActual]{
     margin-top: 1em;
-    
     padding: 1em;
     border: rgb(255, 199, 159) 0.3em solid;
 
 }
+/*Especificidad: 0 1 1*/
+section[name=tiempoActual] > *{
+    background-color: blanchedalmond;
+    border: 0.2em inset rgb(243, 160, 101);
+    padding: 1em;
+}
+/*Especificidad: 0 1 2*/
+section[name=tiempoActual] footer{
+    margin-top: 1em;
+}
+/*Especificidad: 0 1 1*/
 section[name=tiempoSemana]{
     padding: 1em;
     padding-right: 3.5em;
-
     margin-top: 1em;
-
 }
-
+/*Especificidad: 0 1 1*/
 section[name=dia]{
     border: 0.3em outset rgb(243, 160, 101);
     padding: 1em;
@@ -43,12 +56,15 @@ section[name=dia]{
     border-radius: 0.3em;
     background-color: rgb(255, 242, 221);
 }
+/*Especificidad: 0 2 1*/
 section:hover[name=dia]{
     background-color: rgb(255, 213, 155);
 }
+/*Especificidad: 0 2 1*/
 section:active[name=dia]{
     background-color: rgb(255, 195, 111);
 }
+/*Especificidad: 0 0 1*/
 a{
     color: rgb(221, 118, 0);
 }

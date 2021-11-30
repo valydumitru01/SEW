@@ -1,3 +1,4 @@
+/*Especificidad: 0 0 1*/
 body{
     background-color: blue;
     width: 50%;
@@ -5,17 +6,20 @@ body{
     position: relative;
     font-family: 'Courier New', Courier, monospace;
 }
+/*Especificidad: 0 0 1*/
 h1{
     background-color: aqua;
     border-radius: 1em;
     padding: 1em;
     border: rgb(30, 172, 124) 0.3em solid;
 }
+/*Especificidad: 0 0 1*/
 article{
     background-color: aquamarine;
     padding: 1em;
     border-radius: 1em;
 }
+/*Especificidad: 0 0 2*/
 body>p{
     background-color: rgb(205, 255, 255);
     padding: 1em;

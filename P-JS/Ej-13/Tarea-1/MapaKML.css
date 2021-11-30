@@ -1,7 +1,9 @@
+/*Especificidad: 0 0 1*/
 body{
     background-color: blueviolet;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
 }
+/*Especificidad: 0 1 1*/
 section[name=mapa] {
     height:50vw; 
     max-height: 50em;
@@ -9,12 +11,14 @@ section[name=mapa] {
     border: 0.3em solid cornflowerblue;
     
 }
+/*Especificidad: 0 0 1*/
 p{
     padding: 1em;
     background-color: cornflowerblue;
     border-radius: 1em;
     border: 0.3em solid darkmagenta;
 }
+/*Especificidad: 0 0 1*/
 h1{
     text-align: center;
     background-color: darkorchid;

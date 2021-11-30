@@ -1,3 +1,4 @@
+/*Especificidad: 0 0 1*/
 body{
     padding:1em ;
     background-color: rgb(131, 189, 228);
@@ -7,27 +8,32 @@ body{
     left: 10%;
     position: relative;
 }
+/*Especificidad: 0 0 1*/
 header{
     background-color:rgb(118, 141, 216) ;
     padding:1em;
     border-radius: 1em;
 }
+/*Especificidad: 0 0 1*/
 ul{
     list-style: none;
-    
 }
+/*Especificidad: 0 0 1*/
 li{
     padding-bottom: 0.2em;
 }
+/*Especificidad: 0 0 1*/
 article{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.2em;
     padding-top: 1em;
     grid-template-columns: repeat(2,1fr);
     flex-direction: row;
 
 }
+/*Especificidad: 0 0 1*/
 section{
     border: solid 0.2em white;
     border-radius: 1em;
@@ -37,6 +43,7 @@ section{
     min-width: 15em;
     padding: 2em;
 }
+/*Especificidad: 0 0 1*/
 img{
     background-color: rgb(166, 177, 226);
     border: solid 0.3em rgb(96, 98, 230);
@@ -45,6 +52,7 @@ img{
     left: 1em;
     width: 4em;
 }
+/*Especificidad: 0 0 1*/
 h1{
     text-align: center;
 }

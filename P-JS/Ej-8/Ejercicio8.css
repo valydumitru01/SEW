@@ -1,13 +1,14 @@
-
-
+/*Especificidad: 0 0 1*/
 ul{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     position: relative;
     right: 1.8em;
     gap: 0.3em;
 }
+/*Especificidad: 0 0 1*/
 li{
     position: relative;
     width: 20%;
@@ -19,14 +20,17 @@ li{
     border-radius: 0.6em;
     text-align: center;
 }
+/*Especificidad: 0 0 1*/
 p{
     padding:0;
     margin:0.3em;
     font-size: inherit;
 }
+/*Especificidad: 0 0 1*/
 img{
     width: 10%;
 }
+/*Especificidad: 0 0 1*/
 body{
     text-align: center;
     background-color: rgb(255, 201, 153);
@@ -36,24 +40,31 @@ body{
     left: 10%;
     position: relative;
 }
+/*Especificidad: 0 0 1*/
+/*Especificidad: 0 0 1*/
+/*Especificidad: 0 0 1*/
 footer,section,li{
     border: rgb(235, 89, 52) 0.3em solid;
     border-radius: 2em;
 }
+/*Especificidad: 0 0 1*/
 footer{
     
     background-color: peachpuff;
     padding:1em;
 
 }
+/*Especificidad: 0 0 1*/
 section{
     margin-bottom: 1em;
     background-color: peachpuff;
     padding:1em;
 }
+/*Especificidad: 0 0 1*/
 h1{
     font-size: 3em;
 }
+/*Especificidad: 0 0 1*/
 a{
     color: orangered;
 }
