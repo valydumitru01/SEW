@@ -9,7 +9,7 @@ class Tiempo {
         this.meteo.exclue = "minutely,hourly"
         this.meteo.unidades = "&units=metric"
         this.meteo.idioma = "&lang=es"
-        this.meteo.url = "http://api.openweathermap.org/data/2.5/onecall?lat=" + this.meteo.lat + "&lon=" + this.meteo.long + "&exclude=" + this.meteo.exclue +this.meteo.idioma+ this.meteo.unidades+"&appid=" + this.meteo.apikey
+        this.meteo.url = "https://api.openweathermap.org/data/2.5/onecall?lat=" + this.meteo.lat + "&lon=" + this.meteo.long + "&exclude=" + this.meteo.exclue +this.meteo.idioma+ this.meteo.unidades+"&appid=" + this.meteo.apikey
         this.meteo.error = "<h2>¡problemas! No puedo obtener información de <a href=\"http://openweathermap.org\">OpenWeatherMap</a></h2>"
         this.infoRelevanteMeteo = []
         this.cargarDatos()
