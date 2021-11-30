@@ -55,9 +55,6 @@ class Geolocalizacion {
             'Error: Su navegador no soporta geolocalizacion');
         infoWindow.open(this.mapaGeoposicionado);
     }
-    toggleDia(index) {
-        $("section:nth-of-type(3) section ul[name="+index+"]").toggle(300)
-    }
 }
 var miPosicion = new Geolocalizacion();
 

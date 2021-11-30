@@ -106,15 +106,9 @@ class Tiempo {
         this.mostrarInfoCabecera()
         this.mostrarInfoGeneral()
         this.footer()
-        this.cerrarTodo()
+
     }
-    cerrarTodo(){
-        for (let index = 0; index < this.semana.length; index++) {
-            $("section:nth-of-type(3) section ul[name="+index+"]").toggle(300)
-            
-        }
-        
-    }
+
     resetHtml(){
         $("section:nth-of-type(2)").html("")
         $("section:nth-of-type(3) section").html("")
@@ -152,7 +146,7 @@ class Tiempo {
         actual+="<p>Fecha De Toma De Datos: "+this.actual.fechaTomaDatos+"<p>"
         actual+="</footer>"
         $("main>section:nth-of-type(2)").html(actual)
-
+        $("main section:nth-of-type(3) section").html("<h3> Los dias: </h3>")
         var i=0
         this.semana.forEach(dia => {
             this.mostrarDia(dia.descripcion,dia.icono,dia.sensacionTermica,dia.temperaturaReal,dia.descripcionTiempo,dia.probNieve,dia.probLluvia,dia.nubosidad,dia.humedad,dia.velocidadVinto,dia.gradosDireccionViento,dia.horaAmanecer,dia.horaOscurecer,dia.horaTomaDatos,dia.fechaTomaDatos,dia.paraCuando,i)
@@ -163,7 +157,7 @@ class Tiempo {
     }
     mostrarDia(descripcion,icono,sensacionTermica,temperaturaReal,descripcionTiempo,probNieve,probLluvia,nubosidad,humedad,velocidadVinto,gradosDireccionViento,horaAmanecer,horaOscurecer,horaTomaDatos,fechaTomaDatos,paraCuando,index){
         var semanal=""
-        semanal+="<section onclick=\"miPosicion.toggleDia("+index+")\">"
+        semanal+="<section>"
         semanal+="<header>"
             semanal+="<h3> Tiempo Para "+paraCuando+"</h3>"
             semanal+="<h3>Tiempo general: </h3>"
@@ -171,7 +165,7 @@ class Tiempo {
             semanal+="<img src=https://openweathermap.org/img/w/"+icono+".png alt=\"foto de "+descripcionTiempo+"\">"
         semanal+="</header>"
 
-        semanal+="<ul name=\""+index+"\">"
+        semanal+="<ul>"
             semanal+="<li> <h3>Temperatura</h3>"
                 semanal+="<h4> Sensacion Termica: </h4>"
                 semanal+="<ul>"
