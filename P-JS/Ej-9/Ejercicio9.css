@@ -45,7 +45,7 @@ section{
 }
 /*Especificidad: 0 0 1*/
 img{
-    background-color: rgb(166, 177, 226);
+    background-color: rgb(223, 229, 255);
     border: solid 0.3em rgb(96, 98, 230);
     position: relative;
     top:1em;
