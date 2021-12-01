@@ -2,33 +2,27 @@
 <html lang="es" >
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Ejercicio 7">
-    <meta name="keywords" content="ECMAscript,Valentin">
-    <meta name="author" content="Valentin">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" type="text/css" href="Ejercicio7.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="ECMAscript/Ejercicio7.js"></script>
-    
+    <script src="Ejercicio7.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis pasatiempos</title>
 </head>
-<body onload="iterarSobreHtml(),calcularFilasColumnasTabla()" >
+<body onload="ej7.iterarSobreHtml(),ej7.calcularFilasColumnasTabla()" >
     <header > 
         <h1>Mis hobbies</h1>
         <p>Voy a contar algunas de las cosasas que hago en mi tiempo libre (y a veces no tan libre, para mi desgracia). Las siguientes actividades me describen bastante bien y me hacen feliz.</p>
     </header>
-    <main >
-        <section onclick="CambiarBorde(1)">
+    <main>
+        <section onclick="ej7.CambiarBorde(1)">
             <header >
                 <p>A continacion pondré una lista de unos de mis grupos favoritos de musica. Generalmente suelo escuchar solo rock y metal.
                 </p>
-            </header >
-            <table >
+            </header>
+            <table>
                 <caption><h2>Tabla de mis grupos favoritos</h2></caption>
                 <tbody>
-                    <tr>
+                    <tr >
                         <th>Nombre</th>
                         <th>Genero</th>
                         <th>Cantante</th>
@@ -67,20 +61,21 @@
                 </tbody>
             </table>
         </section>
-        <section onclick="CambiarBorde(2)">
+        <section onclick="ej7.CambiarBorde(2)">
             <header >
                 <h2>Videjuegos</h2>
                 <p>Uno de mis pasatiempos favoritos son los videojuegos. Los generos de videojuegos que mas me gustan son los RPG, Sandbox y Roguelike o Roguelite</p>
+                <p>Haz click para eliminar uno... o varios...</p>
             </header>
             <ul>
-                <li><h3>Terraria</h3><p>Terraria es un videjuego sandbox 2d pixelado con elementos rpg</p></li>
-                <li><h3>Minecraft</h3><p>Minecraft es un videjuego sandbox de mundo abierto y generado proceduralmente, con gran potencial para la construccion</p></li>
-                <li><h3>Divinity Original Sin (1 y 2)</h3><p>Divinity Original Sin (1 y 2) son dos juegos de rpg clasicos de combates por turnos con gran cantidad de dialogos, puzles y misiones. </p></li>
-                <li><h3>The Elder Of Scrolls 5: Skyrim</h3><p>Skyrim es un juego rpg en primera persona con combates en tiempo real. Tiene una gran variedad de misiones y un mundo muy extenso.</p></li>
-                <li><h3>The Binding Of Isaac Afterbirth</h3><p>The Binding Of Isaac es un videjuego roguelike con salas, 2D y con combastes a tiempo real</p></li>
+                <li onclick="ej7.eliminable(this)"><h3>Terraria</h3><p>Terraria es un videjuego sandbox 2d pixelado con elementos rpg</p></li>
+                <li onclick="ej7.eliminable(this)"><h3>Minecraft</h3><p>Minecraft es un videjuego sandbox de mundo abierto y generado proceduralmente, con gran potencial para la construccion</p></li>
+                <li onclick="ej7.eliminable(this)"><h3>Divinity Original Sin (1 y 2)</h3><p>Divinity Original Sin (1 y 2) son dos juegos de rpg clasicos de combates por turnos con gran cantidad de dialogos, puzles y misiones. </p></li>
+                <li onclick="ej7.eliminable(this)"><h3>The Elder Of Scrolls 5: Skyrim</h3><p>Skyrim es un juego rpg en primera persona con combates en tiempo real. Tiene una gran variedad de misiones y un mundo muy extenso.</p></li>
+                <li onclick="ej7.eliminable(this)"><h3>The Binding Of Isaac Afterbirth</h3><p>The Binding Of Isaac es un videjuego roguelike con salas, 2D y con combastes a tiempo real</p></li>
             </ul>
         </section>
-        <section onclick="CambiarBorde(3)">
+        <section onclick="ej7.CambiarBorde(3)">
             <header >
                 <h2>Gimnasio</h2>
                 <p>Las actividades de gimnasio son una de las cosas que mas feliz me hacen y las cosas que mas practico incluso aunque tenga que estudiar y no tenga tiempo. Para mi es una gran fuente de moral y energia para seguir hacia adelante. Para mi ir al gimnasio dos horas no son dos horas perdidas, son el resto de horas del dia ganadas ya que aumenta mi productividad notablemente en el resto del dia.</p>
@@ -88,7 +83,7 @@
             </header >
             <ol>
                 <li >
-                    <h3 onclick="DesplegarEjercicios()">Pierna</h3> 
+                    <h3 onclick="ej7.DesplegarEjercicios(1)" name="1">Pierna</h3> 
                     <ul >
                         <li>Sentadillas con peso extra</li>
                         <li>Bench Press</li>
@@ -99,11 +94,11 @@
                     </ul>
                     <form>
                         <label for="introducirNuevoPierna">Introducir nuevo ejercicio de pierna: </label><input type="text" name="nuevoPierna" id="introducirNuevoPierna">
-                        <input type="submit" value="Aceptar" onclick="introducirCampo(1)">
+                        <input type="button" value="Aceptar" onclick="ej7.introducirCampo(1)">
                     </form>
                 </li>
                 <li>
-                    <h3 onclick="DesplegarEjercicios()" >Espalda y Abdominales</h3> 
+                    <h3 onclick="ej7.DesplegarEjercicios(2)" name="2" >Espalda y Abdominales</h3> 
                     <ul>
                         <li>Abdominales sobre tabla con apoyo</li>
                         <li>Laterales</li>
@@ -113,11 +108,11 @@
                     </ul>
                     <form>
                         <label for="introducirNuevoEspalda">Introducir nuevo ejercicio de espalda/abdominales: </label><input type="text" name="nuevoEspalda" id="introducirNuevoEspalda">
-                        <input type="submit" value="Aceptar" onclick="introducirCampo(2)">
+                        <input type="button" value="Aceptar" onclick="ej7.introducirCampo(2)">
                     </form>
                 </li>
                 <li>
-                    <h3 onclick="DesplegarEjercicios() " >Pecho y Brazos</h3>
+                    <h3 onclick="ej7.DesplegarEjercicios(3) " name="3" >Pecho y Brazos</h3>
                     <ul>
                         <li>Levantamiento de mancuernas</li>
                         <li>Levantamiento de mancuerna de dos brazos para biceps</li>
@@ -129,7 +124,7 @@
                     <form>
                         <label for="introducirNuevoPecho">Introducir nuevo ejercicio de pecho/brazos: </label>
                         <input type="text" name="nuevoPecho" id="introducirNuevoPecho">
-                        <input type="submit" value="Aceptar" onclick="introducirCampo(3)">
+                        <input type="button" value="Aceptar" onclick="ej7.introducirCampo(3)">
                     </form>
                 </li>
             </ol>
