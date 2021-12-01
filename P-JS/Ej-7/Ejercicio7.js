@@ -10,7 +10,7 @@ class Ejercicio7{
     
     DesplegarEjercicios(num) {
     
-        $("h3[name="+num+"] ~ ul").toggle(300)
+        $("h3[id="+num+"] ~ ul").toggle(300)
     }
     CambiarBorde(num) {
         $("main section:nth-child("+num+")").click(function(){
