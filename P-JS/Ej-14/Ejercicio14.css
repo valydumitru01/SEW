@@ -23,6 +23,7 @@ article:nth-of-type(2)>h2{
     padding: 1em;
     background-color: #f53;
     border: red 0.3em solid;
+    text-shadow: 0.1em 0.1em 0.3em #70f;
 }
 
 /*Especificidad: 0 0 1*/
@@ -47,7 +48,7 @@ section section {
     margin-top: 1em;
 }
 /*Especificidad: 0 1 2*/
-section section p{
+section section h3{
     top:0.7em;
     position: relative;
     color: #00f;
