@@ -19,21 +19,12 @@ input[name=MapaFile]{
     text-shadow: 0.1em 0.1em 0.3em #f53;
 }
 /*Especificidad: 0 1 2*/
-article[name=mapasJuego]>h2{
+article:nth-of-type(2)>h2{
     padding: 1em;
     background-color: #f53;
     border: red 0.3em solid;
 }
-/*Especificidad: 0 2 2*/
-article[name=mapasJuego]>h2:hover{
-    
-    background-color: rgb(255, 184, 170);
-}
-/*Especificidad: 0 2 2*/
-article[name=mapasJuego]>h2:active{
-    
-    background-color: rgb(255, 211, 203);
-}
+
 /*Especificidad: 0 0 1*/
 h1{
     font-size: 3em;
@@ -44,7 +35,7 @@ h1,h2{
     text-align: center;
 }
 /*Especificidad: 0 1 1*/
-section[name=drop_zone] {
+section section {
     border: 0.2em solid #f00;
     background-color: #f53;
     width: 100%;
@@ -56,7 +47,7 @@ section[name=drop_zone] {
     margin-top: 1em;
 }
 /*Especificidad: 0 1 2*/
-section[name=drop_zone] p{
+section section p{
     top:0.7em;
     position: relative;
     color: #00f;

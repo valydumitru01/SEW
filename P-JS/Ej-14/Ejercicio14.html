@@ -3,15 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Pointer lock demo</title>
+    <meta name="description" content="Ejercicio 14">
+    <meta name="keywords" content="ECMAscript,Valentin">
+    <meta name="author" content="Valentin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Ejercicio 14</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <link type="text/css" rel="stylesheet" href="Ejercicio14.css">
 
 </head>
 
 <body>
     <main>
-        <article name="juego">
+        <article>
             <h1>Juego de laberinto</h1>
             <h2>Objetivo: Llegar al cuadrado verde!</h2>
             <canvas width="640" height="360">
@@ -20,12 +27,11 @@
         </article>
 
 
-        <article name="mapasJuego">
-            <h2 onclick="mazeGame.toggleInfoFichero()">
-                <p>Tambien puedes crear tus propios mapas,</p>
-                <p>¡Pulsa aqui para ver como!</p>
+        <article>
+            <h2>
+                <p>Tambien puedes crear tus propios mapas</p>
             </h2>
-            <section name="toggleable">
+            <section>
                 <h3>Aqui te enseñaré como: </h3>
                 <p>El el fichero debe ser un fichero de texto con el siguiente formato: </p>
                 <p>
@@ -56,14 +62,14 @@
                 <input type="file" name="MapaFile" id="mapajuego" onchange="mazeGame.leerMapa(this.files[0]);"
                     accept=".ej14map">
                 <p>O tambien puedes...</p>
-                <section name="drop_zone" ondrop="mazeGame.dropHandler(event)"
+                <section ondrop="mazeGame.dropHandler(event)"
                     ondragover="mazeGame.dragover_handler(event)">
                     <p>Arrastra y suela tu fichero con tu mapa aqui!</p>
                 </section>
             </section>
         </article>
     </main>
-    <script src="../Ej-14/ECMAscript/Ejercicio14.js"></script>
+    <script src="Ejercicio14.js"></script>
 </body>
 
 </html>
