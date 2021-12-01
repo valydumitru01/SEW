@@ -1,7 +1,7 @@
 class Geolocalizacion {
     initMap() {
         var centro = { lat: 43.3672702, lng: -5.8502461 };
-        this.mapaGeoposicionado = new google.maps.Map(document.getElementsByName('mapa')[0], {
+        this.mapaGeoposicionado = new google.maps.Map(document.getElementById('mapa'), {
             zoom: 8,
             center: centro,
             mapTypeId: "terrain"
