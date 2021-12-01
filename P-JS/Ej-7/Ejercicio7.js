@@ -46,23 +46,26 @@ class Ejercicio7{
     
             console.log(hijosTh)
             if(hijosTh==0)
-                $(this).html($(this).html()+"<td> Fila:"+j+"</td>")
+                $(this).html($(this).html()+"<td>"+j+"</td>")
+            else
+                $(this).html($(this).html()+"<th>num</th>")
         })
     
         let initial=$("section table tbody").html()
+        
         initial+="<tr>"
-        
-        
         $("section table tbody tr th").each(function sumarColumnas(i) {
-            numCols=i+1
-            initial+="<td>"+i+"</td>"
+
+            if(i==0)
+                initial+="<td>num</td>"
+            else
+                initial+="<td>"+i+"</td>"
         })
     
         initial+="</tr>"
         
         $("section table tbody").html(initial)
-        console.log("Numero de filas de la tabla: "+numFilas)
-        console.log("Numero de columnas de la tabla: "+numCols)
+
         
     }
     
