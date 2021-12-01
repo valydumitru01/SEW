@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ejercicio 7">
+    <meta name="keywords" content="ECMAscript,Valentin">
+    <meta name="author" content="Valentin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../Ejercicio7.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="Ejercicio7-Tarea2.js"></script>
+    <title>Ejercicio 7: Mis pasatiempos</title>
+</head>
+<body>
+    <header > 
+        <h1 onclick="ej7.Modificar(this)">Mis hobbies</h1>
+        <p>Voy a contar algunas de las cosasas que hago en mi tiempo libre (y a veces no tan libre, para mi desgracia). Las siguientes actividades me describen bastante bien y me hacen feliz.</p>
+    </header>
+    <main>
+        <section>
+            <header >
+                <p>A continacion pondré una lista de unos de mis grupos favoritos de musica. Generalmente suelo escuchar solo rock y metal.
+                </p>
+            </header>
+            <table>
+                <caption><h2>Tabla de mis grupos favoritos</h2></caption>
+                <tbody>
+                    <tr onclick="ej7.Hide(this)" >
+                        <th>Nombre</th>
+                        <th>Genero</th>
+                        <th>Cantante</th>
+                        <th>Seguidores Spotify</th>
+                    </tr>
+                    <tr onclick="ej7.Hide(this)">
+                        <td>Queen</td>
+                        <td>Hard rock, art rock, glam rock, ópera rock, rock progresivo, heavy metal </td>
+                        <td>Freddy Mercury</td>
+                        <td>40 millones</td>
+                    </tr >
+                    <tr onclick="ej7.Hide(this)">
+                        <td>Coheed and Cambria</td>
+                        <td>Progressive rock, punk rock, heavy metal and post-hardcore</td>
+                        <td>Claudio Sanchez</td>
+                        <td>1.5 millones</td>
+                    </tr>
+                    <tr onclick="ej7.Hide(this)">
+                        <td>Tool</td>
+                        <td>Alternative metal, art rock, post-metal, progressive rock, progressive metal, and heavy metal</td>
+                        <td>Maynard James Keenan</td>
+                        <td>3.5 millones</td>
+                    </tr>
+                    <tr onclick="ej7.Hide(this)">
+                        <td>Korn</td>
+                        <td>Nu Metal, alternative metal</td>
+                        <td>Jonathan Davis</td>
+                        <td>7 millones</td>
+                    </tr>
+                    <tr onclick="ej7.Hide(this)">
+                        <td>Muse</td>
+                        <td>Alternative rock, progressive rock, art rock, hard rock, space rock, electronica</td>
+                        <td>Matt Bellamy</td>
+                        <td>11 millones</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section >
+            <header >
+                <h2 onclick="ej7.Modificar(this)">Videjuegos</h2>
+                <p>Uno de mis pasatiempos favoritos son los videojuegos. Los generos de videojuegos que mas me gustan son los RPG, Sandbox y Roguelike o Roguelite</p>
+                <p>Haz click para eliminar uno... o varios...</p>
+            </header>
+            <ul>
+                <li><h3>Terraria</h3><p>Terraria es un videjuego sandbox 2d pixelado con elementos rpg</p></li>
+                <li><h3>Minecraft</h3><p>Minecraft es un videjuego sandbox de mundo abierto y generado proceduralmente, con gran potencial para la construccion</p></li>
+                <li><h3>Divinity Original Sin (1 y 2)</h3><p>Divinity Original Sin (1 y 2) son dos juegos de rpg clasicos de combates por turnos con gran cantidad de dialogos, puzles y misiones. </p></li>
+                <li><h3>The Elder Of Scrolls 5: Skyrim</h3><p>Skyrim es un juego rpg en primera persona con combates en tiempo real. Tiene una gran variedad de misiones y un mundo muy extenso.</p></li>
+                <li><h3>The Binding Of Isaac Afterbirth</h3><p>The Binding Of Isaac es un videjuego roguelike con salas, 2D y con combastes a tiempo real</p></li>
+            </ul>
+        </section>
+        <section>
+            <header >
+                <h2 onclick="ej7.Modificar(this)">Gimnasio</h2>
+                <p>Las actividades de gimnasio son una de las cosas que mas feliz me hacen y las cosas que mas practico incluso aunque tenga que estudiar y no tenga tiempo. Para mi es una gran fuente de moral y energia para seguir hacia adelante. Para mi ir al gimnasio dos horas no son dos horas perdidas, son el resto de horas del dia ganadas ya que aumenta mi productividad notablemente en el resto del dia.</p>
+                <p>Esta es mi rutina de ejercicios</p>
+            </header >
+            <ol>
+                <li >
+                    <h3>Pierna</h3> 
+                    <ul >
+                        <li>Sentadillas con peso extra</li>
+                        <li>Bench Press</li>
+                        <li>Gemelos</li>
+                        <li>Cuadriceps</li>
+                        <li>Entrepierna</li>
+
+                    </ul>
+                    <form>
+                        <label for="introducirNuevoPierna">Introducir nuevo ejercicio de pierna: </label><input type="text" name="nuevoPierna" id="introducirNuevoPierna">
+                        <input type="button" value="Aceptar">
+                        <input type="submit" value="Reiniciar">
+                    </form>
+                </li>
+                <li>
+                    <h3>Espalda y Abdominales</h3> 
+                    <ul>
+                        <li>Abdominales sobre tabla con apoyo</li>
+                        <li>Laterales</li>
+                        <li>Abdominales con peso extra</li>
+                        <li>Espalda baja</li>
+                        <li>Espalda alta</li>
+                    </ul>
+                    <form>
+                        <label for="introducirNuevoEspalda">Introducir nuevo ejercicio de espalda/abdominales: </label><input type="text" name="nuevoEspalda" id="introducirNuevoEspalda">
+                        <input type="button" value="Aceptar">
+                        <input type="submit" value="Reiniciar">
+                    </form>
+                </li>
+                <li>
+                    <h3>Pecho y Brazos</h3>
+                    <ul>
+                        <li>Levantamiento de mancuernas</li>
+                        <li>Levantamiento de mancuerna de dos brazos para biceps</li>
+                        <li>Levantamiento de mancuerna de dos brazos para pecho</li>
+                        <li>Ejercicio con poleas y cuerda para pecho</li>
+                        <li>Levantamiento de mancuernas para hombro</li>
+                        <li>Ejercicio con poleas y cuerda para triceps</li>
+                    </ul>
+                    <form>
+                        <label for="introducirNuevoPecho">Introducir nuevo ejercicio de pecho/brazos: </label>
+                        <input type="text" name="nuevoPecho" id="introducirNuevoPecho">
+                        <input type="button" value="Aceptar" >
+                        <input type="submit" value="Reiniciar">
+                    </form>
+                </li>
+            </ol>
+            
+            <p>
+                Otro apunte importante es que voy generalmente 3 o 4 veces a la semana y tardo entre 1 hora y 2 horas, depende del tiempo que tenga.
+                Tambien es importante notar que siempre que acabo mi rutina hago unos 20-30 minutos de cardio, este tiempo esta contendio del tiempo mencionado antes.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Por desgracia, todos estos pasatiempos fueron atropellados por la carrera. Pero sigo practicandolos, pese de todo.</p>
+        <label for="elemshtml">Todos los elementos de este html: </label><textarea name="elementos" id="elemshtml" cols="30" rows="10"></textarea>
+    </footer>
+</body>
+</html>

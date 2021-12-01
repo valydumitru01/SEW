@@ -7,15 +7,8 @@ class Ejercicio7{
     Hide(elem) {
         $(elem).hide()
     }
-    
-    DesplegarEjercicios(num) {
-    
-        $("h3[id="+num+"] ~ ul").toggle(300)
-    }
-    CambiarBorde(num) {
-        $("main section:nth-child("+num+")").click(function(){
-            $(this).css("border-color", "steelblue");
-          });
+    Modificar(elem) {
+        $(elem).html($(elem).html()+" MODIFICACION")
     }
     introducirCampo(num) {
         var content=$("main section:nth-child(3) ol li:nth-child("+num+") form input[type=text]").val()
@@ -68,7 +61,6 @@ class Ejercicio7{
 
         
     }
-    
 }
 
 var ej7=new Ejercicio7()
