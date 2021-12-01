@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ejercicio 6">
+    <meta name="keywords" content="ECMAscript,calculadora,estadistica,Valentin">
+    <meta name="author" content="Valentin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Ejercicio6.css">
+    <script src="CalculadoraRPN.js"></script>
+    <script src="Ejercicio6.js"></script>
+    <title>Calculadora Estadística</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Calculadora Estadística
+        </h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <ul>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                </ul>
+                
+            </fieldset>
+            
+            <fieldset>
+                
+                <button type="button" onclick="calculadora.x()"> Introducir valores de x </button>
+                <button type="button" onclick="calculadora.y()"> Introducir valores de y </button>
+                <button type="button" onclick="calculadora.borrarUnNumero()"> ⌫ </button>
+                
+                <button type="button" onclick="calculadora.digitos(7)"> 7 </button>
+                <button type="button" onclick="calculadora.digitos(8)"> 8 </button> 
+                <button type="button" onclick="calculadora.digitos(9)"> 9 </button>
+                <button type="button" onclick="calculadora.media('x',true)"> x̄ </button>
+                <button type="button" onclick="calculadora.media('y',true)"> Media(Y) </button>
+                <button type="button" onclick="calculadora.digitos(4)"> 4 </button>
+                <button type="button" onclick="calculadora.digitos(5)"> 5 </button> 
+                <button type="button" onclick="calculadora.digitos(6)"> 6 </button>
+                <button type="button" onclick="calculadora.moda('x')"> Mo(X) </button>
+                <button type="button" onclick="calculadora.moda('y')"> Mo(Y) </button>
+                <button type="button" onclick="calculadora.digitos(1)"> 1 </button>
+                <button type="button" onclick="calculadora.digitos(2)"> 2 </button> 
+                <button type="button" onclick="calculadora.digitos(3)"> 3 </button>
+                <button type="button" onclick="calculadora.mediana('x')"> Me(X) </button>
+                <button type="button" onclick="calculadora.mediana('y')"> Me(Y) </button>
+                <button type="button" onclick="calculadora.digitos(0)"> 0 </button>
+                <button type="button" onclick="calculadora.punto()"> , </button>
+                
+                
+                
+                <button type="button" onclick="calculadora.desviacionTipicaPoblacional('x')">σ<sub>x</sub></button>
+                <button type="button" onclick="calculadora.desviacionTipicaPoblacional('y')">σ<sub>y</sub></button>
+                <button type="button" onclick="calculadora.desviacionTipicaMuestral('x')">s<sub>x</sub></button>
+                <button type="button" onclick="calculadora.desviacionTipicaMuestral('y')">s<sub>y</sub></button>
+                
+                <button type="button" onclick="calculadora.varianzaPoblacional('x')">σ<sub>x</sub><sup>2</sup></button>
+                <button type="button" onclick="calculadora.varianzaPoblacional('y')">σ<sub>y</sub><sup>2</sup></button>
+
+                <button type="button" onclick="calculadora.varianzaMuestral('x')">s<sub>x</sub><sup>2</sup></button>
+                
+                <button type="button" onclick="calculadora.varianzaMuestral('y')">s<sub>y</sub><sup>2</sup></button>
+                
+                <button type="button" onclick="calculadora.primerCuartil('x')">Q<sub>1</sub>(X)</button>
+                <button type="button" onclick="calculadora.primerCuartil('y')">Q<sub>1</sub>(Y)</button>
+                <button type="button" onclick="calculadora.tercerCuartil('x')">Q<sub>3</sub>(X)</button>
+                <button type="button" onclick="calculadora.tercerCuartil('y')">Q<sub>3</sub>(Y)</button>
+                <button type="button" onclick="calculadora.min('x')">min<sub>x</sub></button>
+                <button type="button" onclick="calculadora.min('y')">min<sub>y</sub></button>
+                
+                <button type="button" onclick="calculadora.max('x')">max<sub>x</sub></button>
+                
+                <button type="button" onclick="calculadora.max('y')">max<sub>y</sub></button>
+
+                
+                <button type="button" onclick="calculadora.covarianzaPoblacional()">σ<sub>xy</sub></button>
+                <button type="button" onclick="calculadora.covarianzaMuestral()">s<sub>xy</sub></button>
+                <button type="button" onclick="calculadora.coeficienteCorrelacion()">r</button>
+                <button type="button" onclick="calculadora.enter()"> Enter </button>
+                <input type="submit" value="C">
+                
+
+            </fieldset>
+            
+        </form>
+        <aside>
+                
+        </aside>
+    </main>
+</body>
+
+</html>

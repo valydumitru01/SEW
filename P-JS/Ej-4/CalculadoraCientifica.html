@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Calculadora Cientifica">
+    <meta name="keywords" content="ECMAscript,calculadora,Valentin">
+    <meta name="author" content="Valentin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css">
+    <script src="CalculadoraBasica.js"></script>
+    <script  src="CalculadoraCientifica.js"></script>
+    <title>Calculadora Cientifica</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Calculadora Cientifica
+        </h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <input type="text" title="screen" readonly="readonly"/>
+            </fieldset>
+            <fieldset>
+                <button type="button" name="deg" onclick="calculadora.DEG()">DEG</button>
+                <button type="button" name="fe" onclick="calculadora.FE()"> F-E</button> 
+
+                <button type="button" onclick="calculadora.MC()">MC</button>
+                <button type="button" onclick="calculadora.MR()"> MR</button>
+                <button type="button" onclick="calculadora.mMas()"> M+</button>
+                <button type="button" onclick="calculadora.mMenos()">M- </button>
+                <button type="button" onclick="calculadora.MS(4)"> MS </button>
+
+            </fieldset>
+            <fieldset>
+                <ul>
+                    <li>Trigonometria <sup>⌄</sup>
+                        <ul>
+                            <li><button type="button" name="twondtrig" onclick="calculadora.twoND()">2<sup>nd</sup></button></li>
+                            <li><button type="button" name="sin" onclick="calculadora.sin()">sin</button></li>
+                            <li><button type="button" name="cos" onclick="calculadora.cos()">cos</button></li>
+                            <li><button type="button" name="tan" onclick="calculadora.tan()">tan</button></li>
+                            <li><button type="button" name="hyp" onclick="calculadora.hyp()">hyp</button></li>
+                            <li><button type="button" name="sec" onclick="calculadora.sec()">sec</button></li>
+                            <li><button type="button" name="csc" onclick="calculadora.csc()">csc</button></li>
+                            <li><button type="button" name="cot" onclick="calculadora.cot()">cot</button></li>
+                        </ul>
+                    </li>
+                    <li>Funcion <sup>⌄</sup>
+                        <ul>
+                            <li><button type="button" onclick="calculadora.abs()">|x|</button></li>
+                            <li><button type="button" onclick="calculadora.floor()">&#8970x&#8971</button></li>
+                            <li><button type="button" onclick="calculadora.ceil()">&#8968x&#8969</button></li>
+                            <li><button type="button" onclick="calculadora.rand()">rand</button></li>
+                            <li><button type="button" onclick="calculadora.dms()">dms</button></li>
+                            <li><button type="button" onclick="calculadora.degrees()">deg</button></li>
+                        </ul>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <button type="button" name="twond" onclick="calculadora.twoPoweredToThe()">2<sup>nd</sup></button>
+                <button type="button" onclick="calculadora.pi()"> &pi;</button>
+                <button type="button" onclick="calculadora.e()"> e</button> 
+                <input type="submit" value="C" onclick="calculadora.borrar()" >
+                <button type="button" onclick="calculadora.borrarUnNumero()"> ⌫ </button>
+
+                <button type="button" name="powerTwoOf" onclick="calculadora.powerTwoOf()">x<sup>2</sup> </button>
+                <button type="button" onclick="calculadora.inverse()">1/x</button>
+                <button type="button" onclick="calculadora.abs()"> |x|</button> 
+                <button type="button" onclick="calculadora.exp()">exp </button>
+                <button type="button" onclick="calculadora.mod()"> mod </button>
+
+                <button type="button" name="root2" onclick="calculadora.root(2)"><sup>2</sup>&Sqrt;x</button>
+                <button type="button" onclick="calculadora.openPar()"> (</button>
+                <button type="button" onclick="calculadora.closePar()"> )</button> 
+                <button type="button" onclick="calculadora.fact()">n! </button>
+                <button type="button" onclick="calculadora.division()"> &div; </button>
+
+                <button type="button" name="xtothey" onclick="calculadora.XtoTheY()">x<sup>y</sup></button>
+                
+                <button type="button" onclick="calculadora.digitos(7)"> 7</button>
+                <button type="button" onclick="calculadora.digitos(8)"> 8</button> 
+                <button type="button" onclick="calculadora.digitos(9)"> 9 </button>
+                <button type="button" onclick="calculadora.multiplicacion(4)"> &#215; </button>
+
+                <button type="button" name="tenToThePower" onclick="calculadora.tenToThePower()">10<sup>x</sup></button>
+                <button type="button" onclick="calculadora.digitos(4)"> 4</button>
+                <button type="button" onclick="calculadora.digitos(5)"> 5</button> 
+                <button type="button" onclick="calculadora.digitos(6)"> 6 </button>
+                <button type="button" onclick="calculadora.resta(4)"> &minus; </button>
+
+                <button type="button" name="log" onclick="calculadora.log()">log</button>
+                <button type="button" onclick="calculadora.digitos(1)"> 1</button>
+                <button type="button" onclick="calculadora.digitos(2)"> 2</button> 
+                <button type="button" onclick="calculadora.digitos(3)"> 3 </button>
+                <button type="button" onclick="calculadora.suma()"> + </button>
+
+                <button type="button" name="ln" onclick="calculadora.ln()">ln</button>
+                <button type="button" onclick="calculadora.negate()"> <sup>+</sup>/<sub>&minus;</sub></button>
+                <button type="button" onclick="calculadora.digitos(0)"> 0</button> 
+                <button type="button" onclick="calculadora.punto()"> , </button>
+                <button type="button" onclick="calculadora.igual()"> = </button>
+
+
+            </fieldset>
+            
+        </form>
+        <aside>
+                
+        </aside>
+    </main>
+</body>
+
+</html>

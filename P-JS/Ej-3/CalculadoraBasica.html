@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Calculadora Cientifica">
+    <meta name="keywords" content="ECMAscript,calculadora,Valentin">
+    <meta name="author" content="Valentin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css">
+    <script src="CalculadoraBasica.js"></script>
+    <title>Calculadora Basica</title>
+
+    
+</head>
+
+<body>
+    <header>
+        <h1>
+            Calculadora Basica
+        </h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <input type="text" title="screen" readonly="readonly"/>
+            </fieldset>
+            <fieldset>
+                <button type="button" onclick="calculadora.mrc()">mrc</button>
+                <button type="button" onclick="calculadora.mMenos()"> m-</button>
+                <button type="button" onclick="calculadora.mMas()"> m+</button> 
+                <button type="button" onclick="calculadora.division()"> / </button>
+                <button type="button" onclick="calculadora.digitos(7)"> 7 </button>
+                <button type="button" onclick="calculadora.digitos(8)"> 8 </button>
+                <button type="button" onclick="calculadora.digitos(9)"> 9 </button> 
+                <button type="button" onclick="calculadora.multiplicacion()"> * </button>
+                <button type="button" onclick="calculadora.digitos(4)"> 4 </button>
+                <button type="button" onclick="calculadora.digitos(5)"> 5 </button>
+                <button type="button" onclick="calculadora.digitos(6)"> 6 </button> 
+                <button type="button" onclick="calculadora.resta()"> - </button>
+                <button type="button" onclick="calculadora.digitos(1)"> 1 </button>
+                <button type="button" onclick="calculadora.digitos(2)"> 2 </button>
+                <button type="button" onclick="calculadora.digitos(3)"> 3 </button> 
+                <button type="button" onclick="calculadora.suma()"> + </button>
+                <button type="button" onclick="calculadora.digitos(0)"> 0 </button>
+                <button type="button" onclick="calculadora.punto()"> . </button>
+                <input type="submit" value="C" onclick="calculadora.borrar()" >
+                <button type="button" onclick="calculadora.igual()"> = </button>
+                
+            </fieldset> 
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Calculadora RPN">
+    <meta name="keywords" content="ECMAscript,calculadora,RPN,Valentin">
+    <meta name="author" content="Valentin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css">
+    <script src="CalculadoraRPN.js"></script>
+    <title>Calculadora RPN</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Calculadora RPN
+        </h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <ul>
+
+                </ul>
+            </fieldset>
+            
+            <fieldset>
+                <button type="button" onclick="calculadora.digitos(7)"> 7</button>
+                <button type="button" onclick="calculadora.digitos(8)"> 8</button> 
+                <button type="button" onclick="calculadora.digitos(9)"> 9 </button>
+                <button type="button" onclick="calculadora.borrarUnNumero()"> ⌫ </button>
+                
+                <button type="button" onclick="calculadora.digitos(4)"> 4</button>
+                <button type="button" onclick="calculadora.digitos(5)"> 5</button> 
+                <button type="button" onclick="calculadora.digitos(6)"> 6 </button>
+                <button type="button" onclick="calculadora.suma()"> + </button>
+                
+                <button type="button" onclick="calculadora.digitos(1)"> 1</button>
+                <button type="button" onclick="calculadora.digitos(2)"> 2</button> 
+                <button type="button" onclick="calculadora.digitos(3)"> 3 </button>
+                <button type="button" onclick="calculadora.resta()"> - </button>
+                
+                <button type="button" onclick="calculadora.digitos(0)"> 0</button>
+                <button type="button" onclick="calculadora.punto()">,</button>
+                <button type="button" onclick="calculadora.multiplicacion()"> * </button>                
+                <button type="button" onclick="calculadora.division()"> / </button>
+
+                <button type="button" onclick="calculadora.shift()">Shift</button>
+                <button type="button" name="sin" onclick="calculadora.sin()">SIN</button>
+                <button type="button" name="cos" onclick="calculadora.cos()">COS</button>
+                <button type="button" name="tan" onclick="calculadora.tan()">TAN</button>
+
+                <button type="button" onclick="calculadora.root()"><sup>2</sup>&Sqrt;x</button>
+                <button type="button" name="powerTwoOf" onclick="calculadora.powerTwoOf()">x<sup>2</sup> </button>
+                <input type="submit" value="C">
+                <button type="button" onclick="calculadora.enter()">Enter</button>
+                
+
+
+
+            </fieldset>
+            
+        </form>
+        <aside>
+                
+        </aside>
+    </main>
+</body>
+
+</html>

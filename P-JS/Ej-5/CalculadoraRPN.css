@@ -1,0 +1,77 @@
+/*Especificidad: 0 0 1*/
+html{
+    display: flex;
+    justify-content: center;
+}
+/*Especificidad: 0 0 1*/
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10em;
+}
+/*Especificidad: 0 0 1*/
+main{
+    text-align: center;
+}
+/*Especificidad: 0 0 1*/
+h1{
+    text-align: center;
+    padding: 1em;
+}
+/*Especificidad: 0 0 1*/
+form{
+    background-color: black;
+    border-radius: 1em;
+    border: solid darkgray 5px;
+    position: relative;
+    padding: 2em;
+    padding-bottom: 2em;
+    min-width: 20em;
+    max-width: 40em;
+}
+/*Especificidad: 0 0 1*/
+fieldset{
+    border: none;
+    text-align: left;
+}
+/*Especificidad: 0 1 1*/
+fieldset:nth-child(1){
+    margin-bottom:2em ;
+    border: inset 0.3em black;
+    background-color: rgb(224, 224, 255);
+}
+/*Especificidad: 0 1 1*/
+fieldset:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.2em;
+    justify-content: center;
+}
+/*Especificidad: 0 0 1*/
+ul{
+    list-style: none;
+}
+/*Especificidad: 0 0 1*/
+button{
+    height: 5em;
+    border-radius: 0.5em;
+    border:whitesmoke outset 0.3em;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Especificidad: 0 1 1*/
+button:active{
+    border:darkgray inset 0.3em;
+    background-color: gray;
+}
+/*Especificidad: 0 1 1*/
+button:hover,button:active{
+    border-radius: 0.5em;
+}
+/*Especificidad: 0 1 1*/
+input[type="submit"]{
+    height: 5em;
+    border-radius: 0.5em;
+    border:whitesmoke outset 0.3em;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
