@@ -56,3 +56,7 @@ h3:hover{
 form input[type=text]{
     border: rgb(140, 173, 173) 0.3em solid;
 }
+/*Especificidad 0 0 1*/
+table{
+    font-size: 0.8em;
+}
