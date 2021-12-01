@@ -16,7 +16,7 @@ class Tiempo {
         this.meteo.apikey = "52f3a6700c325fd0fd964e14704ee5c4"
         this.meteo.unidades = "&units=metric"
         this.meteo.idioma = "&lang=es"
-        this.meteo.url = "http://api.openweathermap.org/data/2.5/weather?q=" + this.meteo.ciudad + this.meteo.unidades + this.meteo.idioma + "&APPID=" + this.meteo.apikey
+        this.meteo.url = "https://api.openweathermap.org/data/2.5/weather?q=" + this.meteo.ciudad + this.meteo.unidades + this.meteo.idioma + "&APPID=" + this.meteo.apikey
         this.meteo.error = "<h2>¡problemas!<h2><p> No puedo obtener información de <a href=\"http://openweathermap.org\">OpenWeatherMap</a></p>"
         this.infoRelevanteMeteo = new Object()
         var self = this
