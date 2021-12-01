@@ -10,13 +10,13 @@ h2{
 }
 /*Especificidad: 0 0 1*/
 h3{
-    background-color: aquamarine;
-    color:darkblue
+    background-color: rgb(169, 255, 226);
+    color:rgb(0, 0, 100)
 }
 /*Especificidad: 0 0 1*/
 h4{
-    background-color: orchid;
-    color:indigo
+    background-color: rgb(255, 169, 252);
+    color:rgb(42, 0, 71)
 }
 /*Especificidad: 0 0 1*/
 p{
