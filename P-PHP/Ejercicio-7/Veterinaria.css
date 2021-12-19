@@ -57,6 +57,7 @@ table[title=tu],form[title="Cerrar sesion"] {
 }
 img{
     width: 30%;
+    max-width: 3em;
     display: block;
 }
 h1{
