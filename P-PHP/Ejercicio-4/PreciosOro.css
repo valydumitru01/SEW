@@ -48,3 +48,7 @@ fieldset{
     border-radius: 1em;
     background-color: rgb(248, 230, 129);
 }
+/* ESPECIFICIDAD 0 0 1*/
+a{
+    color:rgb(65, 48, 4);
+}
