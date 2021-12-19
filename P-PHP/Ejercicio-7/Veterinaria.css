@@ -1,3 +1,4 @@
+/* ESPECIFICIDAD 0 0 1*/
 body{
     background-color: rgb(252, 228, 94);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -7,23 +8,28 @@ body{
     position: relative;
     color:rgb(56, 44, 12);
 }
+/* ESPECIFICIDAD 0 0 1*/ /* ESPECIFICIDAD 0 0 1*/ /* ESPECIFICIDAD 0 0 1*/
 input,textarea,select{
     color:rgb(56, 44, 12);
     border:outset 0.2em rgb(219, 223, 125);
     background-color: rgb(249, 250, 194);
 }
+/* ESPECIFICIDAD 0 1 1*/
 input[type=submit]{
     margin-top: 1em;
     background-color: rgb(249, 250, 194);
     border-radius: 0.4em;
 }
+/* ESPECIFICIDAD 0 2 1*/
 input[type=submit]:hover{
     background-color: rgb(249, 250, 194);
 }
+/* ESPECIFICIDAD 0 2 1*/
 input[type=submit]:active{
     background-color: rgb(249, 250, 194);
     border:inset 0.2em rgb(219, 223, 125);
 }
+/* ESPECIFICIDAD 0 0 1*/
 fieldset{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -34,42 +40,53 @@ fieldset{
     padding-top: 3em;
     padding-bottom: 3em;
 }
+/* ESPECIFICIDAD 0 1 1*/ /* ESPECIFICIDAD 0 1 1*/ /* ESPECIFICIDAD 0 1 1*/ /* ESPECIFICIDAD 0 1 1*/
 input[type=text],input[type=number],input[type=email],input[type=password]{
     padding-top: 0.3em;
     padding-bottom: 0.3em;
 }
-
+/* ESPECIFICIDAD 0 0 1*/
 table{
     width: 100%;
     text-align: center;
 }
+/* ESPECIFICIDAD 0 0 2*/
 table td{
     border: inset 0.3em rgb(255, 245, 110);
 }
+/* ESPECIFICIDAD 0 0 2*/
 table th{
     border: outset 0.3em rgb(255, 235, 54);
 }
+/* ESPECIFICIDAD 0 1 1*/ /* ESPECIFICIDAD 0 1 1*/
 table[title=tu],form[title="Cerrar sesion"] {
     width: 30%;
     text-align: right;
     margin-left: auto;
     margin-right: 0;
 }
+/* ESPECIFICIDAD 0 0 1*/
 img{
     width: 30%;
     max-width: 3em;
     display: block;
 }
+/* ESPECIFICIDAD 0 0 1*/
 h1{
     display: flex;
     font-size: 4em;
     justify-content: center;
 }
+/* ESPECIFICIDAD 0 0 2*/
 header p{
     font-size: 1.4em;
 }
+/* ESPECIFICIDAD 0 0 1*/
 header {
     background-color: rgb(255, 242, 123);
     padding:1em;
     border:inset 0.5em  rgb(223, 209, 89);
+}
+a{
+    color:rgb(65, 48, 4);
 }
