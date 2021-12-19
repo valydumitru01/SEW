@@ -1,0 +1,59 @@
+Definicion de elementos simples:
+    <xs:element name="..." type="..."/>
+    Types:
+        xs:boolean
+        xs:date
+        xs:decimal
+        xs:integer
+        xs:string
+        xs:time
+    default="..." para valor por defecto
+    fixed="..." el valor que debe ser, si no se define sera ese, si se define, debe coincidir
+
+Definicion de atributos:
+    <xs:attribute name="..." type="..."/>
+    igual que elementos excepto:
+    use="optional" o "required", por defecto es "optional"
+    Ejemplo:
+    <xs:complexType name="Círculo">
+        <xs:attribute   name="radio"
+                        type="xs:float"
+                        use="required" />
+
+        <xs:attribute   name="color"
+                        type="Color"
+                        default="255 0 0"/>
+
+        <xs:attribute   name="tipo"
+                        type="xs:string"
+                        fixed="jpeg" />                    
+    </xs:complexType>
+Definicion de tipos:
+    Tipos simples simpleType:
+        No pueden contener elementos o atributos
+        predefinidos
+            Primitivos
+                string    
+                boolean
+                number, float, double
+                duration, dateTime, time, date, gYearMonth, gYear, gMonthDay, gDay, gMonth
+                etc
+            Derivados
+                normalizedString, token, language
+                IDREFS, ENTITIES, NMTOKEN, NMTOKENS,
+                Name, NCName, ID, IDREF, ENTITY
+                integer, nonPositiveInteger, negativeInteger, long, int,
+                short, byte, nonNegativeInteger, unsignedLong,
+                unsignedInt, unsignedShort, unsignedByte,
+                positiveInteger
+            Tipos a destacar:
+                sx:date
+                    formato YYYY-MM-DD
+                xs:dateTime
+                    YYYY-MM-DDTHH:MM:SS
+                xs:duration
+                    P[nºaños][nºmeses][nºDias]T[nºhoras][nºminutos][nºsegundos]
+                    ejs: P1Y7M29DT12H, PT7H
+        definidos por el usuario a partir de los predefinidos
+
+    Tipos complejos complexType
