@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ejercicio 6">
+    <meta name="keywords" content="Base de datos, tablas, ejercicio 6, valentin">
+    <meta name="author" content="Valentin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Ejercicio6.css">
+    <title>Ejercicio6: Base de datos</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Base de datos: Pruebas Usabilidad
+        </h1>
+    </header>
+    <main>
+        <form action="#" method="post" name="Ejercicio6Form" enctype="multipart/form-data">
+            <ul>
+                <li>
+                    <label for="crearBaseDatos">Crear base de datos</label>
+                    <input type="submit" name="boton" value="Crear base de datos" id="crearBaseDatos">
+                </li>
+
+
+
+
+                <li>
+                    <label for="crearTabla">Crear tabla</label>
+                    <input type="submit" name="boton" value="Crear tabla" id="crearTabla">
+                </li>
+
+
+
+
+                <li>
+                    <label for="insertarEnTabla">Insertar datos en una tabla</label>
+                    <input type="submit" name="boton" value="Insertar" id="insertarEnTabla">
+
+                    <fieldset>
+                        <!-- INSERTAR _______________________________________________________________________________-->
+                        <legend>Datos que se quieren insertar: </legend>
+
+                        <fieldset>
+                            <label for="dni">dni: </label>
+                            <input type="text" name="insertar[dni]" value="321321321" id="dni">
+
+                            <label for="nombre">Nombre: </label>
+                            <input type="text" name="insertar[nombre]" value="VALENTIN" id="nombre">
+
+                            <label for="apellidos">Apellidos: </label>
+                            <input type="text" name="insertar[apellidos]" value="ddddd" id="apellidos">
+
+                        </fieldset>
+                        <fieldset>
+                            <label for="email">Email: </label>
+                            <input type="text" name="insertar[email]" value="1234" id="email">
+
+                            <label for="telefono">Telefono: </label>
+                            <input type="tel" name="insertar[telefono]" value="123123123" id="telefono" maxlength="9">
+
+                            <label for="edad">Edad: </label>
+                            <input type="text" name="insertar[edad]" value="12" id="edad">
+                        </fieldset>
+                        <fieldset>
+
+                            <label for="sexo">sexo</label>
+                            <select id="sexo" name="insertar[sexo]">
+                                <option value="Mujer">Mujer</option>
+                                <option value="Hombre">Hombre</option>
+                                <option value="no contestar">Prefiero no contestar</option>
+                            </select>
+
+                            <label for="nivelInformatica">Nivel de informatica: </label>
+                            <input type="number" name="insertar[nivel]" value="2" min="0" max="10" id="nivelInformatica">
+
+                            <label for="tiempoRealizacion">Tiempo que ha tardado: </label>
+                            <input type="time" min="00:10:00" max="02:00:00" step="1" name="insertar[tiempo]" value="01:04:05" id="tiempoRealizacion">
+
+                            <label for="seRealizoCorrectamente">Se realizo correctamente: </label>
+                            <input type="checkbox" name="insertar[correcto]" value="0" id="seRealizoCorrectamente">
+
+                        </fieldset>
+                        <fieldset>
+
+                            <label for="comentarios">Comentarios: </label>
+                            <textarea rows="5" cols="50" name="insertar[comentarios]" id="comentarios">asd</textarea>
+
+                        </fieldset>
+                        <fieldset>
+
+                            <label for="propuestas">Propuestas: </label>
+                            <textarea rows="5" cols="50" name="insertar[propuestas]" id="propuestas">asdf</textarea>
+
+                        </fieldset>
+                        <fieldset>
+
+                            <label for="valoracion">Valoracion: </label>
+                            <input type="number" name="insertar[valoracion]" value="3" min="0" max="10" id="valoracion">
+
+                        </fieldset>
+                    </fieldset><!-- FIN INSERTAR_______________________________________________________________________________-->
+                </li>
+
+
+                
+                <li>
+                    <label for="modificarEnTabla">Modificar datos en una tabla</label>
+                    <input type="submit" name="boton" value="Modificar datos" id="modificarEnTabla">
+                    <p>Datos a modificar: </p>
+                    <fieldset>
+                        <!-- MODIFICAR _______________________________________________________________________________-->
+                        <legend>Datos que se quieren modificar (el usuario modificado se indica por el dni): </legend>
+                        
+                        <fieldset>
+                            <label for="dniMod">dni: </label>
+                            <input type="text" name="modificar[dni]" value="123232323" id="dniMod">
+
+                            <label for="nombreMod">Nombre: </label>
+                            <input type="text" name="modificar[nombre]" value="asd" id="nombreMod">
+
+                            <label for="apellidosMod">Apellidos: </label>
+                            <input type="text" name="modificar[apellidos]" value="asd" id="apellidosMod">
+
+                        </fieldset>
+                        <fieldset>
+                            <label for="emailMod">Email: </label>
+                            <input type="text" name="modificar[email]" value="a" id="emailMod">
+
+                            <label for="telefonoMod">Telefono: </label>
+                            <input type="tel" name="modificar[telefono]" value="123123123" id="telefonoMod" maxlength="9">
+
+                            <label for="edadMod">Edad: </label>
+                            <input type="text" name="modificar[edad]" value="132" id="edadMod">
+                        </fieldset>
+                        <fieldset>
+
+                            <label for="sexoMod">sexo</label>
+                            <select id="sexoMod" name="modificar[sexo]">
+                                <option value="Mujer">Mujer</option>
+                                <option value="Hombre">Hombre</option>
+                                <option value="no contestar">Prefiero no contestar</option>
+                            </select>
+
+                            <label for="nivelInformaticaMod">Nivel de informatica: </label>
+                            <input type="number" name="modificar[nivel]" value="1" min="0" max="10" id="nivelInformaticaMod">
+
+                            <label for="tiempoRealizacionMod">Tiempo que ha tardado: </label>
+                            <input type="time" min="00:10:00" max="02:00:00" step="1" name="modificar[tiempo]" value="01:03:04" id="tiempoRealizacionMod">
+
+                            <label for="seRealizoCorrectamenteMod">Se realizo correctamente: </label>
+                            <input type="checkbox" name="modificar[correcto]" value="0" id="seRealizoCorrectamenteMod">
+
+                        </fieldset>
+                        <fieldset>
+
+                            <label for="comentariosMod">Comentarios: </label>
+                            <textarea rows="5" cols="50" name="modificar[comentarios]" id="comentariosMod">saaaa</textarea>
+
+                        </fieldset>
+                        <fieldset>
+
+                            <label for="propuestasMod">Propuestas: </label>
+                            <textarea rows="5" cols="50" name="modificar[propuestas]" id="propuestasMod">sdfasdfas</textarea>
+
+                        </fieldset>
+                        <fieldset>
+
+                            <label for="valoracionMod">Valoracion: </label>
+                            <input type="number" name="modificar[valoracion]" value="3" min="0" max="10" id="valoracionMod">
+
+                        </fieldset>
+                    </fieldset><!-- FIN MODIFICAR _______________________________________________________________________________-->
+                </li>
+
+                <li>
+                    <!-- BUSCAR _______________________________________________________________________________-->
+                    <label for="buscarEnTabla">Buscar datos en una tabla</label>
+                    <input type="submit" name="boton" value="Buscar datos" id="buscarEnTabla">
+                    <fieldset>
+                       
+                        <label for="buscar">dni: </label><input type="text" name="buscar[dni]" value="123232323" id="buscar">
+                    </fieldset>
+                    <fieldset>
+                        <label for="datosMostradosBuscar">Datos Mostrados:</label>
+                        <textarea rows="5" cols="50" id="datosMostradosBuscar">dni: 123232323
+ - Nombre: aaaaa
+ - Apellidos: ddddd
+ - Email:1234
+ - Telefono: 123123123
+ - Edad: 12
+ - Sexo: Hombre
+ - Nivel de informatica: 2
+ - Segundos de prueba: 01:04:05
+ - Se realizo la prueba correctamente?: No
+ - Comentarios: asd
+ - Propuestas de mejora: asdf
+ - Valoracion de la prueba segun el usuario: 3</textarea>
+                    </fieldset>
+                    <!--FIN BUSCAR _______________________________________________________________________________-->
+                </li>
+
+
+
+
+
+
+
+
+
+
+
+
+                <li>
+                    <!-- ELIMINAR _______________________________________________________________________________ -->
+                    <label for="eliminarEnTabla">Eliminar datos en tabla</label>
+                
+                    <input type="submit" name="boton" value="Eliminar datos" id="eliminarEnTabla">
+                    <fieldset>
+                        <label for="eliminar">dni: </label><input type="text" name="eliminar[dni]" value="" id="eliminar">
+                    </fieldset>
+                </li>
+                <!--FIN ELIMINAR _______________________________________________________________________________ -->
+
+
+
+
+                <li>
+                    <!-- GENERAR INFORME _______________________________________________________________________________-->
+                    <label for="generarInforme">Generar informe</label>
+                    <input type="submit" name="boton" value="Generar informe" id="generarInforme">
+                    <fieldset>
+                        <label for="datosMostradosInforme">Informe:</label>
+                        <textarea rows="5" cols="50" id="datosMostradosInforme">INFORME DE LOS DATOS: 
+	- Edad media de los usuarios: 16
+	- Frecuencia sexo masculino: 75
+	- Frecuencia sexo femenino: 25
+	- Valor medio del nivel o pericia informatica: 6
+	- Valor medio del tiempo de tarea: 01:04:04
+	- Porcentaje de usuarios que han completado la tarea correctamente: 50
+	- Valor medio de la puntuacion de los usuarios sobre la aplicacion: 6.5</textarea>
+                    </fieldset>
+                </li><!-- FIN GENERAR INFORME _______________________________________________________________________________-->
+
+
+
+
+
+                <li><!-- CARGAR CSV _______________________________________________________________________________ -->
+                    <label for="elegirfichero">Elige tu fichero: </label>
+                    <input type="file" name="archivoImport" accept=".csv" id="elegirfichero">
+                    <label for="cargarDatos">Cargar datos desde un archivo CSV en una tabla de la Base de Datos.</label>
+                    <input type="submit" name="boton" value="Cargar datos" id="cargarDatos">
+                </li><!-- FIN CARGAR CSV _______________________________________________________________________________ -->
+
+
+
+
+
+                <li><!-- EXPORTAR CSV _______________________________________________________________________________ -->
+                    <label for="exportarDatos">Exportar datos a un archivo en formato CSV los datos desde una tabla de la Base de Datos.</label>
+                    <input type="submit" name="boton" value="Exportar datos" id="exportarDatos">
+                </li><!-- FIN EXPORTAR CSV _______________________________________________________________________________ -->
+            </ul>
+        </form>
+        <section>
+            <h2>Info sobre los datos</h2>
+            <ul>
+                <li>El dni y el telefono debe tener 9 caracteres</li>
+                <li>El formulario de modificacion y de insercion deben estar llenos para poder insertar o modificar</li>
+                <li>Todas las casillas deben tener mas de 1 caracter</li>
+            </ul>
+        </section>
+    </main>
+
+
+</body></html>

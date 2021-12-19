@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Veterinaria">
+    <meta name="keywords" content="Base de datos, veterinaria, valentin">
+    <meta name="author" content="Valentin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Veterinaria.css">
+    <title>Ejercicio6: Base de datos</title>
+</head>
+
+<body>
+    <header>
+        
+        <h1>
+            <img src="logo.jpg" alt="Logo de perro amarillo">VetVal
+        </h1>
+        <p>
+            Cuidamos y queremos a tus mascotas como si fueran nuestras.
+        </p>
+        <table title="tu" hidden="">
+            <tbody><tr>
+                <th>Correo</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody></table>
+        <form title="Cerrar sesion" action="#" method="post" hidden="">
+            <!-- CERRAR SESION ____________________________________________________________________________________-->
+            <label for="cerrarsesion">Click para Cerrar Sesion: </label>
+            <input type="submit" name="boton" value="Cerrar Sesion" id="cerrarsesion">
+        </form><!-- FIN CERRAR SESION ____________________________________________________________________________________-->
+    </header>
+    <main>
+
+        <form action="#" method="post">
+            <!-- INICIAR SESION ____________________________________________________________________________________-->
+                                    <fieldset>
+                <legend>Iniciar Sesion </legend>
+
+
+                <label for="emailIS">Email: </label>
+                <input type="email" name="iniciarSesion[email]" value="" id="emailIS">
+
+                <label for="contraseñaIS">Contraseña: </label>
+                <input type="password" name="iniciarSesion[contraseña]" id="contraseñaIS">
+
+            </fieldset>
+            <label for="iniciarsesion">Click para Iniciar Sesion: </label>
+            <input type="submit" name="boton" value="Iniciar Sesion" id="iniciarsesion">
+        </form><!-- FIN INICIAR SESION ____________________________________________________________________________________-->
+
+
+
+        <form action="#" method="post">
+            <!-- REGISTRARSE ____________________________________________________________________________________-->
+            <fieldset>
+                <legend>Registrarse </legend>
+                                                <label for="emailR">Email: </label>
+                <input type="email" name="registrarse[email]" value="" id="emailR">
+
+                <label for="contraseñaR">Contraseña(minimo 8 caracteres): </label>
+                <input type="password" name="registrarse[contraseña]" id="contraseñaR">
+
+                <label for="nombreR">Nombre: </label>
+                <input type="text" name="registrarse[nombre]" value="" id="nombreR">
+
+                <label for="apellidosR">Apellidos: </label>
+                <input type="text" name="registrarse[apellidos]" value="" id="apellidosR">
+
+
+                <label for="telefonoR">Telefono: </label>
+                <input type="tel" name="registrarse[telefono]" value="" id="telefonoR" maxlength="9">
+
+                <label for="edadR">Edad: </label>
+                <input type="text" name="registrarse[edad]" value="" id="edadR">
+            </fieldset>
+            <label for="registrarse">Click para registrarse: </label>
+            <input type="submit" name="boton" value="Registrarse" id="registrarse">
+        </form><!-- FIN REGISTRARSE ____________________________________________________________________________________-->
+
+
+
+
+        <form action="#" method="post" hidden="">
+            <!-- REGISTRAR MASCOTA ____________________________________________________________________________________-->
+            <fieldset>
+                <legend>Registrar Mascota</legend>
+                                <label for="nombreRM">Nombre: </label>
+                <input type="text" name="registrarMascota[nombre]" id="nombreRM">
+
+                <label for="especieRM">Especie: </label>
+                <input type="text" name="registrarMascota[especie]" id="especieRM">
+
+                <label for="edadRM">Edad (En años humanos): </label>
+                <input type="text" name="registrarMascota[años]" id="edadRM">
+
+            </fieldset>
+            <label for="registrarmascota">Click para registrar tu mascota: </label>
+            <input type="submit" name="boton" value="Registrar Mascota" id="registrarmascota">
+        </form><!-- FIN REGISTRARSE ____________________________________________________________________________________-->
+
+
+
+
+        <form action="#" method="post" hidden="">
+            <!-- CUIDADOS ____________________________________________________________________________________-->
+            <fieldset>
+                <legend>¿Que cuidados se necesitan? </legend>
+                                <label for="IDMascotaCuidados">ID de la mascota: </label>
+                <input type="text" name="cuidados[IDMascota]" value="" id="IDMascotaCuidados">
+
+                <label for="horaCuidados">Hora del cuidado: </label>
+                <input type="time" name="cuidados[hora]" value="" id="horaCuidados">
+
+                <label for="Instalacion">Instalacion: </label>
+                <select name="cuidados[instalacion]" id="Instalacion">
+                                    </select>
+
+                <label for="comentariosCuidados">Comentarios: </label>
+                <textarea name="cuidados[comentarios]" id="comentariosCuidados" cols="30" rows="10">                                </textarea>
+
+            </fieldset>
+            <label for="planificarcuidado">Click para planificar el cuidado: </label>
+            <input type="submit" name="boton" value="Planificar Cuidado" id="planificarcuidado">
+        </form><!-- FIN CUIDADOS ____________________________________________________________________________________-->
+
+
+
+
+        <article hidden=""> <!-- MASCOTAS ____________________________________________________________________________________-->
+            
+                <h2>Todas Las Mascotas</h2>            
+            <section>
+                <h3>Tabla de mascotas: </h3>
+                <table><tbody><tr>  <th> ID </th>  <th> Nombre     </th>  <th> Especie    </th>  <th> Años    </th>  <th> Cuidados   </th></tr><tr><td>8</td><td>bebe</td><td>perro</td><td>21</td><td>pendiente</td></tr><tr><td>14</td><td>pepe</td><td>rana</td><td>211</td><td>pendiente</td></tr><tr><td>17</td><td>pepito</td><td>perro</td><td>12</td><td>pendiente</td></tr><tr><td>18</td><td>perrito</td><td>tortuga</td><td>22</td><td>pendiente</td></tr></tbody></table>            </section>
+        </article> <!-- FIN MASCOTAS ____________________________________________________________________________________-->
+
+    </main>
+
+
+</body></html>
