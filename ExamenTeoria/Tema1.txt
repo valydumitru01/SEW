@@ -1,0 +1,370 @@
+Tema 1: HTML
+Tipos de elementos:
+Con cierre: <p>
+Sin cierre: <img.../>
+Comentarios: <!-- comment -->
+No es cap sensitive, no distingue entre minusculas y mayusculas pero se deben usar siempre minuscular OBLIGATORIO. Para la retrocompatibilidad con versiones anteriores de HTML.
+Los elementos pueden tener atribtos, estos esan siempre en el inicio del elemento.
+Los atributos se peuden especificar con comillas dobles " simples ' o sin ellas.
+Se deben utilizar obligatoriamente las comillas dobles por retrocompatibilidad.
+Los atributos booleanos se aplican con su propio nombre. <input name="..." disabled>
+
+Es necesario usar el <!DOCTYPE html5> para indicar que el contenido sigue el DTD de html5. Imprescindible para ser procesado por los agentes de usuario (navegadores)
+
+Es obligatorio dotar de idioma al documento. <html lang="es"> Siempre tiene 2 letras.
+
+Un documento html5 contiene el head con metadatos y el body con contenido.
+    Metadatos obligatorios:
+        <meta charset="utf-8"/>
+        <title> </title>
+
+Los documentos HTML consisten en un arbol de elementos y texto. 
+Los agentes de usuario analizan (parsean) el documento html y construyen un arbol DOM (document object model). El cual es una representacion en memoria del documento HTML
+
+Nodos de un arbol DOM:
+    -Nodo tipo de documento (DOCTYPE html)
+    -Nodo elemento
+    -Nodo texto
+    -Nodo Comentarios
+    -Nodo intrucciones de procesamiento
+El arbol DOM puede ser manipulado desde scripts o manejo de eventos. Cada elemento se representa como un objeto y tienen una API para ser manipulados.
+
+Metadatos del documento - Head
+    <title>: Titulo de la pagina. Aparece en la pestaña del navegador. OBLIGATORIO
+    <base>: Permite establecer la URL base del sitio web. Al abrir el documento, te lleva a esa pagina. Al utilizar etiquetas <a href="..."> buscara en la direccion relativa a la base.
+    <link>: Permite enlazar otros recursos, generalmente hojas de estilo y script. El destino se define con href. Deben tener obligatoriamente el atributo rel="..."
+    <meta>: Permiten especificar metadatos del documento
+        name: nombre del metadatos
+            nombres:
+            application-name
+            author
+            description
+            generator
+            keywords
+            revised
+        http-equiv: directivas pragma
+        content: valor del metadatos
+        charset: codificacion de caracteres
+        media
+    <style>: Permite definir el estilo del documento. PROHIBIDO
+
+Elementis de HTML5:
+    Secciones:
+        <body>
+            <article>: Composicion autocontenida dentro del documento. Es independiente.
+            <section>: Representa una seccion generica de un documento. Agrupacion tematica. Con encabezados
+            <nav>: Representa seccion con enlaces a otras paginas o partes. Navegacion
+            <aside>: Seccion tangencial a su alrededor. Separada del contenido original.
+            <h1,2,3,...,6>: Representan titulos, de mas a menos rango.
+            <hgroup>: representa una agrupacion de encabezados como un solo encabezado.
+            <header>: representa un grupo de ayuda introductoria. Contiene el inicio una seccion.
+            <footer>: Contenido final del documento
+            <adress>: Informacion de contacto
+    Las secciones dotan de estructura al documento, lo organiza.
+    <main>:Identifica el contenido principal del documento. Contenido que es exclusivo a ese documento. Excluye contendio que se repite entre documentos. Logotipo, banners, etc.
+
+    Texto:
+        <p>: Parrafo de texto
+        <pre>: Parrafo preformateado. Mantiene saltos de linea, espacios en blanco, etc.
+        <blackquote>: Contiene cita a otra fuente.
+        listas:
+            <ol> ordered list
+            <ul> unordered list
+                <li> elemento de la listas
+            <dl> lista de definicion. 
+                <dt> para el termino a definir 
+                <dd> para la definicion
+    Enlace:
+        <a> representa enlaces
+            attr href contiene la URL
+            attr title contiene descripcion del sitio web enlazado
+    Multimedia:
+        <img>: Imagenes
+            attr src: define ruta de Imagenes
+            attr alt: descripcion alternativa. Accesibilidad OBLIGATORIO
+        <figure>: Contenedor de elementos graficos
+            <figcaption>: Titular de figure
+        <audio>: Reproducir sonido
+            attr src: define ruta de archivo
+            attr controls: añade reproductor
+            attr autoplay: El archivo se reproduce al cargar la pagina NO RECOMENDADO 
+            <source>: Permite establecer varios archivos
+                attr type: tipo de extension del archivo
+                attr codecs
+        <video>: Permite reproducir video
+            attr src: define ruta
+            attr controls: añade reproductor
+            <source>: Permite establecer varios archivos
+                attr type: tipo extension del archivo
+                attr codecs
+    Tabla:
+        <table>: Define la Tabla
+        <tr>: define las filas
+        <td>: Define las celdas
+        <th>: Define las cabeceras
+        <caption>: Da un titulo a la Tabla
+
+    Formulario:
+        <form>: Define el Formulario
+        <input>: Define las entradas del Formulario
+            attr type: Tipos de entradas
+                text, number, email, date, url, etc
+    Atributos Globales:
+        acceskey: Permite atajos para activar foco
+        class: Permite clasificar los elementos en clases, varios elementos pueden tener la misma clases
+        contenteditable: Permite indicar si el contendio es editable o no. True o false
+        dir: Indica direccionalidad del texto. ltr y rtl left to right, right to left
+        hidden: No se muestra en el documento
+        id: Permite asignar al elemento identificador unico.
+        lang: Permite definir el idioma del elemento
+        spellcheck: especifica si se debe comprobar la gramatica y la ortografia del elemento.
+        css: Especifica el estilo del elemento. PROHIBIDO
+        tabindex: Especificar el orden de los elementos cuando tienen el foco de navegacion.
+        title:titulo del elemento. Se muestra como tooltip
+        translate: enumerado que indica si el elemento sera traducido con la internacionalizacion o no.
+    Eventos:
+        Eventos de Ventana (para <body>):
+            onafterprint:
+                despues de que el documento se imprima
+            onbeforeprint:
+                antes de que se imprima
+            onbeforeunload:
+                antes de que la ventana se cierre
+            onerror:
+                cuando ocurre un error
+            onhashchange:
+                cuando haya cambios en la parte anclada de la url
+            onload:
+                cuando acabe de cargarse
+            onmessage:
+                cuando el mensaje dispara
+            onoffline:
+                cuando el navegador se pasa a offline
+            ononline:
+                cuando el navegador pasa a online
+            onpagehide:
+                cuando el usuario cambia a otra Ventana
+            onpageshow:
+                cuando vuelve a la ventana de la pagina
+            onpopstate:
+                cuando el historial de la ventana cambia
+            onresize: 
+                Cuando la ventana cambia de tamaño
+            onunload:
+                cuando la ventana se ha cerrado
+        Eventos de formulario:
+            Se aplican a casi todos los elementos html, pero son mas usados en elementos de form
+            onblur:
+                cuando el elemento ha perdido el focus
+                para todos excepto
+            onchange:
+                cuando el elemento cambia
+                para checkbox,file,password,radio,range,search,text, select y textarea
+            oncontextmenu:
+                cuando el contexto del menu ha disparado
+                para todos
+            onfocus:
+                cuando el focus del elemento cambia
+                para todos excepto unos pocos
+            oninput:
+                cuando el elemento recibe input del usuario
+                para <input type=password,search, text y textarea>
+            oninvalid:
+                cuando el elemento es invalido
+                para <input>
+            onreset:
+                cuando el boton reset es clickado
+                para <form>
+            onsearch:
+                cuando el usuario escribe algo en un search field 
+                para <input type="search">
+            onselect:
+                cuando se ha seleccionado texto en un elemento
+                para <file>,<password>,<text> y <textarea>
+            onsubmit:
+                cuando se ha clickado en un elemento submit
+                para <form>
+        Eventos de teclado:
+            En todos los elementos html excepto
+            onkeydown:
+                cuando el usuario esta presiona una tecla
+            onkeypressed:
+                cuando el usuario ha presionado una tecla
+            onkeyup:
+                cuandoe el usuario deja de presionar una tecla
+        Eventos de raton:
+            En todos los elementos html (casi)
+            onlick:
+                cuando un elemento es clickado
+            ondbclick:
+                cuando se hace un doble click
+            onmousedown:
+                cuando se esta presionando el raton
+            onmousemove:
+                cuando se esta moviendo encima del elemento (clickado o no)
+            onmouseout:
+                cuando el puntero se mueve fuera del elemento
+            onmouseover:
+                cuando el puntero esta encima del elemento
+            onmouseup:
+                cuando se suelta el raton (se deja de hacer click)
+            onwheel:
+                cuando la rueda del raton se mueve arriba o abajo del elemento
+                para TODOS
+            
+
+
+
+Tema 2: CSS
+    En css se habla de levels no de versions. Esto es porque en cada actualizacion se refine y añade caractersiticas, sin sobreescribir o eliminar nada. Para mantener retrocompatibilidad.
+    Principios de diseño CSS: 
+        Compatibilidad hacia adelante y atras.
+        Complementario a documentos estructurados.
+        Independiente del dispositivo
+        Mantenible
+        Sencillo
+        Buen rendimiento
+        Flexible
+        Rico
+        Enlaces a idiomas alternativos
+        Accesible
+    Anatomia de estilos:
+        regla: define aspecto de estilo de uno o varios elementos
+            h2{ color: green }
+            selector: elemento que se le aplica el estilo
+            declaracion: efecto de estilo
+                propiedad: cualidad del elemento
+                valor: especificacion de la propiedad
+            se pueden agrupar los selectores h1,h2,h3 { ... }
+            un selector puede tener mas de una declaracion.
+    Enlazar estilos:
+        Varias formas:
+            hoja de estilo incrustada <style> PROHIBIDO
+            estilo individual a un elemento PROHIBIDO
+            Enlazar mediante <link> OBLIGATORIO
+                Se hace de esta forma por: 
+                    Reutilizacion, una sola hoja pueden usarse por varios documentos
+                    Rendimiento (una vez se descarga la hoja de estilo, se guarda en chaché)
+                    Seleccion del usuario, el usuario puede cambiar entre css
+            La regla @import permite importar reglas desde otras hojas de estilo
+    Modelo de procesamiento:
+        1. Analiza documento y crea arbol DOM
+        2. Identifica el medio destino
+        3. Recupera las hojas de estilo asociadas al documento
+        4. Anota para cada elemento del arbol su valor unico de la propiedad del estilo
+        5. Generar la estricutura de formato para el medio destino
+        6. Transferir la estructura del formato al medio destino
+        El canvas es el espacio donde se represena la estructura de formato. Es infinito pero los agenetes de usuario lo restringe.
+    Modelo de direccionamiento:
+        Los selectores y las propiedades permiten que las hojas de estilo hagan referenia a diferentes partes del documento.
+    Herencia: 
+        Los elementos descendientes dentro de un arbol dom heredan los aspectos de su padre. Como el color
+    Cascada:
+        Principios fundamentales del CSS
+        La cascada produce, a partir de una lista de declaraciones de entrada, un valor especifico para cada propiedad en cada elemento.
+        La cascada recopila una lista desordenada de valores declarados para una propiedad sobre un elemento, los ordena, y produce un unico valor.
+        Criterios de ordenacion:
+            1.Origen e importancia
+                Autor
+                Usuario
+                Aplicacion de usuario
+                !important
+            2.Ambito
+                Una declaracion puede ser incluida en un subarbol del documento que solo afecte a un elemento y sus descendientes. 
+                El valor de la declaracion que se aplica es la de los elementos descendientes
+            3.Especificidad
+                Cada selector tiene una especificidad, la declaracion con mas especificidad es la que se aplica.
+                Calculo de especificidad:
+                    especificidad: abc
+                        a: numero de ID en el selector
+                        b: numero de class, de selector de atributo y pseudoclases en el selector
+                        c: numero de selectores de tipos y pseudoelementos en el selector
+                        Se ignora el selector universal
+            4.Orden de aparicion
+                Se aplica la ultima declaracion del documento.
+        Si despues de este proceso no se produce ningun valor, la cascada encuentra valormediante:
+            Valores iniciales
+            Herencia
+            Valores predeterminados explicitos
+
+Tema 3: XML
+    XML: Extended Markup Lenguage
+    Metalenguaje: Define lenguajes
+    Extensible: Etiquetas no definidas
+    Describe datos
+    Puede estructurarse mediante DTD o schemas
+    Los documentos XML son facilmente procesados y sus datos manipulados
+    Permiten intercambios de informacion entre sistemas
+    Encabezado de XML:
+        <?xml version="1.0" encoding="UTF-8"?> //Indicamos el tipo de documento
+        <!DOCTYPE **** SYSTEM "****.dtd"> //Indicamos el dtd
+    DTD (document type definition):
+        Define estructura de los elementos y atributos permitidos en el xml
+        Puede ser incrustado o aparte
+        ---------------------------------
+        <!ELEMENT poema (título, verso+)>
+        <!ELEMENT título (#PCDATA)>
+        <!ELEMENT verso (#PCDATA)>
+        <!ATTLIST poema
+        autor CDATA #REQUIRED
+        fecha CDATA #REQUIRED
+        lugar CDATA #IMPLIED>
+        ---------------------------------
+    Lenguajes derivados de XML:
+        KML:
+            Formato de archivo que se utiliza para mostrar datos geograficos usando Google Earth o Maps
+            Esta basada en etiquetas con atributos y elementos anidados (estandar XML)
+        SVG(Scalable Vector Graphics):
+            Lenguaje para describir graficos vectoriales bidimensionales
+            Permite:
+                formas graficas
+                Imagenes
+                Texto vectorial
+        MathML:
+            Visualizador de ecuaciones matematicas
+        SVG,X3D,VRML,3DXML:
+            Graficos vectoriales
+        SMIL:
+            Presentaciones Multimedia
+        P3P:
+            Descripcion de caracteristicas de privacidad
+        WML:
+            HTML para telefonos moviles, obsoleto
+        VoiceML:
+            Informacion de voz y audio.
+        TTML:
+            Subtitulos de peliculas de series
+            Promovido por Netflix
+        XML signature: 
+            Firma de recursos y documentos
+        ePub:
+            Libros electronicos
+        XAML:
+            Interfaces y tecnologia .net
+        XMI:
+            Intercambio de metadatos de diseños de sogtware en UML basado en XML
+        XKMS:
+            Firmas y criptografia
+        XML Query:
+            Consultas de documentos y bases de datos
+        XBRL:
+            Contabilidad y auditoria
+        ebXML:
+            Negocios electronicos(e-business)
+        SyncXML:
+            Sincronizacion de dispositivos
+        UPnP:
+            Plug and play universal
+        KML,KMZ,GPX:
+            Informacion geografica
+        Office Open XML:
+            Documentos de Office
+    Documento XML:
+        Prólogo. Declaración de XML:
+            version (obligatoria)
+                1.0 = versión más habitual
+                1.1 = aumenta capacidad de soporte de Unicode
+            encoding (opcional): la forma en que se ha codificado el documento.
+                Por defecto es UTF-8
+            standalone (opcional):
+                Indica si el documento es independiente, es decir, si depende de declaracion como DTD

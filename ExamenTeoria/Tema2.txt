@@ -1,0 +1,26 @@
+Tema 2: CSS
+    En css se habla de levels no de versions. Esto es porque en cada actualizacion se refine y añade caractersiticas, sin sobreescribir o eliminar nada. Para mantener retrocompatibilidad.
+    Principios de diseño CSS: 
+        Compatibilidad hacia adelante y atras.
+        Complementario a documentos estructurados.
+        Independiente del dispositivo
+        Mantenible
+        Sencillo
+        Buen rendimiento
+        Flexible
+        Rico
+        Enlaces a idiomas alternativos
+        Accesible
+    Anatomia de estilos:
+        regla: define aspecto de estilo de uno o varios elementos
+            h2{ color: green }
+            selector: elemento que se le aplica el estilo
+            declaracion: efecto de estilo
+                propiedad: cualidad del elemento
+                valor: especificacion de la propiedad
+            se pueden agrupar los selectores h1,h2,h3 { ... }
+            un selector puede tener mas de una declaracion.
+    Enlazar estilos:
+        Varias formas:
+            hoja de estilo incrustada <style> PROHIBIDO
+            estilo individual a un elemento

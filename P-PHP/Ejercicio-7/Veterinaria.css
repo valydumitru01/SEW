@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(252, 228, 94);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20%;
+    margin-left:25%;
+    right: 15%;
+    position: relative;
+    color:rgb(56, 44, 12);
+}
+input,textarea,select{
+    color:rgb(56, 44, 12);
+    border:outset 0.2em rgb(219, 223, 125);
+    background-color: rgb(249, 250, 194);
+}
+input[type=submit]{
+    margin-top: 1em;
+    background-color: rgb(249, 250, 194);
+    border-radius: 0.4em;
+}
+input[type=submit]:hover{
+    background-color: rgb(249, 250, 194);
+}
+input[type=submit]:active{
+    background-color: rgb(249, 250, 194);
+    border:inset 0.2em rgb(219, 223, 125);
+}
+fieldset{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    border: groove 0.3em rgb(255, 253, 109);
+    margin-top: 3em;
+    padding: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+input[type=text],input[type=number],input[type=email],input[type=password]{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+table td{
+    border: inset 0.3em rgb(255, 245, 110);
+}
+table th{
+    border: outset 0.3em rgb(255, 235, 54);
+}
+table[title=tu],form[title="Cerrar sesion"] {
+    width: 30%;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+}
+img{
+    width: 3em;
+    display: block;
+}
+h1{
+    display: flex;
+    font-size: 4em;
+    justify-content: center;
+}
+header p{
+    font-size: 1.4em;
+}
+header {
+    background-color: rgb(255, 242, 123);
+    padding:1em;
+    border:inset 0.5em  rgb(223, 209, 89);
+}

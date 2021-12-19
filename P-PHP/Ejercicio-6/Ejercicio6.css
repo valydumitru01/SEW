@@ -1,0 +1,82 @@
+/* ESPECIFICIDAD 0 1 1*/
+p[title="error"]{
+    color:red;
+    font-weight: bold;
+}
+/* ESPECIFICIDAD 0 0 1*/
+fieldset{
+    border: double 0.2em indigo;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: rgb(255, 223, 255);
+
+}
+/* ESPECIFICIDAD 0 0 2*/
+fieldset fieldset {
+    background-color: rgb(255, 238, 255);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+/* ESPECIFICIDAD 0 0 2*/
+form ul{
+    list-style-type: none;
+}
+/* ESPECIFICIDAD 0 0 1*/
+li{
+    border-left:solid 0.3em rgb(155, 85, 204);
+    border-right:solid 0.3em rgb(155, 85, 204);
+    border-top:solid 0.3em rgb(155, 85, 204);
+    border-radius: 1em;
+    padding: 1em;
+    background-color: rgb(255, 197, 255);
+}
+/* ESPECIFICIDAD 0 0 1*/
+body{
+    background-color: rgb(240, 171, 240);
+    color: indigo;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:25%;
+    right: 15%;
+    position: relative;
+}
+/* ESPECIFICIDAD 0 0 1*/ /* ESPECIFICIDAD 0 0 1*/ /* ESPECIFICIDAD 0 0 1*/
+input,textarea,select{
+    color:indigo;
+    background-color: rgb(255, 213, 255);
+}
+/* ESPECIFICIDAD 0 1 1*/
+input[type=submit]{
+    border:outset 0.3em rgb(165, 139, 184);
+    border-radius: 0.4em;
+}
+/* ESPECIFICIDAD 0 2 1*/
+input[type=submit]:hover{
+    background-color:rgb(231, 198, 255);
+}
+/* ESPECIFICIDAD 0 2 1*/
+input[type=submit]:active{
+    background-color:rgb(216, 161, 255);
+    border:inset 0.3em rgb(165, 139, 184);
+}
+/* ESPECIFICIDAD 0 0 1*/
+h1{
+    text-align: center;
+}
+/* ESPECIFICIDAD 0 0 1*/
+textarea{
+    width: 100%;
+}
+/* ESPECIFICIDAD 0 0 3*/
+section ul li{
+    border: none;
+    border-radius: 0em;
+    padding: 0em;
+}
+/* ESPECIFICIDAD 0 0 2*/
+section ul{
+    padding: 1em;
+    border:solid 0.3em rgb(155, 85, 204);
+    background-color: rgb(255, 197, 255);
+    border-radius: 1em;
+}
