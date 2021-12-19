@@ -3,7 +3,7 @@ body{
     background-color: rgb(255, 244, 148);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(70, 49, 10);
-    padding: 6em;
+    padding: 2em;
 }
 /* ESPECIFICIDAD 0 0 1*/
 main{
