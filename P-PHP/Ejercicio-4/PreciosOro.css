@@ -40,10 +40,13 @@ img[alt="flecha hacia la derecha"]{
 }
 /* ESPECIFICIDAD 0 0 1*/
 form{
+    justify-content: center;
     display: flex;
+    flex-wrap: wrap;
 }
 /* ESPECIFICIDAD 0 0 1*/
 fieldset{
+    width: 30%;
     border: 0.2em rgb(165, 126, 0) solid;
     border-radius: 1em;
     background-color: rgb(248, 230, 129);
